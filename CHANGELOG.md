@@ -1,5 +1,28 @@
 # CHANGELOG
 
+## 2.0.3 — 2026-11-22
+
+### Fixed
+
+- **`package.json` carried a UTF-8 BOM, so the profile could not load the plugin.**
+  The plugin manager reported `dsh-delete-guard-plus — 未运行 / 包不可用` with
+  `Unexpected token '﻿', "﻿{ "name"... is not valid JSON`.
+  Cause: an earlier version bump was written with Windows PowerShell 5.1's
+  `Set-Content -Encoding utf8`, which emits `EF BB BF`; a BOM is legal in a text
+  file and fatal to `JSON.parse`. The profile's own `cordis.patch.yml` had picked
+  up the same BOM and was cleaned too. Both manifests now start with `7B` (`{`).
+- Note for future edits: do not rewrite these files with PowerShell 5.1
+  `Set-Content`/`Out-File -Encoding utf8`. Use the editor tool, `node`, or
+  `[System.IO.File]::WriteAllText(..., New-Object System.Text.UTF8Encoding($false))`.
+
+### Added
+
+- `scripts/strip-bom.mjs` — scans the repository for a BOM and, with `--write`,
+  strips it. Exposed as `npm run check:bom` and wired into the publish workflow,
+  so a BOM can no longer reach a release.
+- `npm run check:index` — validates `index.json` with DSH's own
+  `parseMarketIndex` and prints the install target it produces.
+
 ## 2.0.2 — 2026-11-21
 
 Documentation only: the personal-use disclaimer.

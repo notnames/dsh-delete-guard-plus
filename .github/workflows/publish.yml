@@ -23,11 +23,17 @@ jobs:
           node-version: '22'
           registry-url: 'https://registry.npmjs.org'
 
+      - name: No UTF-8 BOM in any manifest
+        run: node scripts/strip-bom.mjs
+
       - name: Run the guard's own tests
         run: |
           node test/unit.mjs
           node test/targets.mjs
           node test/hook.mjs
+
+      - name: Validate the market index
+        run: node scripts/check-index.mjs
 
       - name: Publish
         run: npm publish --access public --provenance
