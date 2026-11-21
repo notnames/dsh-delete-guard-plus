@@ -49,8 +49,8 @@
     "guardrail"
   ],
   "author": {
-    "name": "MrL",
-    "url": "https://github.com/MrL"
+    "name": "notnames",
+    "url": "https://github.com/notnames"
   },
   "contributors": [
     {
@@ -65,11 +65,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrL/dsh-delete-guard-plus.git"
+    "url": "git+https://github.com/notnames/dsh-delete-guard-plus.git"
   },
-  "homepage": "https://github.com/MrL/dsh-delete-guard-plus#readme",
+  "homepage": "https://github.com/notnames/dsh-delete-guard-plus#readme",
   "bugs": {
-    "url": "https://github.com/MrL/dsh-delete-guard-plus/issues"
+    "url": "https://github.com/notnames/dsh-delete-guard-plus/issues"
   },
   "scripts": {
     "test": "node test/unit.mjs && node test/hook.mjs && node test/targets.mjs",
