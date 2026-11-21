@@ -1,0 +1,33 @@
+name: publish
+
+# Publishes to npm through Trusted Publishing (OIDC): no token is stored in the
+# repository. Configure the package's Trusted Publisher on npmjs.com first, then
+# `git push origin v2.0.0` publishes the tag.
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Run the guard's own tests
+        run: |
+          node test/unit.mjs
+          node test/targets.mjs
+          node test/hook.mjs
+
+      - name: Publish
+        run: npm publish --access public --provenance

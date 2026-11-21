@@ -3,7 +3,7 @@
 > Stop the agent from deleting what cannot be restored — and stop the quoting bug
 > that turns a path into a volume root.
 
-简体中文: [README.md](./README.md) · Ten-round corpus record: [docs/ROUNDS.md](./docs/ROUNDS.md)
+简体中文: [README.md](./README.md) · Ten-round corpus record: [docs/ROUNDS.md](./docs/ROUNDS.md) · Publishing: [docs/PUBLISH.md](./docs/PUBLISH.md)
 
 ![The incident: DSH erased most of a user's C: drive](./docs/assets/incident-c-drive.png)
 

@@ -2,7 +2,7 @@
 
 > 让 agent 删不掉「恢复不了」的东西 —— 并且挡住那个把路径变成卷根的引号错误。
 
-English: [README.en.md](./README.en.md) · 十轮语料收官记录：[docs/ROUNDS.md](./docs/ROUNDS.md)
+English: [README.en.md](./README.en.md) · 十轮语料收官记录：[docs/ROUNDS.md](./docs/ROUNDS.md) · 发布与发现：[docs/PUBLISH.md](./docs/PUBLISH.md)
 
 ![事故现场：DSH 把一台机器的 C 盘删掉大半](./docs/assets/incident-c-drive.png)
 
