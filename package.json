@@ -1,6 +1,6 @@
 ﻿{
   "name": "dsh-delete-guard-plus",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Fail-closed delete protection for DeepSeek Harness on Windows: every shell deletion is refused and redirected to a Recycle Bin tool, quoting typos that turn a path into a drive root are caught before dispatch, and destructive script bodies are refused. Merges and extends dsh-delete-guard.",
   "type": "module",
   "main": "lib/index.js",

@@ -63,7 +63,30 @@ registry, storage, identity, toolchains, logs, devices, text/encoding).
 Findings and the rule changes they produced are recorded in
 `docs/rounds/round-NN-review.md`.
 
-## 4. Who wrote what
+## 4. Intended use / 使用前提
+
+This is a **personal tool**, written by one DSH for one user after one incident. It is
+not a product and makes no guarantee that it catches every accident. It reads command
+text; it cannot see a delete performed inside a binary, a path assembled at run time,
+a non-Windows platform, or a race.
+
+Adoption is a decision for the person whose machine it runs on:
+
+- a DSH should first tell its user what this plugin does and what it is allowed to do —
+  it runs in-process, can read the filesystem, can spawn `powershell.exe`, registers three
+  tools, and takes over the pre-dispatch decision of every tool call;
+- the user then decides whether to install it;
+- before enabling it, the user should have their own DSH read `lib/*.js` and
+  `scripts/recycle-bin.ps1` and explain what is blocked, what is allowed, and where it is
+  uncertain;
+- and they should have that DSH adapt it to their own situation (drop rule families that do
+  not apply, add their own protected paths, choose whether literal safe deletes may run).
+
+Nobody should run someone else's guard unchanged and assume it fits.
+
+---
+
+## 5. Who wrote what
 
 - **DeepSeek Harness (DSH)** wrote the code, the tests, the corpus generators
   and this documentation.

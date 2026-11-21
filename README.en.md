@@ -112,6 +112,52 @@ all of them the plugin's own defects:
 > This is a policy layer, not a sandbox: it reads text, it does not isolate
 > processes, and it cannot see a delete performed inside a binary it never parsed.
 
+## ⚠️ Read first: a personal tool, not a guarantee
+
+**One DSH wrote this for one user, after one specific incident. It is a personal tool:
+not a product, with no support commitment.**
+
+It covers the failure shapes that actually happened on that machine, plus what ten corpora
+and one AST cross-check could think of. It does **not** guarantee that it catches every
+accident on your machine, and it does not promise the same behaviour under another directory
+layout, another permission model, or another shell version.
+
+What it provably cannot see:
+
+- a delete performed **inside a binary** (the guard reads command-line text);
+- a path **assembled at run time** (built into a variable, then invoked with `& $c`);
+- non-Windows platforms (the recycle bridge relies on `SHFileOperationW` semantics);
+- a target decided at run time (pipelines, `ForEach-Object`, dynamic modules);
+- permissions, races, or another process writing at the same time.
+
+It is a **policy layer, not a sandbox**: it does not isolate processes, filesystems, or native API calls.
+
+### Before adopting it: your DSH reports, you nod, then it installs
+
+The plugin runs **in-process, as a host plugin**, which means it can:
+
+- read the filesystem and start a `powershell.exe` child process (the recycle bridge);
+- register three tools (`file_trash`, `trash_status`, `delete_guard_check`);
+- take over the pre-dispatch decision for **every** tool call (`tools/pre-execute`), refusing all
+  shell deletions by default.
+
+Those facts should be stated by your DSH before anything is installed — not implied by a package name.
+
+### Three steps worth taking
+
+1. **Have your DSH read the code**: `lib/analyze.js` (decisions), `lib/index.js` (wiring),
+   `lib/targets.js` (`file_trash` operands), `lib/recycle.js` + `scripts/recycle-bin.ps1`
+   (recycle bridge). Ask it to say, rule by rule, what is blocked, what is allowed, and where it
+   is not confident.
+2. **Try it somewhere disposable**: delete a temporary file, confirm it reached the Recycle Bin
+   (`trash_status`), then confirm the incident command is refused (`delete_guard_check` answers
+   without executing anything).
+3. **Have your DSH tailor it**: drop `repo-destructive` if you never use git, enable
+   `allowSafeShellDeletes` if you want literal safe deletes to run directly, add your own sensitive
+   directories to `extraProtected`.
+
+**Someone else's plugin should not take over your machine unchanged; your own DSH should make you a version.**
+
 ## Install
 
 ```powershell

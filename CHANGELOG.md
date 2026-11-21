@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2.0.2 — 2026-11-21
+
+Documentation only: the personal-use disclaimer.
+
+### Added
+
+- A "read first" section in both READMEs and in `NOTICE`: this is a personal tool, not a
+  guarantee; it cannot see deletes inside binaries, run-time paths, non-Windows platforms
+  or races; adoption requires the DSH to report what the plugin may do, the user to agree,
+  the plugin's own code to be reviewed by that DSH, and the rules to be tailored to the
+  user's situation.
+- Re-ran the independent AST round after the 2.0.1 fixes: 19,990 lines, 644 AST-confirmed
+  deletes all blocked, 0 missed, 0 unexplained blocks, 146/146 incident-family lines blocked.
+
 ## 2.0.1 — 2026-11-21
 
 Three false positives found by the independent round (see `docs/INDEPENDENT.md`),
