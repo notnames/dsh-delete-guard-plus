@@ -65,24 +65,25 @@ Findings and the rule changes they produced are recorded in
 
 ## 4. Intended use / 使用前提
 
-This is a **personal tool**, written by one DSH for one user after one incident. It is
-not a product and makes no guarantee that it catches every accident. It reads command
-text; it cannot see a delete performed inside a binary, a path assembled at run time,
-a non-Windows platform, or a race.
+A personal tool: written by one DSH for one user, after one real incident. Not a product, no
+maintenance commitment, and no claim that it catches every accident. It decides from command-line
+**text**, so a delete performed inside a binary, a path assembled at run time, a non-Windows
+platform, or a race is outside what it can see.
 
-Adoption is a decision for the person whose machine it runs on:
+Adoption belongs to the person whose machine it runs on:
 
-- a DSH should first tell its user what this plugin does and what it is allowed to do —
-  it runs in-process, can read the filesystem, can spawn `powershell.exe`, registers three
-  tools, and takes over the pre-dispatch decision of every tool call;
-- the user then decides whether to install it;
-- before enabling it, the user should have their own DSH read `lib/*.js` and
-  `scripts/recycle-bin.ps1` and explain what is blocked, what is allowed, and where it is
-  uncertain;
-- and they should have that DSH adapt it to their own situation (drop rule families that do
-  not apply, add their own protected paths, choose whether literal safe deletes may run).
+- the DSH states what the plugin does and what it is permitted to do — it runs in-process, reads
+  the filesystem, can spawn `powershell.exe`, registers three tools, and takes over the
+  pre-dispatch decision of every tool call;
+- the user agrees before it is installed;
+- the user has their own DSH read `lib/*.js` and `scripts/recycle-bin.ps1` and report, rule by rule,
+  what is blocked, what is allowed, and where it is not confident;
+- that DSH then adapts the rules to the user's situation — drop families that do not apply, add
+  their own protected paths, decide whether literal safe deletes may run;
+- and removal is one line: deleting `dsh-delete-guard-plus` from `dsh.profile.bundles` restores the
+  previous behaviour, because the plugin installs no service, task or registry entry.
 
-Nobody should run someone else's guard unchanged and assume it fits.
+The full handover checklist, in both languages, is in the READMEs.
 
 ---
 

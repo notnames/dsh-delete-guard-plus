@@ -112,51 +112,53 @@ all of them the plugin's own defects:
 > This is a policy layer, not a sandbox: it reads text, it does not isolate
 > processes, and it cannot see a delete performed inside a binary it never parsed.
 
-## ⚠️ Read first: a personal tool, not a guarantee
+## Position, limits, handover (read before adopting)
 
-**One DSH wrote this for one user, after one specific incident. It is a personal tool:
-not a product, with no support commitment.**
+**Position.** A personal tool, written for one machine and one user after one real incident
+(the screenshot above). Not a security product, with no maintenance commitment. Every decision
+is made at the **text layer**: read the command line, decide whether it deletes anything, and
+whether what it deletes could be restored.
 
-It covers the failure shapes that actually happened on that machine, plus what ten corpora
-and one AST cross-check could think of. It does **not** guarantee that it catches every
-accident on your machine, and it does not promise the same behaviour under another directory
-layout, another permission model, or another shell version.
+**Limits.** These are not "may fail" — they are out of sight by design. They are listed so you
+know where to cover for it yourself:
 
-What it provably cannot see:
+| Out of sight | Why |
+| --- | --- |
+| A delete performed **inside a binary** | The guard reads command-line text; it does not hook the filesystem |
+| A path **assembled at run time** | Variable, pipeline and `ForEach-Object` targets only exist at execution; the guard refuses them as unprovable rather than guessing |
+| Non-Windows platforms | The recycle bridge relies on `SHFileOperationW` semantics |
+| Permissions, races, a concurrent writer | A policy layer does not schedule anything and is not a sandbox |
+| Shapes the rules never enumerated | Ten corpora and one AST cross-check cover known shapes, not unknown ones |
 
-- a delete performed **inside a binary** (the guard reads command-line text);
-- a path **assembled at run time** (built into a variable, then invoked with `& $c`);
-- non-Windows platforms (the recycle bridge relies on `SHFileOperationW` semantics);
-- a target decided at run time (pipelines, `ForEach-Object`, dynamic modules);
-- permissions, races, or another process writing at the same time.
+**What it does not promise.** It lowers the probability that "one wrong character deletes a
+whole volume"; it does not remove it. Treating it as "installed, therefore safe" is misuse.
 
-It is a **policy layer, not a sandbox**: it does not isolate processes, filesystems, or native API calls.
+### Before adopting: three-step handover
 
-### Before adopting it: your DSH reports, you nod, then it installs
+**1. Have your DSH report to you.** It must be able to state four things; if it cannot, do not install:
 
-The plugin runs **in-process, as a host plugin**, which means it can:
+- **what it does**: hooks `tools/pre-execute`, refuses deletions, redirects them to a recycle-bin tool;
+- **what it needs**: runs in-process as a host plugin — it can read the filesystem, spawn
+  `powershell.exe`, and register `file_trash` / `trash_status` / `delete_guard_check`;
+- **what it refuses by default**: every shell delete, deletes inside script bodies, volume roots and
+  system directories, UNC paths, variable and wildcard targets, plus eleven platform-level delete
+  families (services, scheduled tasks, registry, certificates, volumes, shadow copies, accounts,
+  ACLs, event logs, drivers, git working tree, content truncation);
+- **how to back out**: remove `dsh-delete-guard-plus` from `dsh.profile.bundles` in the profile and
+  everything returns to how it was — no service, no scheduled task, no registry entry is installed.
 
-- read the filesystem and start a `powershell.exe` child process (the recycle bridge);
-- register three tools (`file_trash`, `trash_status`, `delete_guard_check`);
-- take over the pre-dispatch decision for **every** tool call (`tools/pre-execute`), refusing all
-  shell deletions by default.
+**2. Have it read the code before it answers.** `lib/analyze.js` (decisions), `lib/index.js`
+(wiring and the self-edit exemption), `lib/targets.js` (`file_trash` operands), `lib/recycle.js`
+and `scripts/recycle-bin.ps1` (recycle bridge). Ask for a rule-by-rule account of what is blocked,
+what is allowed, and where it is not confident.
 
-Those facts should be stated by your DSH before anything is installed — not implied by a package name.
+**3. Have it tailor the rules to your situation.** Drop `repo-destructive` if you never use git;
+enable `allowSafeShellDeletes` if literal safe deletes should run directly; add your own sensitive
+directories to `extraProtected`. Someone else's rule table should not take over your machine unchanged.
 
-### Three steps worth taking
-
-1. **Have your DSH read the code**: `lib/analyze.js` (decisions), `lib/index.js` (wiring),
-   `lib/targets.js` (`file_trash` operands), `lib/recycle.js` + `scripts/recycle-bin.ps1`
-   (recycle bridge). Ask it to say, rule by rule, what is blocked, what is allowed, and where it
-   is not confident.
-2. **Try it somewhere disposable**: delete a temporary file, confirm it reached the Recycle Bin
-   (`trash_status`), then confirm the incident command is refused (`delete_guard_check` answers
-   without executing anything).
-3. **Have your DSH tailor it**: drop `repo-destructive` if you never use git, enable
-   `allowSafeShellDeletes` if you want literal safe deletes to run directly, add your own sensitive
-   directories to `extraProtected`.
-
-**Someone else's plugin should not take over your machine unchanged; your own DSH should make you a version.**
+Try it somewhere disposable first: delete a temporary file and confirm with `trash_status` that it
+reached the Recycle Bin; then ask `delete_guard_check` about the incident command — pure text
+analysis, nothing executes.
 
 ## Install
 
