@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "title": {
+    "en": "dsh-delete-guard-plus",
+    "zh-cn": "DSH 删除闸门（增强版）"
+  },
+  "description": {
+    "en": "Delete protection for DeepSeek Harness on Windows: every shell deletion is refused and redirected to a Recycle Bin tool, quoting typos that turn a path into a volume root are caught before dispatch, and platform-level deletions are recognised. Personal tool, not a guarantee.",
+    "zh-cn": "Windows 上的 DSH 删除保护：所有 shell 删除被拒绝并重定向到回收站工具；把路径变成卷根的引号错误在执行前拦下；平台级删除同样识别。个人工具，不承诺绝对拦住。"
+  },
+  "metadata": {
+    "categories": {
+      "safety": {
+        "title": {
+          "en": "Safety and guardrails",
+          "zh-cn": "安全与护栏"
+        }
+      }
+    },
+    "labels": {
+      "windows": {
+        "title": {
+          "en": "Windows",
+          "zh-cn": "Windows"
+        }
+      },
+      "personal-use": {
+        "title": {
+          "en": "Personal tool",
+          "zh-cn": "个人工具"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-delete-guard-plus",
+      "title": {
+        "en": "Delete guard: recycle-bin only, quoting-typo safe",
+        "zh-cn": "删除闸门：只走回收站，挡住引号写错"
+      },
+      "description": {
+        "en": "Refuses every shell delete, redirects it to file_trash (Recycle Bin), catches the PowerShell/cmd quoting mistake that turned rmdir /s /q into a volume wipe, and recognises eleven platform-level delete families. Verified against ten 100k-line corpora and one AST-oracle round.",
+        "zh-cn": "拒绝一切 shell 删除并重定向到 file_trash（回收站）；抓住那个把 rmdir /s /q 变成整盘清空的 pwsh/cmd 引号错误；另识别 11 类平台级删除。经十轮各 10 万行语料与一轮 AST 对拍验证。"
+      },
+      "author": "notnames",
+      "homepage": "https://github.com/notnames/dsh-delete-guard-plus",
+      "repository": {
+        "url": "https://github.com/notnames/dsh-delete-guard-plus"
+      },
+      "metadata": {
+        "category": "safety",
+        "keywords": [
+          "dsh-plugin",
+          "delete",
+          "guard",
+          "recycle-bin",
+          "powershell",
+          "cmd",
+          "quoting",
+          "windows"
+        ],
+        "labels": [
+          "windows",
+          "personal-use"
+        ]
+      },
+      "versions": [
+        {
+          "version": "2.0.2",
+          "publishTimestamp": 1795276800,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/notnames/dsh-delete-guard-plus",
+            "commit": "f4566a2e99f257a5b7a8d32cb400f45c853f4ea5"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

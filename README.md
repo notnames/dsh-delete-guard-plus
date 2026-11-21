@@ -131,14 +131,25 @@ cmd 那侧拿到的是 `rmdir /s /q \` —— 递归删除当前盘根目录。�
 
 ## 安装
 
-```powershell
-# 1) 链进 profile（link: 指向本目录，改完即生效）
-node "<pnpm.cjs>" add "link:C:/path/to/dsh-delete-guard-plus" --dir "$env:USERPROFILE\.dsh\profiles\<profile>"
+三种安装方式，按「最省事」排序：
 
-# 2) 在 profile 的 package.json 里选中 bundle
-#    "dsh": { "profile": { "bundles": [ ..., "dsh-delete-guard-plus" ] } }
+1. **Discover 自托管索引**（不需要 npm 包）：**插件 → 发现 → 索引源** 添加
+   `https://cdn.jsdelivr.net/gh/notnames/dsh-delete-guard-plus@main/index.json`，
+   然后在发现页搜索 `dsh-delete-guard-plus` 即可安装。索引本身已通过 DSH 官方校验器
+   （`node scripts/check-index.mjs`）。
+2. **直接从 GitHub 装**：
+   ```powershell
+   dsh plugin --profile <profile> add github:notnames/dsh-delete-guard-plus
+   ```
+3. **本地开发**（改完即生效）：
+   ```powershell
+   node "<pnpm.cjs>" add "link:C:/path/to/dsh-delete-guard-plus" --dir "$env:USERPROFILE\.dsh\profiles\<profile>"
+   ```
 
-# 3) 有 HMR 会自动重组；否则重启 DSH
+无论哪种方式，最后都要把 bundle 加进 profile 的 `package.json`：
+
+```json
+"dsh": { "profile": { "bundles": [ "...", "dsh-delete-guard-plus" ] } }
 ```
 
 `package.json` 的 `dsh.bundle.patch` 指向 [`cordis.patch.yml`](./cordis.patch.yml)：

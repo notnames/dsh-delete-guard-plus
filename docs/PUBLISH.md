@@ -20,6 +20,38 @@ node "<pnpm.cjs>" add "link:C:/path/to/dsh-delete-guard-plus" --dir "$env:USERPR
 "dsh": { "profile": { "bundles": [ "...", "dsh-delete-guard-plus" ] } }
 ```
 
+## 1.5 自托管索引源（不需要 npm 包）
+
+DSH 的发现页读的是**索引**，不是 GitHub，也不是 npm 搜索。索引条目本身支持 GitHub 来源
+（`{"type":"git","url":…,"commit":<40 位 SHA>}`），所以**没有 npm 包也能被扫到并安装**。
+
+仓库根目录的 [`index.json`](../index.json) 就是一份 format 1 索引，已用 DSH 自带校验器验证：
+
+```powershell
+node scripts/check-index.mjs
+# format=1 title=dsh-delete-guard-plus
+# plugin=dsh-delete-guard-plus versions=2.0.2
+#   2.0.2 -> git+https://github.com/notnames/dsh-delete-guard-plus.git#f4566a2e…
+# index.json is valid format 1
+```
+
+用法：**插件 → 发现（Discover）→ 索引源（Index sources）**，加入下面任意一条：
+
+```
+https://cdn.jsdelivr.net/gh/notnames/dsh-delete-guard-plus@main/index.json
+https://raw.githubusercontent.com/notnames/dsh-delete-guard-plus/main/index.json
+```
+
+加完后 `plugin_market` 工具与发现页都能搜到 `dsh-delete-guard-plus`，安装时 pnpm 直接拉
+commit pin 的仓库，不需要 registry。
+
+> 注意：社区市场 `dshmarket` 有自己的规则——它只接受精选目录（`awesome-dsh-plugin.com` /
+> `dsh-plugin-catalog`）内的来源。自托管索引对**官方 Discover** 与 `plugin_market` 有效；
+> 要在 dshmarket 里出现，仍需要被收录进它读取的那份目录。
+
+每次发版后，把 `index.json` 里 `versions[0].source.commit` 更新为新提交的 40 位 SHA，并追加
+一个新的 version 条目（旧条目保留，便于回滚）。
+
 ## 2. 发布到 npm（社区索引的来源）
 
 ```powershell
