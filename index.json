@@ -67,12 +67,12 @@
       },
       "versions": [
         {
-          "version": "2.0.2",
-          "publishTimestamp": 1795276800,
+          "version": "2.0.3",
+          "publishTimestamp": 1795271302,
           "source": {
             "type": "git",
             "url": "https://github.com/notnames/dsh-delete-guard-plus",
-            "commit": "f4566a2e99f257a5b7a8d32cb400f45c853f4ea5"
+            "commit": "e8639e5e7e6e2a0f0c257e8cc9965be27bb3da42"
           },
           "engines": {
             "dsh": ">=0.2.0"
