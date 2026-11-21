@@ -1,5 +1,33 @@
 # CHANGELOG
 
+## 2.0.1 — 2026-11-21
+
+Three false positives found by the independent round (see `docs/INDEPENDENT.md`),
+all on the write path, plus the deadlock they caused.
+
+### Fixed
+
+- **A command name listed as data was treated as a command.** A script containing
+  `@('remove-item', 'clear-recyclebin')` was refused. Whole-text platform rules now
+  match against the body with string literals and comments blanked (`stripQuoted`).
+- **A sample command inside a test string was treated as a call.** The nested
+  `cmd /c "…"` scan now skips matches that begin inside a quoted span
+  (`quotedSpans`).
+- **The guard refused to let its own source be patched.** Editing `lib/analyze.js`
+  was impossible: the file necessarily contains `clear-recyclebin` and
+  `Remove-Item` as literals, so the write path refused it and the repair deadlocked.
+  Writes inside the plugin's own directory are now allowed. The guard protects user
+  data, not itself.
+
+### Added
+
+- `test/independent/` — a verification round that shares nothing with the corpus
+  harness: real cmdlets and paths from `Get-Command`, a different PRNG, and
+  PowerShell's own `Parser::ParseInput` / `CommandAst` as the oracle.
+  Result on this machine: 19,990 generated lines, 644 AST-confirmed deletes all
+  blocked, 0 missed, 0 unexplained blocks, 146/146 incident-family lines blocked.
+- `test/independent/write-path.mjs` — 5 regression cases for the write path.
+
 ## 2.0.0 — 2026-11-21
 
 Merge of `dsh-delete-guard` with the quoting-typo analyzer written for one

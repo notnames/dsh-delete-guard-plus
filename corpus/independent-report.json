@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-11-21T10:38:37.682Z",
+  "oracle": "PowerShell Parser::ParseInput / CommandAst",
+  "surface": {
+    "commands": 700,
+    "paths": 288
+  },
+  "ms": 24272,
+  "total": 19990,
+  "oracleDeleteLike": 644,
+  "guardBlocked": 790,
+  "bothBlocked": 644,
+  "missedDeletes": [],
+  "unexplained": [],
+  "quotedDamageAgreement": 0,
+  "quoteHazard": 3877,
+  "quoteHazardBlocked": 0,
+  "quoteHazardExamples": [
+    {
+      "command": "cmd /c \"Format-Hex -Encoding \\\"C:\\Windows\\L2Schemas\\\"\"",
+      "rule": null
+    },
+    {
+      "command": "cmd /c \"Format-Hex -Path \\\"C:\\Windows\\System32\\Keywords\\\"\"",
+      "rule": null
+    },
+    {
+      "command": "cmd /c \"rcjb -Location \\\"C:\\Program Files\\PremiumSoft\\\"\"",
+      "rule": null
+    },
+    {
+      "command": "cmd /c \"epal -Path \\\"C:\\Windows\\System32\\Recovery\\\"\"",
+      "rule": null
+    },
+    {
+      "command": "cmd /c \"Format-Hex -Raw \\\"C:\\Windows\\System32\\oobe\\\"\"",
+      "rule": null
+    }
+  ],
+  "incidentFamily": 146,
+  "incidentBlocked": 146,
+  "incidentUnblocked": [],
+  "ruleHistogram": {
+    "protected-target": 761,
+    "shell-delete": 27,
+    "unprovable-target": 1,
+    "log-wipe": 1
+  },
+  "sampleCommands": [
+    "wjb -Name C:\\Windows\\Speech",
+    "ipal -Force 'C:\\Windows\\System32\\lv-LV'",
+    "cmd /c \"Format-Hex -Encoding \\\"C:\\Windows\\L2Schemas\\\"\"",
+    "Get-ChildItem -LiteralPath \"C:\\Windows\\schemas\" -ErrorAction SilentlyContinue | Format-Hex -LiteralPath",
+    "ogv -Wait C:\\Program Files\\Java"
+  ]
+}
