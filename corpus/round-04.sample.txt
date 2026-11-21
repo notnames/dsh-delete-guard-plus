@@ -1,0 +1,200 @@
+!! Remove-Item -LiteralPath "C:\Users\ops\Documents\quartz\src\module-186\file-7162.yaml"
+   Get-ItemPropertyValue -Path 'HKCU:\Software\harbor' -Name LastRun | Select-Object -First 29
+   gpresult /r /scope:computer | Select-Object -First 72 | Format-List
+   New-ItemProperty -Path 'HKCU:\Software\vertex' -Name Trace -Value 0 -PropertyType DWord -Force | Select-Object -First 90 | Format-List
+   Get-GPO -All -ErrorAction SilentlyContinue -ErrorAction SilentlyContinue
+   reg export "HKCU\Software\kepler" "C:\Users\build\Documents\vertex\src\module-167\file-8115.tmp" /y | Select-Object -First 167 | Out-Null
+!! Remove-Item -LiteralPath "C:\Users\ops\Documents\orion\src\module-155\file-2221.cmd"
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\perigee\src\module-161\file-5410.dll | Format-List | Select-Object -First 63 | Out-Null
+!! robocopy C:\empty C:\Users\svc-agent\Documents\quartz\src\module-165\file-7326.bat /MIR
+   certutil -L -store My | Select-Object -First 88 | Format-Table -AutoSize
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\orion\src\module-365\file-3771.txt | Format-List -Verbose
+   Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*' | Select-Object DisplayName | Select-Object -First 87 -ErrorAction SilentlyContinue
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\lattice\src\module-354\file-5817.exe | Format-List | Select-Object -First 131 | Format-List
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\WinRM" /v ImagePath | Select-Object -First 121 -Verbose
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "quartz" | Select-Object -First 27
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer" /v ImagePath | Select-Object -First 2 | Format-Table -AutoSize
+   New-ItemProperty -Path 'HKCU:\Software\kepler' -Name Trace -Value 0 -PropertyType DWord -Force | Select-Object -First 19
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\delta\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 152
+   Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*' | Select-Object DisplayName | Select-Object -First 7 2>$null
+   Get-GPO -All -ErrorAction SilentlyContinue | Select-Object -First 117 | Format-Table -AutoSize
+   Get-ItemPropertyValue -Path 'HKCU:\Software\quartz' -Name LastRun | Select-Object -First 59 | Out-Null
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "lattice" | Select-Object -First 111 | Out-Host
+   New-ItemProperty -Path 'HKCU:\Software\atlas' -Name Trace -Value 0 -PropertyType DWord -Force | Select-Object -First 138 | Format-Table -AutoSize
+   reg export "HKCU\Software\delta" "C:\Users\build\Documents\vostok\src\module-296\file-4773.cmd" /y | Select-Object -First 132 2>$null
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "quartz" | Select-Object -First 17 | Out-Host
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\atlas\src\module-312\file-5048.ps1 | Format-List | Select-Object -First 164
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\mpssvc" /v ImagePath | Select-Object -First 71 | Format-Table -AutoSize
+   New-ItemProperty -Path 'HKCU:\Software\delta' -Name Trace -Value 7 -PropertyType DWord -Force | Select-Object -First 195 -ErrorAction SilentlyContinue
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\BITS" /v ImagePath | Select-Object -First 185 | Format-Table -AutoSize
+   reg export "HKCU\Software\kepler" "C:\Users\MrL\Documents\lattice\src\module-114\file-3871.exe" /y | Select-Object -First 52 | Format-Table -AutoSize
+   Get-ItemPropertyValue -Path 'HKCU:\Software\vostok' -Name LastRun | Select-Object -First 144 -ErrorAction SilentlyContinue
+   Get-AuthenticodeSignature -LiteralPath C:\Users\MrL\Documents\sonar\src\module-277\file-3556.md | Format-List | Select-Object -First 19 -ErrorAction SilentlyContinue
+   reg export "HKCU\Software\orion" "C:\Users\build\Documents\kepler\src\module-350\file-6805.json" /y | Select-Object -First 109 | Out-Null
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\TermService" /v ImagePath | Select-Object -First 130 -ErrorAction SilentlyContinue
+!! robocopy C:\empty C:\Users\MrL\Documents\perigee\src\module-035\file-3570.exe /MIR
+   New-ItemProperty -Path 'HKCU:\Software\vostok' -Name Trace -Value 6 -PropertyType DWord -Force | Select-Object -First 71 | Format-List
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\perigee\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 178 | Out-Null
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\orion\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 140 -Verbose
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "orion" | Select-Object -First 156 -Verbose
+   Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*' | Select-Object DisplayName | Select-Object -First 134
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\WinRM" /v ImagePath | Select-Object -First 141 | Format-Table -AutoSize
+   reg export "HKCU\Software\atlas" "C:\Users\MrL\Documents\perigee\src\module-370\file-3103.json" /y | Out-Null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\meridian\src\module-380\file-7297.tmp | Format-List
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\kepler\src\module-092\file-8616.tmp | Format-List | Select-Object -First 56 | Format-List
+   New-ItemProperty -Path 'HKCU:\Software\vertex' -Name Trace -Value 3 -PropertyType DWord -Force | Select-Object -First 176 | Out-Host
+   New-ItemProperty -Path 'HKCU:\Software\orion' -Name Trace -Value 2 -PropertyType DWord -Force | Select-Object -First 110 -ErrorAction SilentlyContinue
+   Get-GPO -All -ErrorAction SilentlyContinue | Select-Object -First 43 2>$null
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\vostok\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 48 | Format-List
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\TermService" /v ImagePath | Select-Object -First 74 -ErrorAction SilentlyContinue
+   Get-ChildItem -Path Cert:\LocalMachine\My | Select-Object Subject, NotAfter | Select-Object -First 114 | Out-Host
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\WinRM" /v ImagePath | Select-Object -First 187 -ErrorAction SilentlyContinue
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\sonar\src\module-053\file-6531.csv | Format-List -ErrorAction SilentlyContinue
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\atlas\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 75 -ErrorAction SilentlyContinue
+   Get-GPO -All -ErrorAction SilentlyContinue | Select-Object -First 6
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\mpssvc" /v ImagePath | Select-Object -First 175 | Out-Null
+   New-ItemProperty -Path 'HKCU:\Software\vostok' -Name Trace -Value 6 -PropertyType DWord -Force | Select-Object -First 139 | Out-Host
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\wuauserv" /v ImagePath | Select-Object -First 200
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\EventLog" /v ImagePath | Select-Object -First 76 2>$null
+   Get-ItemPropertyValue -Path 'HKCU:\Software\delta' -Name LastRun | Select-Object -First 9
+   New-ItemProperty -Path 'HKCU:\Software\kepler' -Name Trace -Value 8 -PropertyType DWord -Force | Select-Object -First 122 -Verbose
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\lattice\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 140 | Out-Null
+   Get-GPO -All -ErrorAction SilentlyContinue | Select-Object -First 184 2>$null
+   New-ItemProperty -Path 'HKCU:\Software\orion' -Name Trace -Value 8 -PropertyType DWord -Force | Select-Object -First 117 | Format-List
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "sonar" | Select-Object -First 23 | Out-Host
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\sonar\src\module-217\file-4363.bak | Format-List | Select-Object -First 105 | Format-Table -AutoSize
+   New-ItemProperty -Path 'HKCU:\Software\vertex' -Name Trace -Value 4 -PropertyType DWord -Force | Select-Object -First 165 -ErrorAction SilentlyContinue
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "meridian" | Select-Object -First 162 | Out-Null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\dev\Documents\vostok\src\module-026\file-3648.dll | Format-List -ErrorAction SilentlyContinue
+   Get-ItemPropertyValue -Path 'HKCU:\Software\harbor' -Name LastRun | Select-Object -First 197 | Format-List
+   reg export "HKCU\Software\meridian" "C:\Users\MrL\Documents\meridian\src\module-029\file-7757.log" /y | Select-Object -First 150 | Format-List
+   Get-AuthenticodeSignature -LiteralPath C:\Users\dev\Documents\perigee\src\module-335\file-1829.cmd | Format-List | Select-Object -First 75 | Out-Null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\dev\Documents\orion\src\module-045\file-5524.tmp | Format-List | Select-Object -First 9
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\delta\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 93 | Format-List
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\Spooler" /v ImagePath | Select-Object -First 100 | Out-Null
+   Get-ChildItem -Path Cert:\CurrentUser\Root | Where-Object NotAfter -lt (Get-Date).AddDays(30) | Select-Object -First 91 -Verbose
+   New-ItemProperty -Path 'HKCU:\Software\sonar' -Name Trace -Value 1 -PropertyType DWord -Force | Select-Object -First 177 | Format-Table -AutoSize
+   gpresult /r /scope:computer | Select-Object -First 194 2>$null
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\atlas\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 170
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\TermService" /v ImagePath | Select-Object -First 196 -ErrorAction SilentlyContinue
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\perigee\src\module-387\file-1408.cmd | Format-List | Select-Object -First 24
+   Get-AuthenticodeSignature -LiteralPath C:\Users\svc-agent\Documents\lattice\src\module-286\file-3494.cmd | Format-List | Select-Object -First 18 | Out-Null
+   reg export "HKCU\Software\orion" "C:\Users\MrL\Documents\meridian\src\module-156\file-9607.cmd" /y -ErrorAction SilentlyContinue
+   reg export "HKCU\Software\atlas" "C:\Users\MrL\Documents\lattice\src\module-147\file-8063.bak" /y | Select-Object -First 44 2>$null
+   reg export "HKCU\Software\vostok" "C:\Users\ops\Documents\delta\src\module-195\file-8406.yaml" /y | Select-Object -First 1 | Out-Host
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\sonar\src\module-095\file-2173.cmd | Format-List | Out-Host
+   reg export "HKCU\Software\harbor" "C:\Users\MrL\Documents\delta\src\module-203\file-3212.log" /y | Out-Null
+   Get-GPO -All -ErrorAction SilentlyContinue | Select-Object -First 83 | Format-List
+   reg export "HKCU\Software\vostok" "C:\Users\dev\Documents\harbor\src\module-158\file-7180.ps1" /y | Format-List
+   New-ItemProperty -Path 'HKCU:\Software\delta' -Name Trace -Value 7 -PropertyType DWord -Force | Select-Object -First 18 | Format-Table -AutoSize
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\sonar\src\module-185\file-1039.md | Format-List 2>$null
+   reg export "HKCU\Software\vostok" "C:\Users\MrL\Documents\harbor\src\module-119\file-1463.ps1" /y | Out-Host
+   New-ItemProperty -Path 'HKCU:\Software\quartz' -Name Trace -Value 5 -PropertyType DWord -Force | Select-Object -First 85
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\lattice\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 97 | Out-Host
+   Get-GPO -All -ErrorAction SilentlyContinue | Select-Object -First 172
+   New-ItemProperty -Path 'HKCU:\Software\delta' -Name Trace -Value 8 -PropertyType DWord -Force | Select-Object -First 43 -ErrorAction SilentlyContinue
+   Get-ItemPropertyValue -Path 'HKCU:\Software\kepler' -Name LastRun | Select-Object -First 119 | Out-Null
+   Get-ChildItem -Path Cert:\CurrentUser\Root | Where-Object NotAfter -lt (Get-Date).AddDays(30) | Select-Object -First 166 | Format-Table -AutoSize
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\harbor\src\module-374\file-4212.txt | Format-List | Select-Object -First 198 2>$null
+   New-ItemProperty -Path 'HKCU:\Software\quartz' -Name Trace -Value 0 -PropertyType DWord -Force | Select-Object -First 1 | Format-Table -AutoSize
+   Get-ChildItem -Path Cert:\CurrentUser\Root | Where-Object NotAfter -lt (Get-Date).AddDays(30) | Select-Object -First 11 -Verbose
+!! robocopy C:\empty C:\Users\MrL\Documents\kepler\src\module-163\file-1622.ps1 /MIR
+   New-ItemProperty -Path 'HKCU:\Software\harbor' -Name Trace -Value 3 -PropertyType DWord -Force | Select-Object -First 49 -Verbose
+   Get-ItemPropertyValue -Path 'HKCU:\Software\meridian' -Name LastRun | Select-Object -First 55 | Out-Null
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\meridian\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 177
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\mpssvc" /v ImagePath | Select-Object -First 4 2>$null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\vostok\src\module-265\file-1761.txt | Format-List | Select-Object -First 69 2>$null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\MrL\Documents\sonar\src\module-008\file-6567.yaml | Format-List | Format-List
+   New-ItemProperty -Path 'HKCU:\Software\atlas' -Name Trace -Value 2 -PropertyType DWord -Force | Select-Object -First 162 -Verbose
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\vertex\src\module-015\file-2662.json | Format-List -Verbose
+   reg export "HKCU\Software\orion" "C:\Users\build\Documents\harbor\src\module-395\file-8951.cmd" /y 2>$null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\meridian\src\module-153\file-5340.bak | Format-List | Select-Object -First 108 | Format-Table -AutoSize
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\kepler\src\module-244\file-6654.ps1 | Format-List
+   reg export "HKCU\Software\vertex" "C:\Users\MrL\Documents\meridian\src\module-036\file-1396.csv" /y | Select-Object -First 72 | Format-Table -AutoSize
+   Get-ItemPropertyValue -Path 'HKCU:\Software\vertex' -Name LastRun | Select-Object -First 64 -Verbose
+   Get-ItemPropertyValue -Path 'HKCU:\Software\quartz' -Name LastRun | Select-Object -First 31 | Format-Table -AutoSize
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\kepler\src\module-121\file-3864.tmp | Format-List | Out-Null
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "orion" | Select-Object -First 174 -ErrorAction SilentlyContinue
+   New-ItemProperty -Path 'HKCU:\Software\quartz' -Name Trace -Value 8 -PropertyType DWord -Force | Select-Object -First 89 -Verbose
+   New-ItemProperty -Path 'HKCU:\Software\vertex' -Name Trace -Value 8 -PropertyType DWord -Force | Select-Object -First 53
+   reg export "HKCU\Software\harbor" "C:\Users\ops\Documents\perigee\src\module-106\file-8514.txt" /y | Out-Null
+   Get-ItemPropertyValue -Path 'HKCU:\Software\quartz' -Name LastRun | Select-Object -First 77 | Out-Null
+   New-ItemProperty -Path 'HKCU:\Software\vostok' -Name Trace -Value 4 -PropertyType DWord -Force | Select-Object -First 71 | Format-Table -AutoSize
+   gpresult /r /scope:computer | Select-Object -First 151 | Format-List
+   Get-AuthenticodeSignature -LiteralPath C:\Users\dev\Documents\perigee\src\module-163\file-7198.exe | Format-List -Verbose
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\perigee\src\module-146\file-6067.dll | Format-List | Select-Object -First 200 -Verbose
+   Get-ItemPropertyValue -Path 'HKCU:\Software\lattice' -Name LastRun | Select-Object -First 5 | Format-List
+   reg export "HKCU\Software\sonar" "C:\Users\ops\Documents\meridian\src\module-069\file-8066.txt" /y
+   Get-ItemPropertyValue -Path 'HKCU:\Software\meridian' -Name LastRun | Select-Object -First 35 | Format-List
+   reg export "HKCU\Software\vertex" "C:\Users\build\Documents\perigee\src\module-314\file-9995.exe" /y | Select-Object -First 54 -ErrorAction SilentlyContinue
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\quartz\src\module-365\file-4430.dll | Format-List 2>$null
+   reg export "HKCU\Software\vertex" "C:\Users\dev\Documents\kepler\src\module-266\file-1582.log" /y | Select-Object -First 136 | Out-Null
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "meridian" | Select-Object -First 180 | Format-List
+   reg export "HKCU\Software\delta" "C:\Users\MrL\Documents\sonar\src\module-192\file-7434.json" /y | Format-Table -AutoSize
+   New-ItemProperty -Path 'HKCU:\Software\orion' -Name Trace -Value 8 -PropertyType DWord -Force | Select-Object -First 110 | Out-Null
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer" /v ImagePath | Select-Object -First 99 -Verbose
+   reg export "HKCU\Software\vostok" "C:\Users\svc-agent\Documents\kepler\src\module-092\file-2334.bak" /y | Select-Object -First 129 2>$null
+   New-ItemProperty -Path 'HKCU:\Software\delta' -Name Trace -Value 3 -PropertyType DWord -Force | Format-Table -AutoSize
+   Get-AuthenticodeSignature -LiteralPath C:\Users\MrL\Documents\kepler\src\module-135\file-9359.yaml | Format-List | Select-Object -First 58 | Format-Table -AutoSize
+   reg export "HKCU\Software\vostok" "C:\Users\svc-agent\Documents\kepler\src\module-051\file-1645.cmd" /y | Select-Object -First 133 | Out-Host
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "quartz" | Select-Object -First 116 -Verbose
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "quartz" | Select-Object -First 30 2>$null
+   New-ItemProperty -Path 'HKCU:\Software\vostok' -Name Trace -Value 0 -PropertyType DWord -Force | Select-Object -First 77 2>$null
+!! Remove-Item -Recurse -Force C:\Users\dev\Documents\kepler\src\module-104\file-7964.csv | Out-Null
+   reg export "HKCU\Software\atlas" "C:\Users\svc-agent\Documents\atlas\src\module-198\file-5272.cmd" /y | Select-Object -First 195 -ErrorAction SilentlyContinue
+   Get-ChildItem -Path Cert:\CurrentUser\Root | Where-Object NotAfter -lt (Get-Date).AddDays(30) | Select-Object -First 106 -Verbose
+   Get-ChildItem -Path Cert:\CurrentUser\Root | Where-Object NotAfter -lt (Get-Date).AddDays(30) | Select-Object -First 178 | Out-Host
+   reg export "HKCU\Software\vertex" "C:\Users\svc-agent\Documents\atlas\src\module-396\file-3802.md" /y | Select-Object -First 1 2>$null
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\atlas\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 120 2>$null
+   Get-GPO -All -ErrorAction SilentlyContinue | Select-Object -First 197
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\delta\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 15 | Format-List
+!! rd /s /q %SystemDrive%
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\lattice\src\module-237\file-1520.ps1 | Format-List | Select-Object -First 60 -ErrorAction SilentlyContinue
+   Get-ItemPropertyValue -Path 'HKCU:\Software\sonar' -Name LastRun | Select-Object -First 153 2>$null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\perigee\src\module-227\file-5396.bak | Format-List | Select-Object -First 140 | Out-Host
+   New-ItemProperty -Path 'HKCU:\Software\perigee' -Name Trace -Value 8 -PropertyType DWord -Force | Select-Object -First 197 -Verbose
+   reg export "HKCU\Software\delta" "C:\Users\ops\Documents\kepler\src\module-110\file-1311.zip" /y
+   Get-GPO -All -ErrorAction SilentlyContinue | Select-Object -First 185 2>$null
+   Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*' | Select-Object DisplayName | Select-Object -First 198 | Format-List
+   New-ItemProperty -Path 'HKCU:\Software\kepler' -Name Trace -Value 0 -PropertyType DWord -Force | Select-Object -First 180
+   Get-ItemPropertyValue -Path 'HKCU:\Software\sonar' -Name LastRun | Select-Object -First 159 -Verbose
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\Dhcp" /v ImagePath | Select-Object -First 17 -ErrorAction SilentlyContinue
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\delta\src\module-324\file-8056.tmp | Format-List | Select-Object -First 154 | Out-Host
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\W32Time" /v ImagePath | Select-Object -First 38 | Format-List
+   Get-AuthenticodeSignature -LiteralPath C:\Users\MrL\Documents\perigee\src\module-140\file-2160.exe | Format-List | Select-Object -First 47 | Out-Null
+   Get-ItemPropertyValue -Path 'HKCU:\Software\meridian' -Name LastRun | Select-Object -First 5
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\mpssvc" /v ImagePath | Select-Object -First 67 2>$null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\kepler\src\module-059\file-6254.zip | Format-List | Select-Object -First 50 | Format-List
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\sonar\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 109 | Out-Host
+   reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /s /f "atlas" | Select-Object -First 185 -Verbose
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\Dhcp" /v ImagePath | Select-Object -First 64 | Format-List
+   certutil -L -store My | Select-Object -First 200 | Format-Table -AutoSize
+   reg export "HKCU\Software\vostok" "C:\Users\build\Documents\quartz\src\module-077\file-1320.bat" /y | Format-List
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\vostok\src\module-201\file-9535.md | Format-List | Select-Object -First 41 | Format-List
+   Get-ItemPropertyValue -Path 'HKCU:\Software\meridian' -Name LastRun | Select-Object -First 150 2>$null
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\vertex\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 22 -Verbose
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\atlas\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 99 | Out-Null
+   reg export "HKCU\Software\delta" "C:\Users\dev\Documents\perigee\src\module-229\file-1410.ps1" /y | Select-Object -First 137
+   Get-ItemPropertyValue -Path 'HKCU:\Software\meridian' -Name LastRun | Select-Object -First 62 | Out-Host
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\Dhcp" /v ImagePath | Select-Object -First 36 | Format-List
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\sonar\src\module-000\file-5807.yaml | Format-List | Select-Object -First 136 | Format-List
+   Get-AuthenticodeSignature -LiteralPath C:\Users\svc-agent\Documents\lattice\src\module-060\file-1897.bak | Format-List | Select-Object -First 47 -Verbose
+   reg export "HKCU\Software\atlas" "C:\Users\ops\Documents\meridian\src\module-140\file-3000.yaml" /y | Select-Object -First 167 2>$null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\dev\Documents\kepler\src\module-285\file-4760.dll | Format-List | Select-Object -First 188 | Out-Host
+   Get-AuthenticodeSignature -LiteralPath C:\Users\ops\Documents\quartz\src\module-148\file-8383.txt | Format-List | Select-Object -First 1 | Out-Host
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\BITS" /v ImagePath | Select-Object -First 160
+   Get-AuthenticodeSignature -LiteralPath C:\Users\dev\Documents\atlas\src\module-376\file-7636.zip | Format-List | Format-Table -AutoSize
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\harbor\src\module-268\file-5155.bat | Format-List 2>$null
+   Get-ItemProperty -Path 'HKLM:\SOFTWARE\atlas\Config' -Name Version -ErrorAction SilentlyContinue | Select-Object -First 7 | Out-Host
+   Get-AuthenticodeSignature -LiteralPath C:\Users\dev\Documents\lattice\src\module-023\file-8242.csv | Format-List 2>$null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\svc-agent\Documents\vostok\src\module-043\file-9841.exe | Format-List -Verbose
+   Get-ChildItem -Path Cert:\LocalMachine\My | Select-Object Subject, NotAfter | Select-Object -First 110 | Out-Null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\build\Documents\atlas\src\module-308\file-2201.txt | Format-List 2>$null
+   reg export "HKCU\Software\sonar" "C:\Users\ops\Documents\meridian\src\module-144\file-7839.dll" /y | Out-Host
+   certutil -store -user My | Select-Object -First 90 2>$null
+   Get-AuthenticodeSignature -LiteralPath C:\Users\svc-agent\Documents\quartz\src\module-296\file-6351.bat | Format-List | Select-Object -First 180 | Out-Null
+   New-ItemProperty -Path 'HKCU:\Software\lattice' -Name Trace -Value 8 -PropertyType DWord -Force | Select-Object -First 2 | Format-Table -AutoSize
+   reg query "HKLM\SYSTEM\CurrentControlSet\Services\WinRM" /v ImagePath | Select-Object -First 83 | Out-Host
+   New-ItemProperty -Path 'HKCU:\Software\orion' -Name Trace -Value 0 -PropertyType DWord -Force | Select-Object -First 171 | Out-Null
+   reg export "HKCU\Software\delta" "C:\Users\svc-agent\Documents\perigee\src\module-167\file-7610.log" /y -Verbose
+   Get-AuthenticodeSignature -LiteralPath C:\Users\dev\Documents\kepler\src\module-367\file-2658.dll | Format-List | Out-Null

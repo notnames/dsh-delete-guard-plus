@@ -1,0 +1,12 @@
+# dsh-delete-guard-plus bundle patch.
+#
+# Mounts the merged guard into the DSH profile. Host half only: it hooks
+# `tools/pre-execute` and registers `file_trash`, `trash_status` and
+# `delete_guard_check`. No core file is patched.
+- insert:
+    - id: delete-guard-plus
+      name: dsh-delete-guard-plus
+      config:
+        enabled: true
+        blockWrites: true
+        allowSafeShellDeletes: false

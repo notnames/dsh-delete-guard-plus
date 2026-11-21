@@ -1,0 +1,83 @@
+{
+  "name": "dsh-delete-guard-plus",
+  "version": "2.0.0",
+  "description": "Fail-closed delete protection for DeepSeek Harness on Windows: every shell deletion is refused and redirected to a Recycle Bin tool, quoting typos that turn a path into a drive root are caught before dispatch, and destructive script bodies are refused. Merges and extends dsh-delete-guard.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./analyze": "./lib/analyze.js",
+    "./targets": "./lib/targets.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "scripts/recycle-bin.ps1",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "NOTICE",
+    "LICENSE",
+    "docs/assets",
+    "docs/rounds"
+  ],
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "plugin",
+    "guard",
+    "delete",
+    "recycle-bin",
+    "trash",
+    "safe-delete",
+    "powershell",
+    "cmd",
+    "windows",
+    "quoting",
+    "escape",
+    "rmdir",
+    "guardrail"
+  ],
+  "author": {
+    "name": "MrL",
+    "url": "https://github.com/MrL"
+  },
+  "contributors": [
+    {
+      "name": "DeepSeek Harness (DSH)",
+      "url": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    {
+      "name": "deepestevan",
+      "url": "https://github.com/deepestevan/dsh-delete-guard"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrL/dsh-delete-guard-plus.git"
+  },
+  "homepage": "https://github.com/MrL/dsh-delete-guard-plus#readme",
+  "bugs": {
+    "url": "https://github.com/MrL/dsh-delete-guard-plus/issues"
+  },
+  "scripts": {
+    "test": "node test/unit.mjs && node test/hook.mjs && node test/targets.mjs",
+    "corpus:round": "node scripts/run-round.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+   arp -a | Select-Object -First 122 | Format-Table -AutoSize
+   Test-NetConnection -ComputerName BUILD-12 -Port 53 | Select-Object -First 138 -Verbose
+   curl.exe -sS -o NUL -w "%{http_code}" "https://atlas.example.com/ping" | Select-Object -First 180 2>$null
+   curl.exe -sS -o NUL -w "%{http_code}" "https://quartz.example.com/ping" | Select-Object -First 54 | Out-Null
+   Test-NetConnection -ComputerName LAB-07 -Port 5432 | Select-Object -First 97
+   netsh interface ipv4 show config name="Bluetooth Network Connection" | Select-Object -First 67 -Verbose
+   curl.exe -sS -o NUL -w "%{http_code}" "https://perigee.example.com/ping" | Select-Object -First 185
+   curl.exe -sS -o NUL -w "%{http_code}" "https://quartz.example.com/ping" | Select-Object -First 194 -Verbose
+   Test-NetConnection -ComputerName EDGE-03 -Port 5432 | Select-Object -First 24 | Out-Null
+   netstat -ano | findstr :80 | Select-Object -First 5 | Out-Null
+   Get-NetAdapter -Name 'Bluetooth Network Connection' | Select-Object Status, LinkSpeed | Select-Object -First 132
+   Invoke-WebRequest -Uri "https://vertex.example.com/health" -UseBasicParsing -TimeoutSec 34 2>$null
+   Test-Connection -ComputerName LAB-07 -Count 3 -Quiet | Select-Object -First 166 2>$null
+   Resolve-DnsName -Name atlas.example.com -Type A | Select-Object -First 48 2>$null
+   netsh interface ipv4 show config name="vEthernet (Default Switch)" | Select-Object -First 1 | Out-Null
+   netstat -ano | findstr :1433 | Select-Object -First 123 | Format-Table -AutoSize
+   tracert -h 8 -w 500 LAB-07 | Select-Object -First 52 -Verbose
+   ping -n 2 EDGE-03 | Select-Object -First 2 | Out-Host
+   Resolve-DnsName -Name harbor.example.com -Type A | Select-Object -First 132
+   Test-NetConnection -ComputerName BUILD-12 -Port 53 | Select-Object -First 182 2>$null
+   Test-NetConnection -ComputerName EDGE-03 -Port 22 | Select-Object -First 147 | Out-Host
+   ipconfig /allcompartments /all | Select-Object -First 52 -Verbose
+   netsh interface ipv4 show config name="Ethernet" | Select-Object -First 94 2>$null
+   Test-NetConnection -ComputerName WS-01 -Port 445 | Select-Object -First 178 | Format-List
+   ipconfig /allcompartments /all | Select-Object -First 52 | Out-Null
+   ipconfig /allcompartments /all | Select-Object -First 123 -ErrorAction SilentlyContinue
+   nslookup delta.example.com | Select-Object -First 114 | Out-Host
+   nslookup orion.example.com | Select-Object -First 154 | Format-Table -AutoSize
+   Get-DnsClientCache | Select-Object -First 40 | Select-Object -First 90 2>$null
+!! robocopy C:\empty C:\Users\dev\Documents\harbor\src\module-010\file-4928.zip /MIR
+   Invoke-WebRequest -Uri "https://kepler.example.com/health" -UseBasicParsing -TimeoutSec 11 | Select-Object -First 88
+   Get-NetAdapter -Name 'Ethernet' | Select-Object Status, LinkSpeed | Select-Object -First 147 -ErrorAction SilentlyContinue
+   Invoke-WebRequest -Uri "https://sonar.example.com/health" -UseBasicParsing -TimeoutSec 33 | Select-Object -First 15 | Out-Null
+   tracert -h 8 -w 500 WS-01 | Select-Object -First 183 | Format-Table -AutoSize
+   Invoke-WebRequest -Uri "https://delta.example.com/health" -UseBasicParsing -TimeoutSec 7 | Select-Object -First 84 | Out-Null
+   Get-NetAdapter -Name 'Wi-Fi' | Select-Object Status, LinkSpeed | Select-Object -First 183 -Verbose
+   netsh interface ipv4 show config name="Wi-Fi" | Select-Object -First 103
+   netsh interface ipv4 show config name="Ethernet" | Select-Object -First 14 -ErrorAction SilentlyContinue
+   Test-Connection -ComputerName BUILD-12 -Count 3 -Quiet | Select-Object -First 30 | Format-Table -AutoSize
+   netstat -ano | findstr :3389 | Select-Object -First 95 | Format-List
+   Test-NetConnection -ComputerName FS-09 -Port 53 2>$null
+   tracert -h 8 -w 500 BUILD-12 | Select-Object -First 163 2>$null
+   Test-NetConnection -ComputerName FS-09 -Port 1433 | Select-Object -First 129 | Format-List
+   tracert -h 8 -w 500 WS-01 | Select-Object -First 26 | Format-List
+   curl.exe -sS -o NUL -w "%{http_code}" "https://delta.example.com/ping" | Select-Object -First 127
+   Invoke-WebRequest -Uri "https://quartz.example.com/health" -UseBasicParsing -TimeoutSec 22 | Select-Object -First 187 | Format-Table -AutoSize
+   tracert -h 8 -w 500 LAB-07 | Select-Object -First 74 -ErrorAction SilentlyContinue
+   Get-NetAdapter -Name 'Ethernet' | Select-Object Status, LinkSpeed | Select-Object -First 65 | Out-Host
+   netsh interface ipv4 show config name="Tailscale" | Select-Object -First 152
+   Invoke-WebRequest -Uri "https://atlas.example.com/health" -UseBasicParsing -TimeoutSec 20 | Select-Object -First 181 | Format-Table -AutoSize
+   Get-NetAdapter -Name 'Ethernet' | Select-Object Status, LinkSpeed | Select-Object -First 87
+   Get-NetIPConfiguration -InterfaceAlias 'Tailscale' | Select-Object -First 126 2>$null
+   Get-NetAdapter -Name 'Bluetooth Network Connection' | Select-Object Status, LinkSpeed | Select-Object -First 68 | Out-Null
+   Get-NetAdapter -Name 'Ethernet' | Select-Object Status, LinkSpeed | Select-Object -First 190
+   Get-DnsClientCache | Select-Object -First 40 | Select-Object -First 195 | Out-Null
+   netsh interface ipv4 show config name="Bluetooth Network Connection" | Select-Object -First 77 2>$null
+   nslookup orion.example.com | Select-Object -First 175 2>$null
+   curl.exe -sS -o NUL -w "%{http_code}" "https://meridian.example.com/ping" | Select-Object -First 104 | Format-Table -AutoSize
+   nslookup atlas.example.com | Select-Object -First 99 -Verbose
+   netsh interface ipv4 show config name="vEthernet (Default Switch)" | Select-Object -First 3 | Out-Host
+   Invoke-WebRequest -Uri "https://atlas.example.com/health" -UseBasicParsing -TimeoutSec 29 | Out-Null
+   arp -a | Select-Object -First 93 | Out-Null
+   ping -n 2 EDGE-03 | Select-Object -First 31 | Out-Null
+   nslookup vertex.example.com | Select-Object -First 89
+   netsh advfirewall firewall show rule name=all | Select-Object -First 17 | Out-Null
+   Get-NetAdapter -Name 'vEthernet (Default Switch)' | Select-Object Status, LinkSpeed | Select-Object -First 107 2>$null
+   nslookup vostok.example.com | Select-Object -First 138 | Out-Null
+   Get-NetAdapter -Name 'vEthernet (Default Switch)' | Select-Object Status, LinkSpeed | Select-Object -First 135 | Out-Null
+   Test-NetConnection -ComputerName FS-09 -Port 53 | Select-Object -First 21 -ErrorAction SilentlyContinue
+   Invoke-WebRequest -Uri "https://kepler.example.com/health" -UseBasicParsing -TimeoutSec 20 | Format-Table -AutoSize
+   ping -n 2 LAB-07 | Select-Object -First 123 | Out-Null
+   tracert -h 8 -w 500 FS-09 | Select-Object -First 15 -Verbose
+   Invoke-WebRequest -Uri "https://quartz.example.com/health" -UseBasicParsing -TimeoutSec 29 | Out-Host
+   Get-NetIPConfiguration -InterfaceAlias 'Ethernet' | Select-Object -First 188 | Out-Null
+   Get-NetAdapter -Name 'Bluetooth Network Connection' | Select-Object Status, LinkSpeed | Select-Object -First 41 -ErrorAction SilentlyContinue
+   ping -n 2 BUILD-12 | Select-Object -First 153
+   netsh interface ipv4 show config name="Ethernet" | Select-Object -First 18
+   Get-NetAdapter -Name 'Tailscale' | Select-Object Status, LinkSpeed | Select-Object -First 74 | Out-Host
+   nslookup delta.example.com | Select-Object -First 24 | Out-Null
+   netstat -ano | findstr :1433 | Select-Object -First 112 -ErrorAction SilentlyContinue
+   Test-NetConnection -ComputerName FS-09 -Port 3389 | Select-Object -First 42 -Verbose
+   netstat -ano | findstr :22 | Select-Object -First 120
+   curl.exe -sS -o NUL -w "%{http_code}" "https://quartz.example.com/ping" | Select-Object -First 118
+   tracert -h 8 -w 500 BUILD-12 | Select-Object -First 136 | Format-List
+   Resolve-DnsName -Name sonar.example.com -Type A | Select-Object -First 52 | Out-Null
+   ping -n 2 EDGE-03 | Select-Object -First 12
+   netsh interface ipv4 show config name="Ethernet" | Select-Object -First 5 | Out-Host
+   Get-NetAdapter -Name 'Tailscale' | Select-Object Status, LinkSpeed | Select-Object -First 150 2>$null
+   Get-NetAdapter -Name 'Bluetooth Network Connection' | Select-Object Status, LinkSpeed | Select-Object -First 134 | Format-List
+   Test-Connection -ComputerName BUILD-12 -Count 3 -Quiet | Select-Object -First 78
+   Resolve-DnsName -Name kepler.example.com -Type A | Select-Object -First 131 -Verbose
+   Invoke-WebRequest -Uri "https://atlas.example.com/health" -UseBasicParsing -TimeoutSec 22 | Select-Object -First 66 2>$null
+   Test-Connection -ComputerName WS-01 -Count 3 -Quiet | Select-Object -First 173 2>$null
+   Invoke-WebRequest -Uri "https://delta.example.com/health" -UseBasicParsing -TimeoutSec 7 | Select-Object -First 13 | Format-List
+   arp -a | Select-Object -First 108 2>$null
+   nslookup quartz.example.com | Select-Object -First 197 | Out-Null
+   Test-NetConnection -ComputerName EDGE-03 -Port 8080 | Select-Object -First 116 2>$null
+   Invoke-WebRequest -Uri "https://atlas.example.com/health" -UseBasicParsing -TimeoutSec 20 | Format-Table -AutoSize
+   Resolve-DnsName -Name delta.example.com -Type A | Select-Object -First 28 | Format-Table -AutoSize
+   Invoke-WebRequest -Uri "https://atlas.example.com/health" -UseBasicParsing -TimeoutSec 6 | Select-Object -First 75 | Format-Table -AutoSize
+   ping -n 2 FS-09 | Select-Object -First 122 2>$null
+   tracert -h 8 -w 500 EDGE-03 | Select-Object -First 119 -ErrorAction SilentlyContinue
+   Get-NetTCPConnection -State Established | Select-Object -First 20 LocalPort, RemoteAddress | Select-Object -First 43 -Verbose
+   Invoke-WebRequest -Uri "https://harbor.example.com/health" -UseBasicParsing -TimeoutSec 8 | Select-Object -First 88 -ErrorAction SilentlyContinue
+   Test-Connection -ComputerName BUILD-12 -Count 3 -Quiet | Select-Object -First 167 -Verbose
+   ping -n 2 BUILD-12 | Select-Object -First 60
+   Invoke-WebRequest -Uri "https://orion.example.com/health" -UseBasicParsing -TimeoutSec 9 | Select-Object -First 2 | Out-Host
+   nslookup orion.example.com | Select-Object -First 34
+   Invoke-WebRequest -Uri "https://harbor.example.com/health" -UseBasicParsing -TimeoutSec 34 | Select-Object -First 198 | Format-List
+   ipconfig /allcompartments /all | Select-Object -First 63
+   Get-DnsClientCache | Select-Object -First 40 | Select-Object -First 128 | Format-Table -AutoSize
+   Invoke-WebRequest -Uri "https://perigee.example.com/health" -UseBasicParsing -TimeoutSec 22 -ErrorAction SilentlyContinue
+   arp -a | Select-Object -First 87 | Out-Host
+   Invoke-WebRequest -Uri "https://orion.example.com/health" -UseBasicParsing -TimeoutSec 30 | Select-Object -First 71 | Format-List
+   curl.exe -sS -o NUL -w "%{http_code}" "https://harbor.example.com/ping" | Select-Object -First 133 -Verbose
+!! Remove-Item -Recurse -Force C:\Users\dev\Documents\harbor\src\module-220\file-5868.zip | Out-Null
+   Invoke-WebRequest -Uri "https://quartz.example.com/health" -UseBasicParsing -TimeoutSec 27 | Select-Object -First 125
+   ping -n 2 BUILD-12 | Select-Object -First 84 -ErrorAction SilentlyContinue
+!! Remove-Item -Recurse -Force C:\Users\svc-agent\Documents\quartz\src\module-356\file-1587.log | Out-Null
+   tracert -h 8 -w 500 EDGE-03 | Select-Object -First 170 | Format-List
+   Invoke-WebRequest -Uri "https://meridian.example.com/health" -UseBasicParsing -TimeoutSec 17 | Select-Object -First 46 | Format-Table -AutoSize
+   nslookup kepler.example.com | Select-Object -First 129 | Format-Table -AutoSize
+   Get-NetTCPConnection -State Established | Select-Object -First 20 LocalPort, RemoteAddress | Select-Object -First 190 | Out-Host
+   Resolve-DnsName -Name meridian.example.com -Type A | Select-Object -First 59 2>$null
+   Test-NetConnection -ComputerName FS-09 -Port 22 | Select-Object -First 94 | Out-Null
+   arp -a | Select-Object -First 23 -Verbose
+   netstat -ano | findstr :1433 | Select-Object -First 22 | Format-Table -AutoSize
+   nslookup harbor.example.com | Select-Object -First 74 | Out-Null
+   netsh advfirewall firewall show rule name=all | Select-Object -First 137 | Out-Null
+   Invoke-WebRequest -Uri "https://meridian.example.com/health" -UseBasicParsing -TimeoutSec 22 -Verbose
+   Resolve-DnsName -Name lattice.example.com -Type A | Select-Object -First 125 | Out-Host
+   Resolve-DnsName -Name delta.example.com -Type A | Select-Object -First 186 | Out-Null
+   curl.exe -sS -o NUL -w "%{http_code}" "https://kepler.example.com/ping" | Select-Object -First 100 -Verbose
+   nslookup vertex.example.com | Select-Object -First 170 | Out-Null
+   Get-DnsClientCache | Select-Object -First 40 | Select-Object -First 131 | Out-Host
+   route print -4 | Select-Object -First 107
+   Resolve-DnsName -Name quartz.example.com -Type A | Select-Object -First 189 | Format-List
+   Test-NetConnection -ComputerName BUILD-12 -Port 80 | Select-Object -First 105 -ErrorAction SilentlyContinue
+   Test-NetConnection -ComputerName LAB-07 -Port 22 | Select-Object -First 161 -ErrorAction SilentlyContinue
+   ping -n 2 BUILD-12 | Select-Object -First 157 | Out-Host
+   netsh advfirewall firewall show rule name=all | Select-Object -First 52 | Out-Host
+   Get-NetIPConfiguration -InterfaceAlias 'Tailscale' | Select-Object -First 20 -ErrorAction SilentlyContinue
+   Get-NetIPConfiguration -InterfaceAlias 'Tailscale' | Select-Object -First 98 | Format-List
+   netstat -ano | findstr :5432 | Select-Object -First 175 | Out-Host
+   Get-NetAdapter -Name 'Ethernet' | Select-Object Status, LinkSpeed | Select-Object -First 29 -ErrorAction SilentlyContinue
+   Test-NetConnection -ComputerName LAB-07 -Port 53 | Select-Object -First 153 -ErrorAction SilentlyContinue
+   Test-Connection -ComputerName BUILD-12 -Count 3 -Quiet | Select-Object -First 20 2>$null
+   Invoke-WebRequest -Uri "https://lattice.example.com/health" -UseBasicParsing -TimeoutSec 8 | Select-Object -First 111 | Format-List
+   Test-NetConnection -ComputerName LAB-07 -Port 53 | Select-Object -First 79 -ErrorAction SilentlyContinue
+   curl.exe -sS -o NUL -w "%{http_code}" "https://meridian.example.com/ping" | Select-Object -First 177 -Verbose
+   Resolve-DnsName -Name lattice.example.com -Type A | Select-Object -First 160 | Format-Table -AutoSize
+   Test-Connection -ComputerName EDGE-03 -Count 3 -Quiet | Select-Object -First 142 -ErrorAction SilentlyContinue
+   nslookup vertex.example.com | Select-Object -First 104 | Format-Table -AutoSize
+   Test-NetConnection -ComputerName LAB-07 -Port 53 | Select-Object -First 117 -ErrorAction SilentlyContinue
+   Test-Connection -ComputerName LAB-07 -Count 3 -Quiet | Select-Object -First 3
+   netsh interface ipv4 show config name="Ethernet" | Select-Object -First 191 | Format-Table -AutoSize
+   Invoke-WebRequest -Uri "https://delta.example.com/health" -UseBasicParsing -TimeoutSec 32 | Select-Object -First 27
+   Invoke-WebRequest -Uri "https://quartz.example.com/health" -UseBasicParsing -TimeoutSec 27 | Select-Object -First 17 -ErrorAction SilentlyContinue
+   Get-NetAdapter -Name 'Bluetooth Network Connection' | Select-Object Status, LinkSpeed | Select-Object -First 110 | Format-List
+   Resolve-DnsName -Name harbor.example.com -Type A | Select-Object -First 26 -ErrorAction SilentlyContinue
+!! robocopy C:\empty C:\Users\build\Documents\quartz\src\module-135\file-1729.dll /MIR
+   ping -n 2 FS-09 | Select-Object -First 186 | Out-Host
+   Test-Connection -ComputerName WS-01 -Count 3 -Quiet | Select-Object -First 82
+   Get-DnsClientCache | Select-Object -First 40 | Select-Object -First 36 | Format-Table -AutoSize
+   Test-Connection -ComputerName EDGE-03 -Count 3 -Quiet | Select-Object -First 146 | Format-List
+!! robocopy C:\empty C:\Users\build\Documents\sonar\src\module-261\file-8836.md /MIR
+   nslookup vostok.example.com | Select-Object -First 56 2>$null
+   netsh advfirewall firewall show rule name=all | Select-Object -First 193 -ErrorAction SilentlyContinue
+   tracert -h 8 -w 500 LAB-07 | Select-Object -First 3 2>$null
+   tracert -h 8 -w 500 WS-01 | Select-Object -First 104 -Verbose
+   Resolve-DnsName -Name harbor.example.com -Type A | Select-Object -First 178 | Out-Host
+   nslookup atlas.example.com | Select-Object -First 97 | Out-Host
+   tracert -h 8 -w 500 BUILD-12 | Select-Object -First 6 -Verbose
+   nslookup meridian.example.com | Select-Object -First 189 | Out-Host
+   Test-NetConnection -ComputerName BUILD-12 -Port 3389 | Select-Object -First 55 | Format-List
+   Invoke-WebRequest -Uri "https://delta.example.com/health" -UseBasicParsing -TimeoutSec 34 | Select-Object -First 15
+   tracert -h 8 -w 500 EDGE-03 | Select-Object -First 146 -ErrorAction SilentlyContinue
+   netstat -ano | findstr :1433 | Select-Object -First 175
+   netsh advfirewall firewall show rule name=all | Select-Object -First 9 | Out-Null
+   Test-Connection -ComputerName LAB-07 -Count 3 -Quiet | Select-Object -First 36 | Out-Host
+   ping -n 2 LAB-07 | Select-Object -First 39 | Format-Table -AutoSize
+   Resolve-DnsName -Name meridian.example.com -Type A | Select-Object -First 166 | Format-List
+   Test-Connection -ComputerName LAB-07 -Count 3 -Quiet | Select-Object -First 147 | Format-List
+   Get-NetIPConfiguration -InterfaceAlias 'Wi-Fi' | Select-Object -First 143 | Out-Null
+   Test-Connection -ComputerName WS-01 -Count 3 -Quiet | Select-Object -First 189
+   Get-NetAdapter -Name 'Tailscale' | Select-Object Status, LinkSpeed | Select-Object -First 142 -Verbose
+   Get-NetTCPConnection -State Established | Select-Object -First 20 LocalPort, RemoteAddress | Select-Object -First 147 | Out-Null
+   ping -n 2 FS-09 | Select-Object -First 132 | Out-Host
+   Test-NetConnection -ComputerName WS-01 -Port 3389
+   netstat -ano | findstr :53 | Select-Object -First 116 -ErrorAction SilentlyContinue
+   nslookup harbor.example.com | Select-Object -First 19 | Out-Null
+   nslookup sonar.example.com | Select-Object -First 84 | Format-Table -AutoSize
+   Invoke-WebRequest -Uri "https://atlas.example.com/health" -UseBasicParsing -TimeoutSec 16 | Select-Object -First 72 | Out-Null
+   Resolve-DnsName -Name kepler.example.com -Type A | Select-Object -First 145 | Out-Null
+   netsh interface ipv4 show config name="Ethernet" | Select-Object -First 157 -Verbose
+!! robocopy C:\empty C:\Users\svc-agent\Documents\perigee\src\module-312\file-7220.tmp /MIR
+   Test-NetConnection -ComputerName BUILD-12 -Port 8080 | Select-Object -First 148
+   nslookup quartz.example.com | Select-Object -First 172 -ErrorAction SilentlyContinue
+   Invoke-WebRequest -Uri "https://quartz.example.com/health" -UseBasicParsing -TimeoutSec 33 2>$null
+   Invoke-WebRequest -Uri "https://delta.example.com/health" -UseBasicParsing -TimeoutSec 13 | Select-Object -First 153 | Out-Host

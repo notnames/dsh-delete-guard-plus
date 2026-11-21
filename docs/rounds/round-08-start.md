@@ -1,0 +1,23 @@
+# Round 08 — 启动记录
+
+**域 / domain:** 事件日志与诊断 · event logs, counters, servicing
+**命令族 / families:** 12
+**规模 / size:** 100,000 行（97,000 安全 + 3,000 危险变异）
+**独立种子 / seed:** 0x9e3779b9 ^ (8 × 2654435761)
+
+## 这一轮要问什么
+
+第八轮针对「事故之后什么也查不出来」这件事。
+`wevtutil cl`、`Clear-EventLog`、`Remove-EventLog` 会把机器上唯一的事发记录抹掉 ——
+它不删用户的文件，但让所有事后分析失效。
+
+## 判据
+
+- 安全命令被拦 = **误判**（说明规则太宽，会让人关掉插件）
+- 危险命令放行 = **漏判**（说明有洞）
+- 拦住了但规则名不对 = **口径不对**（说明判据或标签要修）
+
+## 结果入口
+
+运行：`node scripts/gen-corpus.mjs 8` → `node scripts/run-round.mjs 8`
+复盘：见 [round-08-review.md](./round-08-review.md)

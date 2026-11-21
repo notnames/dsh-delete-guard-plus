@@ -1,0 +1,12 @@
+# Generated corpora are artefacts, not source: one million lines of commands do
+# not belong in a repository. Keep the generators, the findings and the reviews.
+corpus/*.txt
+corpus/*.tsv
+corpus/*.jsonl
+corpus/*.summary.json
+!corpus/*.sample.txt
+
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,76 @@
+# NOTICE
+
+`dsh-delete-guard-plus` is a merge of two bodies of work, plus new material.
+
+## 1. `dsh-delete-guard` — upstream design that this plugin merges
+
+- Author: deepestevan
+- Package: `dsh-delete-guard` (https://www.npmjs.com/package/dsh-delete-guard)
+- Repository: https://github.com/deepestevan/dsh-delete-guard
+- License: MIT
+
+What this plugin took from it:
+
+- the idea of mounting on `tools/pre-execute` and answering `deny` rather than
+  `ask`, with a redirect instead of an approval prompt;
+- a registered `file_trash` tool as the only permitted deletion path, plus
+  `trash_status`;
+- the Recycle Bin bridge implemented with `Microsoft.VisualBasic.FileIO` /
+  `SHFileOperationW` semantics, and the refusal of UNC and FAT/exFAT volumes
+  where a "recycle" is really an erase;
+- the operand guard for direct `file_trash` calls (drive root, Windows
+  directory, Program Files, Recycle Bin storage, session workspace root);
+- a system-prompt policy section so the model knows the rule before it writes a
+  command that cannot run;
+- the refusal of `Clear-RecycleBin`, `shred`/`sdelete`/`srm`/`cipher /w`,
+  `[System.IO.File]::Delete`, `robocopy /MIR`, `-EncodedCommand` and
+  `Invoke-Expression`.
+
+Its code was not copied verbatim: the modules were rewritten so that the rule
+engine is shared with the analyzer below, and several defects were fixed on the
+way (see `CHANGELOG.md`, entries `2.0.0`).
+
+## 2. Quoting-typo analyzer — written for one incident
+
+A single command destroyed most of a user's C: drive:
+
+```powershell
+$p='C:\Windows\Temp\x-chrome'; cmd /c "rmdir /s /q \"$p\""
+```
+
+PowerShell escapes with a backtick. `\"` therefore closed the string, and cmd
+received `rmdir /s /q \` — a recursive delete of the volume root. The upstream
+guard reasons about delete *verbs* and delete *targets*; this failure is about
+*quoting*, so a second analyzer was written and then merged in:
+
+- PowerShell strings are tokenized with PowerShell escape rules, and `\"` inside
+  one is treated as a live grenade whenever a delete verb is present;
+- cmd text is tokenized without backslash escaping (cmd escapes with `^`), which
+  is what makes `"\"` read as the root path it actually is;
+- nested interpreters (`cmd /c …`, `powershell -Command …`, `bash -c …`) are
+  re-analyzed under their own dialect;
+- targets that are variables, subexpressions, globs or empty are refused as
+  unprovable, because a delete whose operand only exists at run time cannot be
+  reviewed by anyone;
+- path depth and protected roots (Windows, Program Files, user profiles, `.dsh`,
+  `.ssh`, shadow copies, registry, certificate stores, event logs) are refused.
+
+## 3. The ten-round corpus work
+
+The rule set was exercised against ten independent 100,000-line corpora of
+Windows-shaped commands (one domain per round: filesystem, services, network,
+registry, storage, identity, toolchains, logs, devices, text/encoding).
+Findings and the rule changes they produced are recorded in
+`docs/rounds/round-NN-review.md`.
+
+## 4. Who wrote what
+
+- **DeepSeek Harness (DSH)** wrote the code, the tests, the corpus generators
+  and this documentation.
+- **MrL** reported the incident, supplied the screenshot in `docs/assets/`,
+  set the requirement (merge the two plugins, then prove the rules over ten
+  rounds of 100,000 commands each) and reviewed the result.
+
+No warranty: this is a policy layer, not a sandbox. It reads text; it does not
+isolate processes, and it cannot see a delete performed by a binary it never
+parsed.

@@ -1,0 +1,200 @@
+   Rename-Item -LiteralPath C:\Users\ops\Documents\sonar\src\module-338\file-9534.txt -NewName arch-891.bak
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\kepler\src\module-398\cache-9 -Force | Out-Null
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\meridian\src\module-023\cache-75 -Force | Out-Null
+   Get-ChildItem -Path C:\Users\build\Documents\kepler\src\module-196\cache-14 -Filter *.zip | Measure-Object -Sum Length
+   attrib C:\Users\MrL\Documents\vertex\src\module-375\file-9913.ps1
+   Copy-Item -LiteralPath C:\Users\build\Documents\quartz\src\module-066\file-2606.bak -Destination C:\Users\dev\Documents\harbor\src\module-380\file-2870.dll -Force
+   robocopy C:\Users\dev\Documents\kepler\src\module-173\cache-87 C:\Users\ops\Documents\harbor\src\module-042\cache-76 /E /R:1 /W:1 /NP /LOG:C:\Users\MrL\Documents\vostok\src\module-097\file-8166.cmd
+   Rename-Item -LiteralPath C:\Users\build\Documents\kepler\src\module-198\file-1810.ps1 -NewName arch-897.bak
+   xcopy C:\Users\dev\Documents\orion\src\module-298\cache-49 C:\Users\MrL\Documents\harbor\src\module-188\cache-20 /E /I /Y /Q
+   (Get-Item -LiteralPath C:\Users\MrL\Documents\sonar\src\module-168\file-4261.dll).Length
+   Copy-Item -LiteralPath C:\Users\MrL\Documents\vertex\src\module-332\file-3277.log -Destination C:\Users\dev\Documents\lattice\src\module-123\file-8862.log -Force
+   Rename-Item -LiteralPath C:\Users\build\Documents\meridian\src\module-265\file-6551.exe -NewName arch-210.bak
+   Get-ChildItem -Path C:\Users\build\Documents\harbor\src\module-128\cache-52 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   Copy-Item -LiteralPath C:\Users\build\Documents\delta\src\module-317\file-2667.txt -Destination C:\Users\svc-agent\Documents\perigee\src\module-058\file-4021.yaml -Force
+   dir C:\Users\ops\Documents\lattice\src\module-218\cache-30 /S /B /A-D
+   dir C:\Users\dev\Documents\lattice\src\module-215\cache-85 /S /B /A-D
+   where /R C:\Users\svc-agent\Documents\meridian\src\module-026\cache-78 *.tmp
+   Move-Item -LiteralPath C:\Users\build\Documents\vostok\src\module-197\file-4668.csv -Destination C:\Users\dev\Documents\lattice\src\module-360\file-7652.cmd
+   Copy-Item -LiteralPath C:\Users\dev\Documents\kepler\src\module-263\file-2548.tmp -Destination C:\Users\ops\Documents\sonar\src\module-013\file-2754.log -Force
+   Set-Content -LiteralPath C:\Users\build\Documents\delta\src\module-191\file-1194.exe -Value 'artifact 2570' -Encoding utf8
+   Get-FileHash -Algorithm SHA256 -LiteralPath C:\Users\svc-agent\Documents\perigee\src\module-273\file-1423.tmp | Format-List
+   Copy-Item -LiteralPath C:\Users\build\Documents\kepler\src\module-123\file-4764.bat -Destination C:\Users\dev\Documents\lattice\src\module-010\file-2178.md -Force
+   Get-ChildItem -Path C:\Users\ops\Documents\vostok\src\module-377\cache-61 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   Get-ChildItem -Path C:\Users\MrL\Documents\vertex\src\module-209\cache-79 -Filter *.txt | Measure-Object -Sum Length
+   Get-FileHash -Algorithm SHA256 -LiteralPath C:\Users\ops\Documents\vertex\src\module-195\file-7291.bak | Format-List
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\delta\src\module-197\cache-30 -Force | Out-Null
+   New-Item -ItemType Directory -Path C:\Users\svc-agent\Documents\lattice\src\module-369\cache-18 -Force | Out-Null
+   tree C:\Users\ops\Documents\orion\src\module-066\cache-55 /F /A
+   (Get-Item -LiteralPath C:\Users\dev\Documents\meridian\src\module-101\file-6356.zip).Length
+   Get-FileHash -Algorithm SHA256 -LiteralPath C:\Users\svc-agent\Documents\harbor\src\module-008\file-1172.json | Format-List
+   Resolve-Path -LiteralPath C:\Users\ops\Documents\atlas\src\module-282\file-4408.txt | Select-Object -ExpandProperty Path
+   Rename-Item -LiteralPath C:\Users\svc-agent\Documents\quartz\src\module-232\file-5229.log -NewName arch-971.bak
+   Rename-Item -LiteralPath C:\Users\svc-agent\Documents\harbor\src\module-234\file-1822.txt -NewName arch-642.bak
+   Get-ChildItem -Path C:\Users\build\Documents\sonar\src\module-295\cache-5 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   icacls C:\Users\dev\Documents\vertex\src\module-255\cache-11
+   dir C:\Users\MrL\Documents\meridian\src\module-201\cache-33 /S /B /A-D
+   Get-ChildItem -Path C:\Users\svc-agent\Documents\harbor\src\module-060\cache-28 -Filter *.yaml | Measure-Object -Sum Length
+   Move-Item -LiteralPath C:\Users\MrL\Documents\lattice\src\module-280\file-7160.zip -Destination C:\Users\build\Documents\orion\src\module-362\file-8305.yaml
+   where /R C:\Users\build\Documents\lattice\src\module-169\cache-20 *.yaml
+   Get-FileHash -Algorithm SHA256 -LiteralPath C:\Users\MrL\Documents\atlas\src\module-217\file-3023.json | Format-List
+   Get-ChildItem -Path C:\Users\ops\Documents\lattice\src\module-231\file-4770.yaml -Force | Select-Object Name, Length, LastWriteTime
+   xcopy C:\Users\MrL\Documents\harbor\src\module-265\cache-70 C:\Users\ops\Documents\kepler\src\module-218\cache-34 /E /I /Y /Q
+   dir C:\Users\svc-agent\Documents\kepler\src\module-053\cache-0 /S /B /A-D
+   (Get-Item -LiteralPath C:\Users\MrL\Documents\sonar\src\module-314\file-5960.json).Length
+   robocopy C:\Users\svc-agent\Documents\atlas\src\module-354\cache-63 C:\Users\ops\Documents\delta\src\module-340\cache-12 /E /R:1 /W:1 /NP /LOG:C:\Users\ops\Documents\vertex\src\module-163\file-2804.bak
+   Set-Content -LiteralPath C:\Users\MrL\Documents\vertex\src\module-137\file-6630.json -Value 'artifact 5194' -Encoding utf8
+   Add-Content -LiteralPath C:\Users\svc-agent\Documents\atlas\src\module-047\file-7859.yaml -Value (Get-Date -Format o)
+   xcopy C:\Users\dev\Documents\kepler\src\module-049\cache-10 C:\Users\ops\Documents\perigee\src\module-097\cache-49 /E /I /Y /Q
+!! robocopy C:\empty C:\Users\build\Documents\lattice\src\module-119\file-6141.csv /MIR
+   xcopy C:\Users\svc-agent\Documents\sonar\src\module-141\cache-29 C:\Users\build\Documents\quartz\src\module-046\cache-48 /E /I /Y /Q
+   where /R C:\Users\svc-agent\Documents\perigee\src\module-271\cache-84 *.json
+   icacls C:\Users\dev\Documents\sonar\src\module-076\cache-74
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\quartz\src\module-088\cache-1 -Force | Out-Null
+   Resolve-Path -LiteralPath C:\Users\ops\Documents\vertex\src\module-378\file-3728.cmd | Select-Object -ExpandProperty Path
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\vertex\src\module-341\cache-9 -Force | Out-Null
+   Copy-Item -LiteralPath C:\Users\build\Documents\delta\src\module-170\file-4068.txt -Destination C:\Users\ops\Documents\meridian\src\module-232\file-9275.json -Force
+   Set-Content -LiteralPath C:\Users\MrL\Documents\sonar\src\module-187\file-4261.csv -Value 'artifact 7925' -Encoding utf8
+   Get-ChildItem -LiteralPath cmd /c "C:\Users\build\Documents\perigee\src\module-258\cache-78" -Recurse -File
+   Get-ChildItem -Path C:\Users\build\Documents\lattice\src\module-262\file-9296.cmd -Force | Select-Object Name, Length, LastWriteTime
+   robocopy C:\Users\build\Documents\sonar\src\module-135\cache-37 C:\Users\MrL\Documents\sonar\src\module-197\cache-57 /E /R:1 /W:1 /NP /LOG:C:\Users\svc-agent\Documents\orion\src\module-082\file-1796.yaml
+   tree C:\Users\MrL\Documents\perigee\src\module-391\cache-10 /F /A
+   tree C:\Users\MrL\Documents\vertex\src\module-176\cache-1 /F /A
+   tree C:\Users\dev\Documents\quartz\src\module-204\cache-43 /F /A
+   Get-ChildItem -Path C:\Users\build\Documents\sonar\src\module-010\cache-87 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   tree C:\Users\dev\Documents\vertex\src\module-328\cache-12 /F /A
+   robocopy C:\Users\svc-agent\Documents\meridian\src\module-095\cache-55 C:\Users\MrL\Documents\quartz\src\module-136\cache-1 /E /R:1 /W:1 /NP /LOG:C:\Users\ops\Documents\vertex\src\module-260\file-6770.log
+   Add-Content -LiteralPath C:\Users\dev\Documents\vostok\src\module-108\file-5704.ps1 -Value (Get-Date -Format o)
+   tree C:\Users\MrL\Documents\perigee\src\module-330\cache-3 /F /A
+   dir C:\Users\build\Documents\kepler\src\module-018\cache-14 /S /B /A-D
+   Get-ChildItem -LiteralPath 'C:\Users\build\Documents\meridian\src\module-305\cache-54' -Recurse -File
+   Get-ChildItem -Path C:\Users\ops\Documents\meridian\src\module-256\cache-48 -Filter *.exe | Measure-Object -Sum Length
+   Move-Item -LiteralPath C:\Users\MrL\Documents\vostok\src\module-257\file-2019.tmp -Destination C:\Users\dev\Documents\kepler\src\module-083\file-5312.tmp
+   attrib C:\Users\dev\Documents\orion\src\module-346\file-6171.txt
+   Get-ChildItem -Path C:\Users\dev\Documents\orion\src\module-023\file-7543.md -Force | Select-Object Name, Length, LastWriteTime
+   Resolve-Path -LiteralPath C:\Users\ops\Documents\delta\src\module-295\file-4905.json | Select-Object -ExpandProperty Path
+   Get-ChildItem -Path C:\Users\dev\Documents\kepler\src\module-301\cache-23 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   Resolve-Path -LiteralPath C:\Users\MrL\Documents\atlas\src\module-195\file-9427.csv | Select-Object -ExpandProperty Path
+   dir C:\Users\MrL\Documents\delta\src\module-110\cache-25 /S /B /A-D
+   Set-Content -LiteralPath C:\Users\build\Documents\orion\src\module-172\file-1173.cmd -Value 'artifact 8034' -Encoding utf8
+   robocopy C:\Users\MrL\Documents\harbor\src\module-079\cache-41 C:\Users\dev\Documents\vostok\src\module-352\cache-25 /E /R:1 /W:1 /NP /LOG:C:\Users\dev\Documents\vertex\src\module-361\file-5646.dll
+   xcopy C:\Users\ops\Documents\vertex\src\module-262\cache-21 C:\Users\svc-agent\Documents\meridian\src\module-058\cache-64 /E /I /Y /Q
+   Copy-Item -LiteralPath C:\Users\MrL\Documents\atlas\src\module-290\file-3457.yaml -Destination C:\Users\build\Documents\vertex\src\module-141\file-2958.tmp -Force
+   (Get-Item -LiteralPath C:\Users\MrL\Documents\delta\src\module-344\file-6296.bak).Length
+   Get-ChildItem -Path C:\Users\dev\Documents\orion\src\module-362\cache-32 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   Rename-Item -LiteralPath C:\Users\build\Documents\sonar\src\module-230\file-7956.md -NewName arch-552.bak
+   Copy-Item -LiteralPath C:\Users\svc-agent\Documents\perigee\src\module-158\file-6088.exe -Destination C:\Users\build\Documents\vostok\src\module-129\file-6191.bat -Force
+   Get-ChildItem -Path C:\Users\build\Documents\meridian\src\module-350\file-6151.txt -Force | Select-Object Name, Length, LastWriteTime
+   (Get-Item -LiteralPath C:\Users\svc-agent\Documents\harbor\src\module-362\file-9703.md).Length
+   Get-ChildItem -Path C:\Users\build\Documents\delta\src\module-388\file-8998.bat -Force | Select-Object Name, Length, LastWriteTime
+   Get-ChildItem -Path C:\Users\MrL\Documents\meridian\src\module-054\cache-15 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   xcopy C:\Users\ops\Documents\perigee\src\module-293\cache-87 C:\Users\dev\Documents\sonar\src\module-311\cache-53 /E /I /Y /Q
+   icacls C:\Users\svc-agent\Documents\lattice\src\module-285\cache-35
+!! Remove-Item -LiteralPath "C:\Users\svc-agent\Documents\vostok\src\module-388\file-9587.cmd"
+   Set-Content -LiteralPath C:\Users\ops\Documents\perigee\src\module-216\file-5202.ps1 -Value 'artifact 5824' -Encoding utf8
+   attrib C:\Users\MrL\Documents\orion\src\module-197\file-2349.txt
+   Get-ChildItem -Path C:\Users\svc-agent\Documents\quartz\src\module-285\cache-2 -Filter *.csv | Measure-Object -Sum Length
+   Resolve-Path -LiteralPath C:\Users\dev\Documents\lattice\src\module-067\file-5488.bat | Select-Object -ExpandProperty Path
+   Get-ChildItem -Path C:\Users\build\Documents\vostok\src\module-358\cache-50 -Filter *.tmp | Measure-Object -Sum Length
+   Add-Content -LiteralPath C:\Users\svc-agent\Documents\atlas\src\module-169\file-6389.zip -Value (Get-Date -Format o)
+   Set-Content -LiteralPath C:\Users\svc-agent\Documents\delta\src\module-208\file-8724.yaml -Value 'artifact 6067' -Encoding utf8
+   icacls C:\Users\svc-agent\Documents\vostok\src\module-156\cache-73
+   tree C:\Users\ops\Documents\orion\src\module-273\cache-88 /F /A
+   Get-FileHash -Algorithm SHA256 -LiteralPath C:\Users\dev\Documents\perigee\src\module-184\file-2643.exe | Format-List
+   Set-Content -LiteralPath C:\Users\MrL\Documents\perigee\src\module-192\file-7274.zip -Value 'artifact 2278' -Encoding utf8
+   Move-Item -LiteralPath C:\Users\MrL\Documents\orion\src\module-376\file-4541.log -Destination C:\Users\build\Documents\orion\src\module-197\file-5368.txt
+   Copy-Item -LiteralPath C:\Users\svc-agent\Documents\vostok\src\module-132\file-6012.cmd -Destination C:\Users\dev\Documents\perigee\src\module-141\file-8590.csv -Force
+   Copy-Item -LiteralPath C:\Users\ops\Documents\meridian\src\module-012\file-7459.zip -Destination C:\Users\MrL\Documents\harbor\src\module-097\file-8840.zip -Force
+   Get-ChildItem -LiteralPath cmd /c "C:\Users\dev\Documents\vertex\src\module-221\cache-31" -Recurse -File
+   Get-FileHash -Algorithm SHA256 -LiteralPath C:\Users\build\Documents\orion\src\module-293\file-8032.ps1 | Format-List
+   attrib C:\Users\ops\Documents\atlas\src\module-199\file-5775.bat
+   Add-Content -LiteralPath C:\Users\ops\Documents\kepler\src\module-120\file-1471.ps1 -Value (Get-Date -Format o)
+   Move-Item -LiteralPath C:\Users\MrL\Documents\meridian\src\module-218\file-5155.txt -Destination C:\Users\build\Documents\sonar\src\module-174\file-1438.zip
+   tree C:\Users\ops\Documents\kepler\src\module-292\cache-87 /F /A
+   robocopy C:\Users\dev\Documents\perigee\src\module-379\cache-5 C:\Users\MrL\Documents\sonar\src\module-295\cache-39 /E /R:1 /W:1 /NP /LOG:C:\Users\dev\Documents\atlas\src\module-036\file-9119.csv
+   tree C:\Users\MrL\Documents\vostok\src\module-225\cache-25 /F /A
+   Copy-Item -LiteralPath C:\Users\svc-agent\Documents\perigee\src\module-102\file-1729.log -Destination C:\Users\dev\Documents\meridian\src\module-054\file-6676.dll -Force
+   Move-Item -LiteralPath C:\Users\dev\Documents\quartz\src\module-198\file-7166.csv -Destination C:\Users\build\Documents\quartz\src\module-293\file-9666.log
+   attrib C:\Users\ops\Documents\delta\src\module-231\file-8775.tmp
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\harbor\src\module-238\cache-28 -Force | Out-Null
+   icacls C:\Users\ops\Documents\perigee\src\module-268\cache-2
+   Get-ChildItem -LiteralPath 'C:\Users\dev\Documents\quartz\src\module-296\cache-59' -Recurse -File
+   Get-FileHash -Algorithm SHA256 -LiteralPath C:\Users\dev\Documents\harbor\src\module-314\file-2842.csv | Format-List
+   robocopy C:\Users\svc-agent\Documents\harbor\src\module-274\cache-75 C:\Users\build\Documents\delta\src\module-153\cache-48 /E /R:1 /W:1 /NP /LOG:C:\Users\svc-agent\Documents\quartz\src\module-344\file-7904.dll
+   New-Item -ItemType Directory -Path C:\Users\svc-agent\Documents\lattice\src\module-056\cache-75 -Force | Out-Null
+   robocopy C:\Users\MrL\Documents\meridian\src\module-161\cache-45 C:\Users\ops\Documents\orion\src\module-224\cache-68 /E /R:1 /W:1 /NP /LOG:C:\Users\svc-agent\Documents\meridian\src\module-053\file-7712.bat
+   Get-FileHash -Algorithm SHA256 -LiteralPath C:\Users\dev\Documents\harbor\src\module-235\file-2905.json | Format-List
+   attrib C:\Users\MrL\Documents\kepler\src\module-053\file-6216.ps1
+   xcopy C:\Users\dev\Documents\orion\src\module-386\cache-62 C:\Users\ops\Documents\delta\src\module-312\cache-17 /E /I /Y /Q
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\delta\src\module-376\cache-22 -Force | Out-Null
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\orion\src\module-283\cache-35 -Force | Out-Null
+   Rename-Item -LiteralPath C:\Users\dev\Documents\delta\src\module-389\file-6793.ps1 -NewName arch-965.bak
+   icacls C:\Users\svc-agent\Documents\kepler\src\module-137\cache-54
+   Move-Item -LiteralPath C:\Users\ops\Documents\vertex\src\module-155\file-8810.md -Destination C:\Users\build\Documents\vertex\src\module-275\file-5596.txt
+   Set-Content -LiteralPath C:\Users\svc-agent\Documents\perigee\src\module-172\file-5473.log -Value 'artifact 8427' -Encoding utf8
+   Add-Content -LiteralPath C:\Users\ops\Documents\quartz\src\module-354\file-6444.cmd -Value (Get-Date -Format o)
+   (Get-Item -LiteralPath C:\Users\MrL\Documents\delta\src\module-064\file-2640.dll).Length
+   Move-Item -LiteralPath C:\Users\MrL\Documents\kepler\src\module-236\file-7415.zip -Destination C:\Users\build\Documents\atlas\src\module-331\file-4911.cmd
+   Add-Content -LiteralPath C:\Users\MrL\Documents\sonar\src\module-191\file-5353.bak -Value (Get-Date -Format o)
+   Copy-Item -LiteralPath C:\Users\MrL\Documents\orion\src\module-318\file-6555.csv -Destination C:\Users\dev\Documents\harbor\src\module-377\file-4124.md -Force
+   Get-ChildItem -Path C:\Users\build\Documents\meridian\src\module-111\cache-20 -Filter *.md | Measure-Object -Sum Length
+   Set-Content -LiteralPath C:\Users\svc-agent\Documents\quartz\src\module-249\file-1082.exe -Value 'artifact 6995' -Encoding utf8
+   Resolve-Path -LiteralPath C:\Users\ops\Documents\meridian\src\module-387\file-4965.dll | Select-Object -ExpandProperty Path
+   Move-Item -LiteralPath C:\Users\ops\Documents\vostok\src\module-310\file-8155.json -Destination C:\Users\MrL\Documents\harbor\src\module-234\file-4763.bak
+   Copy-Item -LiteralPath C:\Users\svc-agent\Documents\kepler\src\module-258\file-8497.csv -Destination C:\Users\build\Documents\delta\src\module-035\file-6315.bak -Force
+   Get-ChildItem -Path C:\Users\dev\Documents\delta\src\module-360\cache-45 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   xcopy C:\Users\svc-agent\Documents\meridian\src\module-393\cache-21 C:\Users\ops\Documents\kepler\src\module-147\cache-8 /E /I /Y /Q
+   attrib C:\Users\build\Documents\harbor\src\module-221\file-2829.md
+   Get-ChildItem -Path C:\Users\dev\Documents\lattice\src\module-311\cache-86 -Filter *.log | Measure-Object -Sum Length
+   (Get-Item -LiteralPath C:\Users\MrL\Documents\perigee\src\module-175\file-7688.txt).Length
+   Get-ChildItem -Path C:\Users\build\Documents\harbor\src\module-213\file-9723.tmp -Force | Select-Object Name, Length, LastWriteTime
+!! robocopy C:\empty C:\Users\dev\Documents\perigee\src\module-353\file-9927.bak /MIR
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\sonar\src\module-241\cache-76 -Force | Out-Null
+   dir C:\Users\build\Documents\meridian\src\module-380\cache-65 /S /B /A-D
+   where /R C:\Users\build\Documents\lattice\src\module-240\cache-82 *.cmd
+   Get-ChildItem -LiteralPath 'C:\Users\MrL\Documents\sonar\src\module-040\cache-9' -Recurse -File
+   where /R C:\Users\MrL\Documents\lattice\src\module-182\cache-86 *.zip
+   Rename-Item -LiteralPath C:\Users\dev\Documents\lattice\src\module-147\file-5436.bat -NewName arch-814.bak
+   Copy-Item -LiteralPath C:\Users\svc-agent\Documents\vertex\src\module-249\file-5435.yaml -Destination C:\Users\ops\Documents\sonar\src\module-051\file-1215.cmd -Force
+   Add-Content -LiteralPath C:\Users\ops\Documents\vertex\src\module-174\file-7151.bat -Value (Get-Date -Format o)
+   attrib C:\Users\ops\Documents\harbor\src\module-072\file-4090.md
+   New-Item -ItemType Directory -Path C:\Users\svc-agent\Documents\kepler\src\module-040\cache-60 -Force | Out-Null
+   attrib C:\Users\ops\Documents\vertex\src\module-156\file-9449.bak
+   Rename-Item -LiteralPath C:\Users\svc-agent\Documents\quartz\src\module-352\file-1094.bat -NewName arch-943.bak
+   where /R C:\Users\MrL\Documents\perigee\src\module-192\cache-59 *.md
+   tree C:\Users\ops\Documents\kepler\src\module-208\cache-31 /F /A
+   Set-Content -LiteralPath C:\Users\MrL\Documents\sonar\src\module-188\file-6238.json -Value 'artifact 6005' -Encoding utf8
+   icacls C:\Users\dev\Documents\meridian\src\module-393\cache-19
+   tree C:\Users\svc-agent\Documents\vostok\src\module-023\cache-26 /F /A
+   robocopy C:\Users\dev\Documents\atlas\src\module-120\cache-40 C:\Users\MrL\Documents\perigee\src\module-158\cache-41 /E /R:1 /W:1 /NP /LOG:C:\Users\MrL\Documents\kepler\src\module-144\file-5594.bak
+   Rename-Item -LiteralPath C:\Users\dev\Documents\atlas\src\module-273\file-7136.txt -NewName arch-561.bak
+   Get-ChildItem -Path C:\Users\dev\Documents\perigee\src\module-276\cache-63 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   Add-Content -LiteralPath C:\Users\dev\Documents\perigee\src\module-114\file-1635.zip -Value (Get-Date -Format o)
+   robocopy C:\Users\svc-agent\Documents\quartz\src\module-380\cache-16 C:\Users\build\Documents\vertex\src\module-351\cache-8 /E /R:1 /W:1 /NP /LOG:C:\Users\build\Documents\vostok\src\module-360\file-9871.exe
+   dir C:\Users\MrL\Documents\vostok\src\module-182\cache-3 /S /B /A-D
+   tree C:\Users\ops\Documents\vostok\src\module-236\cache-36 /F /A
+   Copy-Item -LiteralPath C:\Users\dev\Documents\vertex\src\module-012\file-2466.cmd -Destination C:\Users\ops\Documents\meridian\src\module-328\file-1451.ps1 -Force
+   Add-Content -LiteralPath C:\Users\dev\Documents\sonar\src\module-175\file-1274.zip -Value (Get-Date -Format o)
+   Set-Content -LiteralPath C:\Users\svc-agent\Documents\vostok\src\module-051\file-8554.exe -Value 'artifact 3983' -Encoding utf8
+   dir C:\Users\MrL\Documents\delta\src\module-303\cache-50 /S /B /A-D
+   Resolve-Path -LiteralPath C:\Users\MrL\Documents\vertex\src\module-146\file-5565.yaml | Select-Object -ExpandProperty Path
+   dir C:\Users\build\Documents\meridian\src\module-347\cache-61 /S /B /A-D
+   Set-Content -LiteralPath C:\Users\build\Documents\vostok\src\module-087\file-3891.md -Value 'artifact 7427' -Encoding utf8
+   Get-ChildItem -Path C:\Users\build\Documents\meridian\src\module-325\cache-18 -Recurse -Include *.log,*.tmp | Where-Object Length -gt 0
+   (Get-Item -LiteralPath C:\Users\ops\Documents\vostok\src\module-113\file-4067.md).Length
+   dir C:\Users\ops\Documents\harbor\src\module-107\cache-82 /S /B /A-D
+   tree C:\Users\MrL\Documents\meridian\src\module-011\cache-55 /F /A
+   Get-ChildItem -Path C:\Users\dev\Documents\delta\src\module-260\cache-80 -Filter *.json | Measure-Object -Sum Length
+   Rename-Item -LiteralPath C:\Users\svc-agent\Documents\meridian\src\module-215\file-2269.txt -NewName arch-304.bak
+!! Remove-Item -Recurse -Force C:\Users\ops\Documents\orion\src\module-260\file-5820.log | Out-Null
+   Resolve-Path -LiteralPath C:\Users\MrL\Documents\lattice\src\module-300\file-2961.md | Select-Object -ExpandProperty Path
+   xcopy C:\Users\dev\Documents\atlas\src\module-231\cache-51 C:\Users\MrL\Documents\sonar\src\module-019\cache-7 /E /I /Y /Q
+   Add-Content -LiteralPath C:\Users\ops\Documents\lattice\src\module-069\file-4758.dll -Value (Get-Date -Format o)
+   Get-ChildItem -Path C:\Users\svc-agent\Documents\atlas\src\module-072\cache-17 -Filter *.json | Measure-Object -Sum Length
+   Get-ChildItem -LiteralPath C:\Users\build\Documents\meridian\src\module-399\cache-61 -Recurse -File
+   (Get-Item -LiteralPath C:\Users\build\Documents\atlas\src\module-030\file-2898.ps1).Length
+   (Get-Item -LiteralPath C:\Users\dev\Documents\vertex\src\module-327\file-6224.md).Length
+   Resolve-Path -LiteralPath C:\Users\svc-agent\Documents\delta\src\module-192\file-3848.cmd | Select-Object -ExpandProperty Path
+   Get-ChildItem -LiteralPath C:\Users\build\Documents\lattice\src\module-000\cache-14 -Recurse -File
+   attrib C:\Users\MrL\Documents\meridian\src\module-214\file-1069.log
+   Get-ChildItem -Path C:\Users\svc-agent\Documents\vostok\src\module-022\file-5933.txt -Force | Select-Object Name, Length, LastWriteTime

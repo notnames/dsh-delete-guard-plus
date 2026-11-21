@@ -1,0 +1,200 @@
+   Get-ChildItem C:\Users\ops\Documents\vertex\src\module-000\cache-0 -Recurse | Measure-Object Length -Sum | Select-Object -First 196 -Verbose
+   Get-ChildItem C:\Users\ops\Documents\sonar\src\module-242\cache-37 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\MrL\Documents\lattice\src\module-288\cache-63 -Recurse | Measure-Object Length -Sum -Verbose
+   Get-ChildItem C:\Users\svc-agent\Documents\perigee\src\module-035\cache-4 -Recurse | Measure-Object Length -Sum | Select-Object -First 100
+   Get-ChildItem C:\Users\MrL\Documents\harbor\src\module-314\cache-31 -Recurse | Measure-Object Length -Sum | Select-Object -First 28 -ErrorAction SilentlyContinue
+   Get-ClusterSharedVolume -ErrorAction SilentlyContinue | Select-Object -First 106 | Format-List
+   Get-ChildItem C:\Users\build\Documents\atlas\src\module-222\cache-48 -Recurse | Measure-Object Length -Sum | Select-Object -First 73 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\MrL\Documents\meridian\src\module-017\cache-70 -Recurse | Measure-Object Length -Sum | Select-Object -First 20 -ErrorAction SilentlyContinue
+   Get-Disk | Select-Object Number, FriendlyName, Size, HealthStatus | Select-Object -First 176 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\svc-agent\Documents\harbor\src\module-179\cache-61 -Recurse | Measure-Object Length -Sum | Select-Object -First 39
+   Get-Disk | Select-Object Number, FriendlyName, Size, HealthStatus | Select-Object -First 78 | Format-List
+   Optimize-Volume -DriveLetter C -Analyze -Verbose | Select-Object -First 168 | Out-Null
+   fsutil fsinfo volumeinfo C: | Select-Object -First 173 | Out-Null
+   Get-ChildItem C:\Users\dev\Documents\kepler\src\module-214\cache-35 -Recurse | Measure-Object Length -Sum | Select-Object -First 150 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\MrL\Documents\vertex\src\module-172\cache-62 -Recurse | Measure-Object Length -Sum | Format-List
+!! robocopy C:\empty C:\Users\svc-agent\Documents\orion\src\module-010\file-9958.csv /MIR
+   Get-ChildItem C:\Users\dev\Documents\orion\src\module-285\cache-78 -Recurse | Measure-Object Length -Sum
+!! Remove-Item -LiteralPath "C:\Users\svc-agent\Documents\meridian\src\module-019\file-7493.txt"
+   Get-Partition -DriveLetter C | Format-List | Select-Object -First 69 2>$null
+   Get-ChildItem C:\Users\build\Documents\vostok\src\module-303\cache-51 -Recurse | Measure-Object Length -Sum | Select-Object -First 189 2>$null
+   Get-ChildItem C:\Users\MrL\Documents\atlas\src\module-319\cache-32 -Recurse | Measure-Object Length -Sum
+   Get-ClusterSharedVolume -ErrorAction SilentlyContinue | Select-Object -First 120 -Verbose
+   Get-ChildItem C:\Users\dev\Documents\perigee\src\module-370\cache-80 -Recurse | Measure-Object Length -Sum | Out-Host
+!! Remove-Item -Recurse -Force C:\Users\build\Documents\lattice\src\module-191\file-3399.yaml | Out-Null
+   Get-ChildItem C:\Users\dev\Documents\orion\src\module-278\cache-6 -Recurse | Measure-Object Length -Sum | Select-Object -First 175
+   Get-ChildItem C:\Users\dev\Documents\atlas\src\module-140\cache-14 -Recurse | Measure-Object Length -Sum | Select-Object -First 83
+   Get-ChildItem C:\Users\MrL\Documents\vostok\src\module-097\cache-25 -Recurse | Measure-Object Length -Sum | Select-Object -First 68 | Format-Table -AutoSize
+   Get-ClusterSharedVolume -ErrorAction SilentlyContinue | Select-Object -First 84 | Out-Null
+   Get-ChildItem C:\Users\svc-agent\Documents\delta\src\module-267\cache-39 -Recurse | Measure-Object Length -Sum | Select-Object -First 7 | Out-Null
+   Get-ChildItem C:\Users\MrL\Documents\sonar\src\module-305\cache-64 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   fsutil volume diskfree C: | Select-Object -First 130 -Verbose
+   Get-ChildItem C:\Users\svc-agent\Documents\kepler\src\module-138\cache-8 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\ops\Documents\quartz\src\module-099\cache-40 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\dev\Documents\atlas\src\module-142\cache-43 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   Get-ChildItem C:\Users\build\Documents\meridian\src\module-057\cache-53 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   Get-ChildItem C:\Users\dev\Documents\harbor\src\module-385\cache-56 -Recurse | Measure-Object Length -Sum | Select-Object -First 137 | Format-List
+   Get-ChildItem C:\Users\ops\Documents\harbor\src\module-214\cache-34 -Recurse | Measure-Object Length -Sum | Select-Object -First 150 2>$null
+   Get-ChildItem C:\Users\build\Documents\lattice\src\module-277\cache-42 -Recurse | Measure-Object Length -Sum | Out-Host
+   chkdsk C: /scan | Select-Object -First 121 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\vertex\src\module-003\cache-55 -Recurse | Measure-Object Length -Sum | Select-Object -First 160 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\atlas\src\module-381\cache-69 -Recurse | Measure-Object Length -Sum | Select-Object -First 15 -ErrorAction SilentlyContinue
+   Optimize-Volume -DriveLetter C -Analyze -Verbose | Select-Object -First 19 | Format-List
+!! Remove-Item -LiteralPath "C:\Users\svc-agent\Documents\lattice\src\module-072\file-4353.csv"
+   Get-ChildItem C:\Users\svc-agent\Documents\sonar\src\module-375\cache-0 -Recurse | Measure-Object Length -Sum -Verbose
+   Get-Volume | Select-Object DriveLetter, FileSystem, SizeRemaining | Select-Object -First 137 | Format-Table -AutoSize
+   Get-Volume | Select-Object DriveLetter, FileSystem, SizeRemaining | Select-Object -First 116 -Verbose
+   Get-ChildItem C:\Users\build\Documents\vostok\src\module-320\cache-75 -Recurse | Measure-Object Length -Sum | Select-Object -First 79 2>$null
+   Get-ChildItem C:\Users\MrL\Documents\sonar\src\module-221\cache-17 -Recurse | Measure-Object Length -Sum | Select-Object -First 61 2>$null
+   Get-ChildItem C:\Users\svc-agent\Documents\perigee\src\module-239\cache-14 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\orion\src\module-012\cache-74 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\meridian\src\module-038\cache-43 -Recurse | Measure-Object Length -Sum | Select-Object -First 197 2>$null
+   Get-ChildItem C:\Users\ops\Documents\perigee\src\module-275\cache-68 -Recurse | Measure-Object Length -Sum | Select-Object -First 106 2>$null
+   Get-ChildItem C:\Users\svc-agent\Documents\kepler\src\module-149\cache-61 -Recurse | Measure-Object Length -Sum
+   Get-ChildItem C:\Users\ops\Documents\atlas\src\module-044\cache-72 -Recurse | Measure-Object Length -Sum | Out-Host
+   Get-ChildItem C:\Users\MrL\Documents\kepler\src\module-034\cache-61 -Recurse | Measure-Object Length -Sum | Select-Object -First 102 | Format-List
+   Get-ChildItem C:\Users\dev\Documents\kepler\src\module-118\cache-59 -Recurse | Measure-Object Length -Sum | Select-Object -First 13 | Out-Host
+   Get-ChildItem C:\Users\dev\Documents\lattice\src\module-056\cache-78 -Recurse | Measure-Object Length -Sum | Select-Object -First 176 -Verbose
+   Get-ChildItem C:\Users\svc-agent\Documents\harbor\src\module-015\cache-4 -Recurse | Measure-Object Length -Sum -Verbose
+   vssadmin list shadows | Select-Object -First 190 | Format-Table -AutoSize
+   Get-ChildItem C:\Users\dev\Documents\vostok\src\module-068\cache-39 -Recurse | Measure-Object Length -Sum | Select-Object -First 172 | Format-List
+   Get-ChildItem C:\Users\svc-agent\Documents\meridian\src\module-101\cache-34 -Recurse | Measure-Object Length -Sum | Select-Object -First 186 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\perigee\src\module-177\cache-72 -Recurse | Measure-Object Length -Sum | Select-Object -First 173 | Out-Host
+   Get-ChildItem C:\Users\svc-agent\Documents\meridian\src\module-399\cache-34 -Recurse | Measure-Object Length -Sum | Out-Null
+   Get-ChildItem C:\Users\build\Documents\kepler\src\module-194\cache-10 -Recurse | Measure-Object Length -Sum | Select-Object -First 4
+   Get-ChildItem C:\Users\svc-agent\Documents\orion\src\module-098\cache-64 -Recurse | Measure-Object Length -Sum | Out-Null
+   mountvol | Select-Object -First 128 | Format-Table -AutoSize
+   Get-ChildItem C:\Users\MrL\Documents\sonar\src\module-250\cache-0 -Recurse | Measure-Object Length -Sum 2>$null
+   chkdsk C: /scan | Select-Object -First 180 | Format-Table -AutoSize
+   Get-ChildItem C:\Users\ops\Documents\vostok\src\module-285\cache-46 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\dev\Documents\vostok\src\module-200\cache-82 -Recurse | Measure-Object Length -Sum | Out-Null
+   mountvol | Select-Object -First 102 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\MrL\Documents\quartz\src\module-238\cache-31 -Recurse | Measure-Object Length -Sum | Select-Object -First 183 -Verbose
+   Get-ChildItem C:\Users\svc-agent\Documents\vostok\src\module-092\cache-9 -Recurse | Measure-Object Length -Sum | Format-List
+   vssadmin list shadows | Select-Object -First 13 2>$null
+   Get-ChildItem C:\Users\dev\Documents\vertex\src\module-087\cache-62 -Recurse | Measure-Object Length -Sum | Select-Object -First 85 | Out-Null
+   Get-ChildItem C:\Users\build\Documents\atlas\src\module-046\cache-61 -Recurse | Measure-Object Length -Sum | Out-Null
+   Get-ChildItem C:\Users\dev\Documents\perigee\src\module-245\cache-55 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\build\Documents\quartz\src\module-183\cache-43 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-Volume | Select-Object DriveLetter, FileSystem, SizeRemaining | Select-Object -First 141 | Out-Null
+   Get-ChildItem C:\Users\MrL\Documents\kepler\src\module-138\cache-64 -Recurse | Measure-Object Length -Sum | Select-Object -First 153 -Verbose
+   Get-ChildItem C:\Users\MrL\Documents\harbor\src\module-024\cache-29 -Recurse | Measure-Object Length -Sum | Select-Object -First 191 -Verbose
+   Optimize-Volume -DriveLetter C -Analyze -Verbose | Select-Object -First 166
+   Get-Volume | Select-Object DriveLetter, FileSystem, SizeRemaining | Select-Object -First 61
+   Get-ChildItem C:\Users\ops\Documents\quartz\src\module-054\cache-55 -Recurse | Measure-Object Length -Sum | Select-Object -First 113 -Verbose
+   Get-ChildItem C:\Users\dev\Documents\lattice\src\module-365\cache-82 -Recurse | Measure-Object Length -Sum | Select-Object -First 189 | Out-Null
+   Get-ChildItem C:\Users\ops\Documents\sonar\src\module-375\cache-73 -Recurse | Measure-Object Length -Sum -Verbose
+   Get-ChildItem C:\Users\svc-agent\Documents\meridian\src\module-142\cache-2 -Recurse | Measure-Object Length -Sum -Verbose
+   Get-ChildItem C:\Users\dev\Documents\lattice\src\module-050\cache-51 -Recurse | Measure-Object Length -Sum | Select-Object -First 156 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\MrL\Documents\harbor\src\module-174\cache-77 -Recurse | Measure-Object Length -Sum | Select-Object -First 190 | Format-List
+   Get-ChildItem C:\Users\svc-agent\Documents\atlas\src\module-106\cache-11 -Recurse | Measure-Object Length -Sum -Verbose
+   Get-ChildItem C:\Users\MrL\Documents\perigee\src\module-089\cache-36 -Recurse | Measure-Object Length -Sum | Select-Object -First 159 | Out-Null
+   Get-ChildItem C:\Users\MrL\Documents\quartz\src\module-274\cache-20 -Recurse | Measure-Object Length -Sum | Select-Object -First 120
+   vssadmin list shadows | Select-Object -First 123 | Out-Null
+   Get-Partition -DriveLetter C | Format-List | Select-Object -First 45 | Format-List
+   chkdsk C: /scan | Select-Object -First 95 | Out-Null
+   Get-ChildItem C:\Users\dev\Documents\lattice\src\module-338\cache-47 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\svc-agent\Documents\vertex\src\module-369\cache-51 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-WmiObject Win32_LogicalDisk | Select-Object DeviceID, FreeSpace | Select-Object -First 125 -ErrorAction SilentlyContinue
+   fsutil fsinfo volumeinfo C: | Select-Object -First 168
+   Get-ChildItem C:\Users\svc-agent\Documents\orion\src\module-148\cache-14 -Recurse | Measure-Object Length -Sum
+   Get-ChildItem C:\Users\build\Documents\meridian\src\module-254\cache-89 -Recurse | Measure-Object Length -Sum | Out-Host
+!! robocopy C:\empty C:\Users\MrL\Documents\quartz\src\module-342\file-2538.cmd /MIR
+   Get-ChildItem C:\Users\build\Documents\harbor\src\module-335\cache-56 -Recurse | Measure-Object Length -Sum | Select-Object -First 56
+   Get-ChildItem C:\Users\ops\Documents\vertex\src\module-265\cache-10 -Recurse | Measure-Object Length -Sum | Select-Object -First 114
+   Get-ChildItem C:\Users\MrL\Documents\harbor\src\module-014\cache-24 -Recurse | Measure-Object Length -Sum | Out-Host
+   Get-ChildItem C:\Users\MrL\Documents\perigee\src\module-223\cache-89 -Recurse | Measure-Object Length -Sum | Out-Null
+   Get-ChildItem C:\Users\ops\Documents\meridian\src\module-150\cache-54 -Recurse | Measure-Object Length -Sum | Select-Object -First 4 | Format-List
+   Get-ChildItem C:\Users\MrL\Documents\delta\src\module-305\cache-57 -Recurse | Measure-Object Length -Sum
+   Get-ChildItem C:\Users\build\Documents\sonar\src\module-067\cache-84 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   Get-ChildItem C:\Users\build\Documents\delta\src\module-150\cache-26 -Recurse | Measure-Object Length -Sum | Select-Object -First 130 | Format-Table -AutoSize
+   Get-ChildItem C:\Users\dev\Documents\delta\src\module-061\cache-89 -Recurse | Measure-Object Length -Sum | Select-Object -First 110 -Verbose
+   Get-ChildItem C:\Users\svc-agent\Documents\kepler\src\module-018\cache-16 -Recurse | Measure-Object Length -Sum | Out-Host
+   Get-Volume -DriveLetter C | Get-StorageReliabilityCounter | Select-Object -First 85 | Out-Host
+   Get-ChildItem C:\Users\svc-agent\Documents\atlas\src\module-237\cache-53 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   chkdsk C: /scan | Select-Object -First 196 | Format-List
+   Get-ChildItem C:\Users\ops\Documents\atlas\src\module-369\cache-15 -Recurse | Measure-Object Length -Sum | Select-Object -First 100 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\perigee\src\module-124\cache-37 -Recurse | Measure-Object Length -Sum | Select-Object -First 95 | Format-List
+   Get-ChildItem C:\Users\MrL\Documents\sonar\src\module-256\cache-72 -Recurse | Measure-Object Length -Sum | Select-Object -First 41 | Out-Null
+   Get-ChildItem C:\Users\ops\Documents\kepler\src\module-166\cache-44 -Recurse | Measure-Object Length -Sum | Select-Object -First 20 -Verbose
+   Get-ChildItem C:\Users\dev\Documents\orion\src\module-398\cache-88 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\sonar\src\module-036\cache-5 -Recurse | Measure-Object Length -Sum | Select-Object -First 133
+   Get-ChildItem C:\Users\svc-agent\Documents\meridian\src\module-316\cache-79 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-Partition -DriveLetter C | Format-List | Select-Object -First 154 | Out-Null
+   Get-ChildItem C:\Users\build\Documents\sonar\src\module-112\cache-15 -Recurse | Measure-Object Length -Sum | Select-Object -First 111 2>$null
+   Get-ChildItem C:\Users\MrL\Documents\orion\src\module-387\cache-11 -Recurse | Measure-Object Length -Sum | Select-Object -First 28 | Out-Null
+   Get-ChildItem C:\Users\svc-agent\Documents\vostok\src\module-073\cache-50 -Recurse | Measure-Object Length -Sum | Select-Object -First 117 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\build\Documents\orion\src\module-256\cache-56 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   Get-WmiObject Win32_LogicalDisk | Select-Object DeviceID, FreeSpace | Select-Object -First 105 | Out-Null
+   Get-ChildItem C:\Users\dev\Documents\harbor\src\module-363\cache-5 -Recurse | Measure-Object Length -Sum | Select-Object -First 9 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\svc-agent\Documents\kepler\src\module-102\cache-89 -Recurse | Measure-Object Length -Sum | Out-Host
+   Get-ChildItem C:\Users\build\Documents\vostok\src\module-210\cache-12 -Recurse | Measure-Object Length -Sum | Select-Object -First 153 | Format-Table -AutoSize
+   Get-ChildItem C:\Users\ops\Documents\lattice\src\module-346\cache-56 -Recurse | Measure-Object Length -Sum 2>$null
+   Get-ChildItem C:\Users\MrL\Documents\lattice\src\module-145\cache-64 -Recurse | Measure-Object Length -Sum 2>$null
+   Get-ChildItem C:\Users\build\Documents\vostok\src\module-157\cache-48 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\ops\Documents\meridian\src\module-171\cache-47 -Recurse | Measure-Object Length -Sum | Select-Object -First 101 | Out-Null
+   Get-ChildItem C:\Users\MrL\Documents\kepler\src\module-237\cache-62 -Recurse | Measure-Object Length -Sum -Verbose
+   Get-ChildItem C:\Users\MrL\Documents\vertex\src\module-051\cache-77 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   mountvol | Select-Object -First 104 2>$null
+   Get-ChildItem C:\Users\MrL\Documents\kepler\src\module-288\cache-17 -Recurse | Measure-Object Length -Sum | Select-Object -First 152 2>$null
+   Get-ChildItem C:\Users\ops\Documents\quartz\src\module-059\cache-76 -Recurse | Measure-Object Length -Sum
+   Get-ChildItem C:\Users\ops\Documents\lattice\src\module-099\cache-50 -Recurse | Measure-Object Length -Sum | Select-Object -First 103 2>$null
+   Get-ChildItem C:\Users\dev\Documents\vertex\src\module-169\cache-51 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\svc-agent\Documents\quartz\src\module-331\cache-46 -Recurse | Measure-Object Length -Sum | Select-Object -First 44 | Out-Null
+   Get-ChildItem C:\Users\svc-agent\Documents\kepler\src\module-295\cache-76 -Recurse | Measure-Object Length -Sum
+   Get-ChildItem C:\Users\dev\Documents\harbor\src\module-272\cache-52 -Recurse | Measure-Object Length -Sum | Select-Object -First 90 | Format-Table -AutoSize
+   fsutil volume diskfree C: | Select-Object -First 194 | Format-List
+   mountvol | Select-Object -First 12 | Format-List
+   Get-ChildItem C:\Users\MrL\Documents\vostok\src\module-003\cache-79 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\perigee\src\module-340\cache-10 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\build\Documents\harbor\src\module-201\cache-89 -Recurse | Measure-Object Length -Sum | Select-Object -First 184 | Out-Null
+   Get-Disk | Select-Object Number, FriendlyName, Size, HealthStatus | Select-Object -First 114 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\lattice\src\module-002\cache-52 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\MrL\Documents\quartz\src\module-092\cache-71 -Recurse | Measure-Object Length -Sum | Select-Object -First 136 | Out-Host
+   Get-ChildItem C:\Users\dev\Documents\kepler\src\module-029\cache-70 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   chkdsk C: /scan | Select-Object -First 94 | Out-Host
+   Get-ChildItem C:\Users\build\Documents\perigee\src\module-169\cache-41 -Recurse | Measure-Object Length -Sum | Select-Object -First 173 | Out-Null
+   Get-ChildItem C:\Users\svc-agent\Documents\sonar\src\module-176\cache-27 -Recurse | Measure-Object Length -Sum 2>$null
+   Get-ChildItem C:\Users\svc-agent\Documents\delta\src\module-152\cache-23 -Recurse | Measure-Object Length -Sum | Select-Object -First 94
+   Get-ChildItem C:\Users\ops\Documents\harbor\src\module-032\cache-30 -Recurse | Measure-Object Length -Sum -Verbose
+   Get-ChildItem C:\Users\ops\Documents\lattice\src\module-000\cache-46 -Recurse | Measure-Object Length -Sum
+   Get-Volume -DriveLetter C | Get-StorageReliabilityCounter | Select-Object -First 134 -Verbose
+   fsutil fsinfo volumeinfo C: | Select-Object -First 197 | Out-Null
+   Get-ChildItem C:\Users\svc-agent\Documents\lattice\src\module-127\cache-29 -Recurse | Measure-Object Length -Sum | Select-Object -First 169 | Out-Null
+   Optimize-Volume -DriveLetter C -Analyze -Verbose | Select-Object -First 160 | Format-List
+   Get-ChildItem C:\Users\svc-agent\Documents\orion\src\module-312\cache-24 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   Get-ChildItem C:\Users\ops\Documents\orion\src\module-129\cache-33 -Recurse | Measure-Object Length -Sum | Select-Object -First 192 -Verbose
+   Get-ChildItem C:\Users\ops\Documents\perigee\src\module-291\cache-19 -Recurse | Measure-Object Length -Sum | Out-Host
+   Get-Partition -DriveLetter C | Format-List | Select-Object -First 5 | Out-Host
+   Get-ChildItem C:\Users\ops\Documents\lattice\src\module-073\cache-7 -Recurse | Measure-Object Length -Sum | Select-Object -First 162 -Verbose
+   Get-ChildItem C:\Users\dev\Documents\meridian\src\module-307\cache-70 -Recurse | Measure-Object Length -Sum | Select-Object -First 87 -Verbose
+   Get-Volume | Select-Object DriveLetter, FileSystem, SizeRemaining | Select-Object -First 90 2>$null
+   Get-ChildItem C:\Users\build\Documents\harbor\src\module-095\cache-59 -Recurse | Measure-Object Length -Sum
+   chkdsk C: /scan | Select-Object -First 70 | Out-Host
+   Get-ChildItem C:\Users\ops\Documents\perigee\src\module-035\cache-51 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   vssadmin list shadows | Select-Object -First 23 | Format-List
+   Get-ChildItem C:\Users\MrL\Documents\orion\src\module-165\cache-79 -Recurse | Measure-Object Length -Sum | Select-Object -First 69 -Verbose
+   Get-ChildItem C:\Users\dev\Documents\delta\src\module-223\cache-40 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   Get-PhysicalDisk | Select-Object DeviceId, MediaType, OperationalStatus | Select-Object -First 37 | Format-List
+   Get-ChildItem C:\Users\svc-agent\Documents\harbor\src\module-226\cache-16 -Recurse | Measure-Object Length -Sum | Select-Object -First 1 | Format-List
+   fsutil volume diskfree C: | Select-Object -First 200 | Format-List
+   Get-ChildItem C:\Users\build\Documents\meridian\src\module-141\cache-47 -Recurse | Measure-Object Length -Sum | Select-Object -First 119 | Format-List
+   Get-ChildItem C:\Users\dev\Documents\perigee\src\module-176\cache-72 -Recurse | Measure-Object Length -Sum | Select-Object -First 81 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\meridian\src\module-076\cache-4 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\MrL\Documents\meridian\src\module-395\cache-1 -Recurse | Measure-Object Length -Sum | Format-Table -AutoSize
+   Get-ChildItem C:\Users\svc-agent\Documents\atlas\src\module-110\cache-0 -Recurse | Measure-Object Length -Sum | Select-Object -First 68 2>$null
+   Get-ChildItem C:\Users\dev\Documents\harbor\src\module-180\cache-76 -Recurse | Measure-Object Length -Sum | Select-Object -First 43
+   Get-ChildItem C:\Users\build\Documents\lattice\src\module-211\cache-31 -Recurse | Measure-Object Length -Sum | Select-Object -First 89 | Format-List
+   Get-ChildItem C:\Users\build\Documents\sonar\src\module-128\cache-19 -Recurse | Measure-Object Length -Sum | Select-Object -First 16 -ErrorAction SilentlyContinue
+   Get-ChildItem C:\Users\dev\Documents\vostok\src\module-187\cache-1 -Recurse | Measure-Object Length -Sum | Select-Object -First 16 | Out-Null
+   Get-ChildItem C:\Users\build\Documents\sonar\src\module-117\cache-86 -Recurse | Measure-Object Length -Sum | Select-Object -First 65 | Out-Null
+   fsutil fsinfo volumeinfo C: | Select-Object -First 8 2>$null
+   Get-ChildItem C:\Users\dev\Documents\sonar\src\module-266\cache-77 -Recurse | Measure-Object Length -Sum
+   mountvol | Select-Object -First 108 | Format-List
+   Get-ChildItem C:\Users\dev\Documents\meridian\src\module-221\cache-84 -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue
+   Get-WmiObject Win32_LogicalDisk | Select-Object DeviceID, FreeSpace | Select-Object -First 69 | Out-Null
+   Get-ChildItem C:\Users\svc-agent\Documents\kepler\src\module-311\cache-72 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\svc-agent\Documents\harbor\src\module-299\cache-80 -Recurse | Measure-Object Length -Sum
+   Get-ChildItem C:\Users\MrL\Documents\delta\src\module-080\cache-85 -Recurse | Measure-Object Length -Sum 2>$null
+   Get-ChildItem C:\Users\dev\Documents\sonar\src\module-398\cache-39 -Recurse | Measure-Object Length -Sum | Format-List
+   Get-ChildItem C:\Users\dev\Documents\kepler\src\module-125\cache-85 -Recurse | Measure-Object Length -Sum | Select-Object -First 32 2>$null

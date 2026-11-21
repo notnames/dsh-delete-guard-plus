@@ -1,0 +1,200 @@
+   Get-WmiObject -Class Win32_Product -Filter "Name like '%lattice%'" -ErrorAction SilentlyContinue | Select-Object -First 106
+   $ErrorActionPreference = 'Stop'; Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 133
+   Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 147
+   $WarningPreference = 'Continue'; Get-PnpDevice -Class DiskDrive | Select-Object Status, FriendlyName | Select-Object -First 44 | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%vostok%'" -ErrorAction SilentlyContinue | Select-Object -First 151 | Out-Null
+   Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 95 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Get-PnpDevice -Class Display | Select-Object Status, FriendlyName | Select-Object -First 60 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 22 -ErrorAction SilentlyContinue
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 123 -Verbose
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 115
+   $ProgressPreference = 'SilentlyContinue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 91 | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 75
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 108 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 28 | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%lattice%'" -ErrorAction SilentlyContinue | Select-Object -First 25 | Format-List
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 175 -Verbose
+   $WarningPreference = 'Continue'; Get-PnpDevice -Class Net | Select-Object Status, FriendlyName | Out-Host
+   $ErrorActionPreference = 'Continue'; pnputil /enum-devices /connected | Select-Object -First 6 | Format-Table -AutoSize
+   Get-PrintJob -PrinterName "orion-printer" -ErrorAction SilentlyContinue | Select-Object -First 116 | Out-Null
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 52 | Out-Host
+   $ErrorActionPreference = 'Continue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 65 -Verbose
+   Get-PnpDevice -Class USB | Select-Object Status, FriendlyName | Select-Object -First 134 | Out-Null
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 30 | Out-Host
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 37
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 8 | Out-Null
+   $WarningPreference = 'Continue'; Get-PrintJob -PrinterName "kepler-printer" -ErrorAction SilentlyContinue -ErrorAction SilentlyContinue
+   $WarningPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 112 | Out-Host
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 130 | Out-Host
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 102 | Out-Null
+   $VerbosePreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%vostok%'" -ErrorAction SilentlyContinue | Select-Object -First 40 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Stop'; Get-PrintJob -PrinterName "harbor-printer" -ErrorAction SilentlyContinue | Select-Object -First 68 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "atlas-printer" -ErrorAction SilentlyContinue | Select-Object -First 181 | Format-Table -AutoSize
+!! Remove-Item -LiteralPath "C:\Users\ops\Documents\delta\src\module-011\file-4772.tmp"
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 145 -Verbose
+   $ErrorActionPreference = 'Stop'; Get-PnpDevice -Class Display | Select-Object Status, FriendlyName | Select-Object -First 81 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%harbor%'" -ErrorAction SilentlyContinue | Select-Object -First 67 -Verbose
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 100 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 11 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%meridian%'" -ErrorAction SilentlyContinue | Select-Object -First 93 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Stop'; Get-WmiObject -Class Win32_Product -Filter "Name like '%harbor%'" -ErrorAction SilentlyContinue | Select-Object -First 71 | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 172 | Format-List
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 95 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Get-PnpDevice -Class Display | Select-Object Status, FriendlyName | Select-Object -First 41 2>$null
+   $ErrorActionPreference = 'Continue'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 74 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 179 | Out-Host
+   $ErrorActionPreference = 'Continue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%orion%'" -ErrorAction SilentlyContinue | Select-Object -First 133 2>$null
+!! Remove-Item -LiteralPath "C:\Users\ops\Documents\meridian\src\module-398\file-5227.bat"
+   $WarningPreference = 'Continue'; pnputil /enum-devices /connected | Select-Object -First 181 | Format-List
+   $ErrorActionPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 130 -Verbose
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 91 | Format-List
+   $ErrorActionPreference = 'Stop'; Get-WmiObject -Class Win32_Product -Filter "Name like '%sonar%'" -ErrorAction SilentlyContinue | Select-Object -First 136 -Verbose
+!! robocopy C:\empty C:\Users\build\Documents\vertex\src\module-381\file-8906.md /MIR
+   $WarningPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 28 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "perigee-printer" -ErrorAction SilentlyContinue | Select-Object -First 100 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%sonar%'" -ErrorAction SilentlyContinue -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Stop'; Get-WmiObject -Class Win32_Product -Filter "Name like '%atlas%'" -ErrorAction SilentlyContinue | Select-Object -First 165 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 133 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; pnputil /enum-devices /connected | Select-Object -First 122 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 83 | Format-List
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 191 | Out-Host
+   Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 46 | Format-List
+   $VerbosePreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "vostok-printer" -ErrorAction SilentlyContinue | Select-Object -First 18 | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 107 2>$null
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 153 | Out-Null
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 127 | Out-Host
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 44 | Out-Host
+   $ErrorActionPreference = 'Stop'; Get-PnpDevice -Class Display | Select-Object Status, FriendlyName | Select-Object -First 63 | Out-Host
+   $WarningPreference = 'Continue'; pnputil /enum-devices /connected | Select-Object -First 163 | Out-Host
+   $WarningPreference = 'Continue'; Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 45 | Format-List
+   $VerbosePreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%vostok%'" -ErrorAction SilentlyContinue | Select-Object -First 62 | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 141 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 80 | Out-Host
+   $WarningPreference = 'Continue'; pnputil /enum-devices /connected | Select-Object -First 158 -Verbose
+!! Remove-Item -Recurse -Force C:\Users\dev\Documents\harbor\src\module-146\file-4096.dll | Out-Null
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 127
+   Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 8 | Out-Null
+   Get-PnpDevice -Class DiskDrive | Select-Object Status, FriendlyName | Select-Object -First 32 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; pnputil /enum-devices /connected | Select-Object -First 143 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "harbor-printer" -ErrorAction SilentlyContinue | Select-Object -First 108 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Get-PnpDevice -Class USB | Select-Object Status, FriendlyName | Select-Object -First 87 | Out-Null
+   $WarningPreference = 'Continue'; Get-PrintJob -PrinterName "meridian-printer" -ErrorAction SilentlyContinue | Select-Object -First 107 2>$null
+   Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 188 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; Get-PrintJob -PrinterName "perigee-printer" -ErrorAction SilentlyContinue | Select-Object -First 38 -Verbose
+   Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 133 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 128 | Format-Table -AutoSize
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 28 -Verbose
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 198
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 111 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 147 -ErrorAction SilentlyContinue
+   Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 111 | Format-List
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 137
+   $ErrorActionPreference = 'Continue'; Get-PnpDevice -Class USB | Select-Object Status, FriendlyName | Select-Object -First 170 -Verbose
+   $ProgressPreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%kepler%'" -ErrorAction SilentlyContinue | Select-Object -First 1 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "vostok-printer" -ErrorAction SilentlyContinue | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%vostok%'" -ErrorAction SilentlyContinue | Select-Object -First 176 2>$null
+   $ErrorActionPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 48 | Out-Null
+   $VerbosePreference = 'SilentlyContinue'; Get-PnpDevice -Class DiskDrive | Select-Object Status, FriendlyName | Select-Object -First 129 | Out-Null
+   $ErrorActionPreference = 'Stop'; pnputil /enum-devices /connected | Select-Object -First 51
+   $ErrorActionPreference = 'Continue'; pnputil /enum-devices /connected | Select-Object -First 140 2>$null
+   $ErrorActionPreference = 'Continue'; Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 79 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Get-PrintJob -PrinterName "delta-printer" -ErrorAction SilentlyContinue | Select-Object -First 21
+   Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 94 2>$null
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 123 -ErrorAction SilentlyContinue
+   Get-WmiObject -Class Win32_Product -Filter "Name like '%meridian%'" -ErrorAction SilentlyContinue | Select-Object -First 143 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 49
+   $ErrorActionPreference = 'Continue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 105 | Format-Table -AutoSize
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 164 2>$null
+   $ErrorActionPreference = 'Continue'; Get-PnpDevice -Class Net | Select-Object Status, FriendlyName | Select-Object -First 142 -Verbose
+   $ProgressPreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "orion-printer" -ErrorAction SilentlyContinue | Select-Object -First 196 | Format-List
+   $ErrorActionPreference = 'Continue'; Get-PrintJob -PrinterName "harbor-printer" -ErrorAction SilentlyContinue | Select-Object -First 48 | Out-Host
+   Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 26 -Verbose
+!! Remove-Item -LiteralPath "C:\Users\dev\Documents\quartz\src\module-275\file-8712.exe"
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 4 | Out-Host
+   Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 184 | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 91 -Verbose
+   $ErrorActionPreference = 'Continue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 82
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 14 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 166 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 166 | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 93 | Out-Null
+   $ErrorActionPreference = 'Stop'; Get-PrintJob -PrinterName "atlas-printer" -ErrorAction SilentlyContinue | Select-Object -First 100
+   Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 108 -ErrorAction SilentlyContinue
+   pnputil /enum-devices /connected | Select-Object -First 17 | Format-Table -AutoSize
+   $ErrorActionPreference = 'Stop'; Get-WmiObject -Class Win32_Product -Filter "Name like '%perigee%'" -ErrorAction SilentlyContinue | Select-Object -First 56 2>$null
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 190 2>$null
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 19 | Format-List
+   $ErrorActionPreference = 'Continue'; Get-PnpDevice -Class DiskDrive | Select-Object Status, FriendlyName | Select-Object -First 51 2>$null
+   $ErrorActionPreference = 'Continue'; Get-PrintJob -PrinterName "lattice-printer" -ErrorAction SilentlyContinue | Select-Object -First 116 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 78 | Out-Null
+   $WarningPreference = 'Continue'; pnputil /enum-devices /connected | Select-Object -First 75 -ErrorAction SilentlyContinue
+   Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 198 2>$null
+   pnputil /enum-devices /connected | Select-Object -First 180 | Format-List
+   $ErrorActionPreference = 'Stop'; Get-PnpDevice -Class USB | Select-Object Status, FriendlyName | Select-Object -First 164 | Out-Null
+   $ErrorActionPreference = 'Stop'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 103
+   $ErrorActionPreference = 'Stop'; Get-WmiObject -Class Win32_Product -Filter "Name like '%quartz%'" -ErrorAction SilentlyContinue | Select-Object -First 25 2>$null
+   Get-PnpDevice -Class USB | Select-Object Status, FriendlyName | Select-Object -First 32 | Out-Host
+   Get-WmiObject -Class Win32_Product -Filter "Name like '%kepler%'" -ErrorAction SilentlyContinue | Select-Object -First 28 | Format-List
+   $VerbosePreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "delta-printer" -ErrorAction SilentlyContinue | Select-Object -First 131 | Format-Table -AutoSize
+   Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 107 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 139 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; Get-PnpDevice -Class Net | Select-Object Status, FriendlyName | Select-Object -First 120 | Out-Null
+   $ErrorActionPreference = 'Continue'; Get-PnpDevice -Class USB | Select-Object Status, FriendlyName | Select-Object -First 54 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; Get-PrintJob -PrinterName "meridian-printer" -ErrorAction SilentlyContinue | Out-Null
+   $ErrorActionPreference = 'Stop'; Get-PnpDevice -Class DiskDrive | Select-Object Status, FriendlyName | Select-Object -First 194 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "harbor-printer" -ErrorAction SilentlyContinue | Select-Object -First 191 -Verbose
+   Get-PnpDevice -Class USB | Select-Object Status, FriendlyName | Format-Table -AutoSize
+   $ErrorActionPreference = 'Stop'; Get-PrintJob -PrinterName "quartz-printer" -ErrorAction SilentlyContinue | Select-Object -First 132 2>$null
+   $ProgressPreference = 'SilentlyContinue'; Get-PnpDevice -Class DiskDrive | Select-Object Status, FriendlyName | Select-Object -First 128 | Format-Table -AutoSize
+!! robocopy C:\empty C:\Users\svc-agent\Documents\perigee\src\module-340\file-3031.csv /MIR
+   Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 199 | Format-List
+   Get-PnpDevice -Class USB | Select-Object Status, FriendlyName | Select-Object -First 189 | Out-Host
+   $ErrorActionPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 153 | Format-Table -AutoSize
+   Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 191 -Verbose
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 29 2>$null
+   $ErrorActionPreference = 'Continue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%meridian%'" -ErrorAction SilentlyContinue | Select-Object -First 132 -Verbose
+   $WarningPreference = 'Continue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%meridian%'" -ErrorAction SilentlyContinue | Select-Object -First 179 | Out-Null
+   $VerbosePreference = 'SilentlyContinue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%delta%'" -ErrorAction SilentlyContinue | Select-Object -First 158
+   $WarningPreference = 'Continue'; Get-PrintJob -PrinterName "vertex-printer" -ErrorAction SilentlyContinue | Select-Object -First 114 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 29 | Format-List
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 152 | Format-List
+   $WarningPreference = 'Continue'; Get-PrintJob -PrinterName "atlas-printer" -ErrorAction SilentlyContinue | Select-Object -First 55
+   $ErrorActionPreference = 'Stop'; Get-PrintJob -PrinterName "sonar-printer" -ErrorAction SilentlyContinue | Select-Object -First 140 | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 5 | Out-Host
+   Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 131 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%perigee%'" -ErrorAction SilentlyContinue | Select-Object -First 7 -Verbose
+   $ProgressPreference = 'SilentlyContinue'; pnputil /enum-devices /connected | Select-Object -First 138 | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 113 | Format-List
+   $WarningPreference = 'Continue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%delta%'" -ErrorAction SilentlyContinue | Select-Object -First 157
+   $ProgressPreference = 'SilentlyContinue'; Get-PnpDevice -Class DiskDrive | Select-Object Status, FriendlyName | Select-Object -First 127 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 150 | Out-Null
+   $ErrorActionPreference = 'Continue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 180
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 29 | Out-Host
+   Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 165 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; pnputil /enum-devices /connected | Select-Object -First 166 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "atlas-printer" -ErrorAction SilentlyContinue | Select-Object -First 162 | Out-Null
+   $ErrorActionPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 150 | Out-Host
+   Get-WmiObject -Class Win32_Product -Filter "Name like '%sonar%'" -ErrorAction SilentlyContinue | Select-Object -First 184 2>$null
+   $ErrorActionPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 184
+   $WarningPreference = 'Continue'; Get-PrintJob -PrinterName "lattice-printer" -ErrorAction SilentlyContinue | Select-Object -First 142 | Format-List
+   Get-CimInstance Win32_Printer | Select-Object Name, Shared | Select-Object -First 51
+   $WarningPreference = 'Continue'; Get-WmiObject -Class Win32_Product -Filter "Name like '%orion%'" -ErrorAction SilentlyContinue | Select-Object -First 13 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 39 2>$null
+!! Remove-Item -LiteralPath "C:\Users\dev\Documents\harbor\src\module-313\file-6355.json"
+   $ErrorActionPreference = 'Stop'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 87 | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "lattice-printer" -ErrorAction SilentlyContinue | Select-Object -First 47 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Get-PnpDevice -Class DiskDrive | Select-Object Status, FriendlyName | Select-Object -First 186 -ErrorAction SilentlyContinue
+   $VerbosePreference = 'SilentlyContinue'; Get-CimInstance Win32_StartupCommand | Select-Object Name, Command | Select-Object -First 99 | Format-Table -AutoSize
+   Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 61 | Format-List
+   $WarningPreference = 'Continue'; Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 49 | Format-List
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 200 -ErrorAction SilentlyContinue
+   Get-CimInstance Win32_BIOS | Select-Object SerialNumber, SMBIOSBIOSVersion | Select-Object -First 87 | Out-Host
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 33 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Get-PrintJob -PrinterName "delta-printer" -ErrorAction SilentlyContinue | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; pnputil /enum-devices /connected | Select-Object -First 185 -Verbose
+   Get-Printer | Select-Object Name, DriverName, PortName | Select-Object -First 34 2>$null
+   $ErrorActionPreference = 'Continue'; Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Select-Object -First 61 | Out-Null
+   $ErrorActionPreference = 'Stop'; Get-WmiObject -Class Win32_Product -Filter "Name like '%delta%'" -ErrorAction SilentlyContinue | Select-Object -First 172 -ErrorAction SilentlyContinue
+   $WarningPreference = 'Continue'; Get-CimInstance Win32_PnPEntity | Where-Object Status -ne 'OK' | Select-Object -First 20 Name | Select-Object -First 6 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Stop'; Get-CimInstance Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory | Select-Object -First 156 -Verbose
+   Get-CimInstance -ClassName Win32_LogicalDiskToPartition | Select-Object -First 71 | Out-Null

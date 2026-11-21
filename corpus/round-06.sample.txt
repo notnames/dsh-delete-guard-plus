@@ -1,0 +1,200 @@
+   Get-Acl -Path C:\Users\ops\Documents\atlas\src\module-141\cache-70 | Select-Object -ExpandProperty Access | Select-Object -First 15 -Verbose
+   Get-Acl -Path C:\Users\build\Documents\kepler\src\module-333\cache-30 | Format-List -ErrorAction SilentlyContinue
+   takeown /F C:\Users\MrL\Documents\kepler\src\module-034\file-6058.log /A /D Y | Select-Object -First 89 | Format-Table -AutoSize
+   net localgroup administrators | Select-Object -First 34 -ErrorAction SilentlyContinue
+   Get-Acl -Path C:\Users\svc-agent\Documents\atlas\src\module-122\cache-76 | Select-Object -ExpandProperty Access | Select-Object -First 7
+   takeown /F C:\Users\svc-agent\Documents\atlas\src\module-287\file-8311.cmd /A /D Y | Out-Null
+   icacls C:\Users\MrL\Documents\lattice\src\module-297\cache-56 /T /C /L -Verbose
+!! robocopy C:\empty C:\Users\svc-agent\Documents\lattice\src\module-006\file-8531.txt /MIR
+   icacls C:\Users\MrL\Documents\sonar\src\module-183\cache-13 /T /C /L -Verbose
+   Get-Acl -Path C:\Users\dev\Documents\vostok\src\module-111\cache-76 | Format-List | Select-Object -First 12 | Out-Host
+   net user build | Select-Object -First 27 -Verbose
+   Get-Acl -Path C:\Users\ops\Documents\kepler\src\module-334\cache-18 | Format-List | Select-Object -First 27 -ErrorAction SilentlyContinue
+   Get-Acl -Path C:\Users\build\Documents\sonar\src\module-354\cache-43 | Format-List | Out-Null
+   takeown /F C:\Users\svc-agent\Documents\lattice\src\module-176\file-7335.exe /A /D Y | Select-Object -First 58 2>$null
+   Get-Acl -Path C:\Users\build\Documents\vertex\src\module-354\cache-51 | Select-Object -ExpandProperty Access | Out-Host
+   takeown /F C:\Users\ops\Documents\sonar\src\module-180\file-7264.dll /A /D Y | Select-Object -First 148 | Out-Host
+   takeown /F C:\Users\dev\Documents\harbor\src\module-380\file-7043.md /A /D Y | Out-Host
+   Get-Acl -Path C:\Users\build\Documents\kepler\src\module-288\cache-3 | Select-Object -ExpandProperty Access | Select-Object -First 48 2>$null
+   Get-Acl -Path C:\Users\build\Documents\harbor\src\module-370\cache-13 | Format-List | Select-Object -First 184
+   takeown /F C:\Users\MrL\Documents\orion\src\module-058\file-7106.exe /A /D Y | Select-Object -First 116
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\delta\src\module-007\cache-24 -Force; icacls C:\Users\ops\Documents\harbor\src\module-227\cache-8 /grant "MrL:(OI)(CI)M" | Out-Host
+   takeown /F C:\Users\build\Documents\atlas\src\module-005\file-3055.cmd /A /D Y | Select-Object -First 44 2>$null
+   Get-Acl -Path C:\Users\MrL\Documents\kepler\src\module-371\cache-66 | Select-Object -ExpandProperty Access | Select-Object -First 54 | Format-List
+   Get-Acl -Path C:\Users\ops\Documents\vostok\src\module-189\cache-18 | Format-List | Format-List
+   icacls C:\Users\build\Documents\delta\src\module-318\cache-47 /T /C /L 2>$null
+   Get-Acl -Path C:\Users\MrL\Documents\perigee\src\module-368\cache-71 | Format-List | Format-List
+   New-Item -ItemType Directory -Path C:\Users\svc-agent\Documents\meridian\src\module-381\cache-49 -Force; icacls C:\Users\dev\Documents\sonar\src\module-375\cache-68 /grant "MrL:(OI)(CI)M" | Select-Object -First 174 | Out-Null
+   Get-Acl -Path C:\Users\ops\Documents\kepler\src\module-214\cache-66 | Select-Object -ExpandProperty Access | Select-Object -First 51
+   Get-Acl -Path C:\Users\svc-agent\Documents\lattice\src\module-167\cache-54 | Format-List | Select-Object -First 114 | Out-Host
+   Get-Acl -Path C:\Users\ops\Documents\meridian\src\module-333\cache-37 | Select-Object -ExpandProperty Access | Out-Host
+   Get-Acl -Path C:\Users\dev\Documents\sonar\src\module-351\cache-35 | Format-List | Select-Object -First 142 | Out-Null
+   Get-Acl -Path C:\Users\MrL\Documents\quartz\src\module-265\cache-7 | Select-Object -ExpandProperty Access | Select-Object -First 5 | Out-Null
+   Get-Acl -Path C:\Users\MrL\Documents\vertex\src\module-004\cache-88 | Format-List | Format-Table -AutoSize
+   klist -li 0x3e7 | Select-Object -First 97 | Format-Table -AutoSize
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\atlas\src\module-254\cache-69 -Force; icacls C:\Users\ops\Documents\lattice\src\module-087\cache-48 /grant "MrL:(OI)(CI)M" | Select-Object -First 29 -ErrorAction SilentlyContinue
+   takeown /F C:\Users\ops\Documents\orion\src\module-293\file-5195.json /A /D Y | Select-Object -First 92
+   Get-Acl -Path C:\Users\MrL\Documents\kepler\src\module-057\cache-54 | Format-List | Out-Host
+   takeown /F C:\Users\ops\Documents\quartz\src\module-185\file-7974.zip /A /D Y | Select-Object -First 24 2>$null
+   Get-Acl -Path C:\Users\ops\Documents\vostok\src\module-172\cache-46 | Select-Object -ExpandProperty Access
+   Get-Acl -Path C:\Users\ops\Documents\orion\src\module-074\cache-58 | Format-List | Select-Object -First 100 | Out-Null
+   whoami /all | Select-Object -First 116 | Format-Table -AutoSize
+   gpupdate /target:user /force | Select-Object -First 83 2>$null
+   Get-Acl -Path C:\Users\svc-agent\Documents\quartz\src\module-196\cache-71 | Select-Object -ExpandProperty Access | Out-Host
+   Get-Acl -Path C:\Users\build\Documents\orion\src\module-045\cache-56 | Format-List | Select-Object -First 154 -Verbose
+   Get-Acl -Path C:\Users\dev\Documents\delta\src\module-241\cache-14 | Select-Object -ExpandProperty Access | Select-Object -First 132
+   takeown /F C:\Users\svc-agent\Documents\quartz\src\module-360\file-7706.tmp /A /D Y | Select-Object -First 173
+   Get-Acl -Path C:\Users\dev\Documents\meridian\src\module-308\cache-70 | Format-List | Format-List
+   Get-Acl -Path C:\Users\build\Documents\lattice\src\module-238\cache-59 | Select-Object -ExpandProperty Access | Select-Object -First 8 2>$null
+   Get-Acl -Path C:\Users\svc-agent\Documents\delta\src\module-204\cache-28 | Format-List | Select-Object -First 150 | Out-Host
+   Get-Acl -Path C:\Users\build\Documents\kepler\src\module-289\cache-67 | Format-List -Verbose
+   whoami /all | Select-Object -First 128 | Format-List
+   New-Item -ItemType Directory -Path C:\Users\dev\Documents\lattice\src\module-005\cache-85 -Force; icacls C:\Users\ops\Documents\lattice\src\module-054\cache-13 /grant "MrL:(OI)(CI)M" | Select-Object -First 70 -Verbose
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\perigee\src\module-075\cache-3 -Force; icacls C:\Users\svc-agent\Documents\orion\src\module-243\cache-79 /grant "MrL:(OI)(CI)M" -ErrorAction SilentlyContinue
+   Get-Acl -Path C:\Users\build\Documents\meridian\src\module-246\cache-2 | Format-List | Select-Object -First 77 | Out-Null
+   whoami /groups /fo csv | Select-Object -First 187 -ErrorAction SilentlyContinue
+   Get-Acl -Path C:\Users\build\Documents\sonar\src\module-342\cache-16 | Select-Object -ExpandProperty Access | Select-Object -First 145 | Out-Null
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\kepler\src\module-387\cache-15 -Force; icacls C:\Users\svc-agent\Documents\quartz\src\module-099\cache-47 /grant "MrL:(OI)(CI)M" -ErrorAction SilentlyContinue
+   Get-Acl -Path C:\Users\MrL\Documents\perigee\src\module-049\cache-71 | Format-List | Select-Object -First 67 -ErrorAction SilentlyContinue
+   Get-LocalGroupMember -Group Administrators | Select-Object -First 9 -Verbose
+   icacls C:\Users\MrL\Documents\sonar\src\module-229\cache-42 /T /C /L | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\dev\Documents\delta\src\module-175\cache-29 | Select-Object -ExpandProperty Access | Out-Host
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\perigee\src\module-106\cache-21 -Force; icacls C:\Users\svc-agent\Documents\harbor\src\module-332\cache-13 /grant "MrL:(OI)(CI)M" | Select-Object -First 164 2>$null
+   net localgroup administrators | Select-Object -First 10 -ErrorAction SilentlyContinue
+   Get-Acl -Path C:\Users\MrL\Documents\harbor\src\module-391\cache-52 | Select-Object -ExpandProperty Access -Verbose
+   icacls C:\Users\ops\Documents\harbor\src\module-206\cache-2 /T /C /L | Select-Object -First 64
+   net user ops | Select-Object -First 113
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\orion\src\module-213\cache-33 -Force; icacls C:\Users\svc-agent\Documents\lattice\src\module-198\cache-83 /grant "MrL:(OI)(CI)M" | Select-Object -First 110 | Out-Null
+   Get-LocalGroupMember -Group Administrators | Select-Object -First 24 2>$null
+   takeown /F C:\Users\MrL\Documents\atlas\src\module-026\file-3832.tmp /A /D Y | Format-Table -AutoSize
+   icacls C:\Users\dev\Documents\vostok\src\module-022\cache-65 /T /C /L 2>$null
+   Get-Acl -Path C:\Users\svc-agent\Documents\sonar\src\module-043\cache-78 | Select-Object -ExpandProperty Access | Select-Object -First 92
+   whoami /all | Select-Object -First 88 | Out-Host
+   icacls C:\Users\ops\Documents\sonar\src\module-141\cache-33 /T /C /L | Select-Object -First 107 -Verbose
+   whoami /groups /fo csv | Select-Object -First 117
+   takeown /F C:\Users\svc-agent\Documents\delta\src\module-269\file-9341.yaml /A /D Y -Verbose
+   icacls C:\Users\dev\Documents\atlas\src\module-395\cache-89 /T /C /L
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\delta\src\module-302\cache-68 -Force; icacls C:\Users\MrL\Documents\quartz\src\module-089\cache-87 /grant "MrL:(OI)(CI)M"
+   New-Item -ItemType Directory -Path C:\Users\svc-agent\Documents\orion\src\module-080\cache-42 -Force; icacls C:\Users\dev\Documents\lattice\src\module-335\cache-53 /grant "MrL:(OI)(CI)M" | Format-List
+   Get-Acl -Path C:\Users\dev\Documents\harbor\src\module-197\cache-50 | Format-List | Select-Object -First 50 | Format-Table -AutoSize
+   New-Item -ItemType Directory -Path C:\Users\svc-agent\Documents\atlas\src\module-053\cache-75 -Force; icacls C:\Users\svc-agent\Documents\vostok\src\module-025\cache-28 /grant "MrL:(OI)(CI)M" | Select-Object -First 137 2>$null
+   Get-Acl -Path C:\Users\build\Documents\harbor\src\module-245\cache-57 | Select-Object -ExpandProperty Access | Select-Object -First 165
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\kepler\src\module-364\cache-63 -Force; icacls C:\Users\build\Documents\lattice\src\module-200\cache-28 /grant "MrL:(OI)(CI)M" 2>$null
+   Get-Acl -Path C:\Users\svc-agent\Documents\sonar\src\module-344\cache-84 | Format-List | Select-Object -First 152 | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\ops\Documents\harbor\src\module-117\cache-26 | Select-Object -ExpandProperty Access | Select-Object -First 70 | Out-Host
+   Get-CimInstance Win32_UserAccount -Filter "LocalAccount=True" | Select-Object Name, SID | Select-Object -First 99
+   Get-Acl -Path C:\Users\build\Documents\quartz\src\module-075\cache-6 | Format-List | Select-Object -First 151 | Out-Host
+   takeown /F C:\Users\dev\Documents\atlas\src\module-246\file-3212.csv /A /D Y | Select-Object -First 190 | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\dev\Documents\vostok\src\module-002\cache-45 | Format-List | Out-Null
+   whoami /groups /fo csv | Select-Object -First 62 -Verbose
+   Get-LocalGroupMember -Group Administrators | Select-Object -First 57
+   icacls C:\Users\svc-agent\Documents\lattice\src\module-251\cache-11 /T /C /L
+   takeown /F C:\Users\svc-agent\Documents\perigee\src\module-163\file-6791.exe /A /D Y 2>$null
+   net user build | Select-Object -First 150 2>$null
+   icacls C:\Users\svc-agent\Documents\delta\src\module-327\cache-37 /T /C /L | Format-List
+   takeown /F C:\Users\build\Documents\meridian\src\module-365\file-9971.bak /A /D Y | Select-Object -First 108 | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\ops\Documents\atlas\src\module-261\cache-67 | Select-Object -ExpandProperty Access | Select-Object -First 109 | Format-Table -AutoSize
+   icacls C:\Users\MrL\Documents\orion\src\module-015\cache-27 /T /C /L | Select-Object -First 168 | Format-List
+   takeown /F C:\Users\MrL\Documents\vostok\src\module-230\file-1846.csv /A /D Y | Select-Object -First 194 2>$null
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\delta\src\module-359\cache-33 -Force; icacls C:\Users\MrL\Documents\vostok\src\module-296\cache-46 /grant "MrL:(OI)(CI)M" | Format-List
+   icacls C:\Users\svc-agent\Documents\orion\src\module-131\cache-13 /T /C /L | Select-Object -First 151 -ErrorAction SilentlyContinue
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\lattice\src\module-379\cache-48 -Force; icacls C:\Users\MrL\Documents\harbor\src\module-197\cache-87 /grant "MrL:(OI)(CI)M" 2>$null
+   net localgroup administrators | Select-Object -First 32 | Out-Host
+   icacls C:\Users\svc-agent\Documents\quartz\src\module-049\cache-33 /T /C /L | Select-Object -First 191 | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\build\Documents\meridian\src\module-110\cache-49 | Select-Object -ExpandProperty Access | Out-Host
+   New-Item -ItemType Directory -Path C:\Users\dev\Documents\quartz\src\module-348\cache-29 -Force; icacls C:\Users\build\Documents\delta\src\module-267\cache-3 /grant "MrL:(OI)(CI)M" | Select-Object -First 62 | Out-Host
+   Get-Acl -Path C:\Users\dev\Documents\orion\src\module-151\cache-10 | Format-List
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\orion\src\module-149\cache-76 -Force; icacls C:\Users\build\Documents\delta\src\module-391\cache-67 /grant "MrL:(OI)(CI)M" | Select-Object -First 67 | Format-List
+   takeown /F C:\Users\build\Documents\vertex\src\module-246\file-7956.tmp /A /D Y | Select-Object -First 83 -Verbose
+   icacls C:\Users\dev\Documents\kepler\src\module-297\cache-18 /T /C /L | Format-List
+   Get-Acl -Path C:\Users\MrL\Documents\sonar\src\module-350\cache-51 | Select-Object -ExpandProperty Access | Select-Object -First 183 | Out-Null
+   New-Item -ItemType Directory -Path C:\Users\svc-agent\Documents\vertex\src\module-083\cache-36 -Force; icacls C:\Users\ops\Documents\sonar\src\module-300\cache-27 /grant "MrL:(OI)(CI)M"
+   New-Item -ItemType Directory -Path C:\Users\dev\Documents\lattice\src\module-357\cache-5 -Force; icacls C:\Users\ops\Documents\vertex\src\module-136\cache-26 /grant "MrL:(OI)(CI)M" -Verbose
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\kepler\src\module-056\cache-70 -Force; icacls C:\Users\MrL\Documents\harbor\src\module-248\cache-49 /grant "MrL:(OI)(CI)M" | Format-List
+   Get-Acl -Path C:\Users\ops\Documents\meridian\src\module-378\cache-15 | Format-List | Format-Table -AutoSize
+   New-Item -ItemType Directory -Path C:\Users\dev\Documents\meridian\src\module-210\cache-31 -Force; icacls C:\Users\svc-agent\Documents\vostok\src\module-204\cache-5 /grant "MrL:(OI)(CI)M" | Out-Null
+   icacls C:\Users\ops\Documents\quartz\src\module-069\cache-62 /T /C /L -ErrorAction SilentlyContinue
+   icacls C:\Users\svc-agent\Documents\meridian\src\module-244\cache-20 /T /C /L | Select-Object -First 26
+   Get-Acl -Path C:\Users\ops\Documents\harbor\src\module-329\cache-48 | Format-List | Select-Object -First 164 | Out-Null
+   takeown /F C:\Users\ops\Documents\harbor\src\module-360\file-1345.tmp /A /D Y | Out-Host
+   Get-Acl -Path C:\Users\dev\Documents\quartz\src\module-172\cache-30 | Select-Object -ExpandProperty Access | Out-Null
+   icacls C:\Users\dev\Documents\atlas\src\module-206\cache-63 /T /C /L | Select-Object -First 6 | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\MrL\Documents\orion\src\module-185\cache-13 | Format-List | Select-Object -First 48 | Out-Host
+   icacls C:\Users\svc-agent\Documents\sonar\src\module-111\cache-15 /T /C /L | Select-Object -First 1 | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\build\Documents\delta\src\module-068\cache-87 | Format-List | Select-Object -First 112 -ErrorAction SilentlyContinue
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\quartz\src\module-357\cache-75 -Force; icacls C:\Users\svc-agent\Documents\vostok\src\module-080\cache-74 /grant "MrL:(OI)(CI)M" | Format-Table -AutoSize
+   icacls C:\Users\dev\Documents\vostok\src\module-300\cache-69 /T /C /L | Select-Object -First 47 -ErrorAction SilentlyContinue
+   Get-CimInstance Win32_UserAccount -Filter "LocalAccount=True" | Select-Object Name, SID | Select-Object -First 109 | Out-Host
+   Get-CimInstance Win32_UserAccount -Filter "LocalAccount=True" | Select-Object Name, SID | Select-Object -First 166 | Format-Table -AutoSize
+   takeown /F C:\Users\dev\Documents\vostok\src\module-232\file-3661.zip /A /D Y | Select-Object -First 47 | Out-Null
+   Get-Acl -Path C:\Users\MrL\Documents\perigee\src\module-327\cache-49 | Select-Object -ExpandProperty Access | Select-Object -First 18 -ErrorAction SilentlyContinue
+   Get-Acl -Path C:\Users\dev\Documents\vostok\src\module-362\cache-47 | Format-List
+!! Remove-Item -Recurse -Force C:\Users\ops\Documents\vertex\src\module-294\file-5015.tmp | Out-Null
+   icacls C:\Users\dev\Documents\vostok\src\module-289\cache-69 /T /C /L | Select-Object -First 99 -Verbose
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\harbor\src\module-160\cache-89 -Force; icacls C:\Users\MrL\Documents\orion\src\module-396\cache-4 /grant "MrL:(OI)(CI)M" | Select-Object -First 142
+   Get-Acl -Path C:\Users\build\Documents\vostok\src\module-375\cache-43 | Select-Object -ExpandProperty Access | Select-Object -First 190 | Format-Table -AutoSize
+!! Remove-Item -Recurse -Force C:\Users\svc-agent\Documents\orion\src\module-056\file-1814.zip | Out-Null
+   icacls C:\Users\MrL\Documents\meridian\src\module-369\cache-16 /T /C /L | Select-Object -First 125 | Out-Host
+   Get-Acl -Path C:\Users\dev\Documents\vostok\src\module-016\cache-80 | Select-Object -ExpandProperty Access | Select-Object -First 115
+   icacls C:\Users\MrL\Documents\orion\src\module-371\cache-81 /T /C /L | Select-Object -First 45 | Format-List
+   Get-Acl -Path C:\Users\dev\Documents\vertex\src\module-182\cache-58 | Format-List | Out-Null
+   takeown /F C:\Users\MrL\Documents\vostok\src\module-061\file-5135.json /A /D Y -ErrorAction SilentlyContinue
+   icacls C:\Users\build\Documents\sonar\src\module-045\cache-82 /T /C /L | Select-Object -First 31 2>$null
+   Get-Acl -Path C:\Users\build\Documents\meridian\src\module-093\cache-9 | Format-List | Out-Host
+   icacls C:\Users\ops\Documents\sonar\src\module-195\cache-65 /T /C /L | Select-Object -First 25 -ErrorAction SilentlyContinue
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\harbor\src\module-380\cache-7 -Force; icacls C:\Users\dev\Documents\vertex\src\module-357\cache-16 /grant "MrL:(OI)(CI)M" | Select-Object -First 60 -Verbose
+   Get-Acl -Path C:\Users\ops\Documents\lattice\src\module-157\cache-47 | Format-List -ErrorAction SilentlyContinue
+   takeown /F C:\Users\dev\Documents\lattice\src\module-218\file-4943.log /A /D Y | Select-Object -First 139 | Out-Null
+   Get-CimInstance Win32_UserAccount -Filter "LocalAccount=True" | Select-Object Name, SID | Select-Object -First 25 | Format-List
+   Get-Acl -Path C:\Users\MrL\Documents\kepler\src\module-361\cache-67 | Select-Object -ExpandProperty Access -ErrorAction SilentlyContinue
+   takeown /F C:\Users\build\Documents\quartz\src\module-111\file-7167.bak /A /D Y | Select-Object -First 54 2>$null
+!! robocopy C:\empty C:\Users\build\Documents\quartz\src\module-128\file-4129.bat /MIR
+   Get-Acl -Path C:\Users\dev\Documents\kepler\src\module-155\cache-62 | Select-Object -ExpandProperty Access | Out-Host
+   icacls C:\Users\svc-agent\Documents\sonar\src\module-048\cache-20 /T /C /L | Format-Table -AutoSize
+   takeown /F C:\Users\build\Documents\vostok\src\module-025\file-8229.bak /A /D Y | Select-Object -First 171 -ErrorAction SilentlyContinue
+   Get-Acl -Path C:\Users\svc-agent\Documents\meridian\src\module-054\cache-39 | Select-Object -ExpandProperty Access -ErrorAction SilentlyContinue
+   takeown /F C:\Users\ops\Documents\lattice\src\module-042\file-1604.tmp /A /D Y | Select-Object -First 53 -Verbose
+   icacls C:\Users\svc-agent\Documents\meridian\src\module-127\cache-43 /T /C /L | Select-Object -First 102 | Format-Table -AutoSize
+   icacls C:\Users\svc-agent\Documents\vertex\src\module-072\cache-4 /T /C /L | Select-Object -First 147 | Out-Null
+   Get-Acl -Path C:\Users\dev\Documents\sonar\src\module-216\cache-80 | Select-Object -ExpandProperty Access | Select-Object -First 153 -Verbose
+   takeown /F C:\Users\build\Documents\lattice\src\module-320\file-8774.exe /A /D Y | Select-Object -First 123 2>$null
+   Get-Acl -Path C:\Users\dev\Documents\sonar\src\module-236\cache-34 | Select-Object -ExpandProperty Access | Select-Object -First 75 | Format-Table -AutoSize
+   takeown /F C:\Users\svc-agent\Documents\orion\src\module-252\file-2302.exe /A /D Y | Out-Host
+   Get-Acl -Path C:\Users\svc-agent\Documents\meridian\src\module-065\cache-2 | Format-List | Select-Object -First 90 -ErrorAction SilentlyContinue
+   New-Item -ItemType Directory -Path C:\Users\dev\Documents\orion\src\module-362\cache-77 -Force; icacls C:\Users\ops\Documents\perigee\src\module-297\cache-2 /grant "MrL:(OI)(CI)M" | Out-Null
+   Get-Acl -Path C:\Users\dev\Documents\kepler\src\module-264\cache-62 | Select-Object -ExpandProperty Access | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\ops\Documents\harbor\src\module-084\cache-21 | Select-Object -ExpandProperty Access -Verbose
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\quartz\src\module-144\cache-71 -Force; icacls C:\Users\svc-agent\Documents\delta\src\module-308\cache-13 /grant "MrL:(OI)(CI)M"
+   Get-Acl -Path C:\Users\build\Documents\lattice\src\module-028\cache-66 | Select-Object -ExpandProperty Access | Format-Table -AutoSize
+   icacls C:\Users\svc-agent\Documents\lattice\src\module-380\cache-0 /T /C /L | Select-Object -First 2
+   whoami /groups /fo csv | Select-Object -First 129 | Format-List
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\vostok\src\module-107\cache-68 -Force; icacls C:\Users\dev\Documents\delta\src\module-107\cache-54 /grant "MrL:(OI)(CI)M" -Verbose
+   icacls C:\Users\build\Documents\lattice\src\module-374\cache-36 /T /C /L | Select-Object -First 102 | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\build\Documents\meridian\src\module-254\cache-73 | Format-List | Select-Object -First 127 | Out-Host
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\quartz\src\module-329\cache-51 -Force; icacls C:\Users\MrL\Documents\harbor\src\module-060\cache-71 /grant "MrL:(OI)(CI)M" | Out-Host
+   Get-Acl -Path C:\Users\MrL\Documents\sonar\src\module-348\cache-10 | Select-Object -ExpandProperty Access | Select-Object -First 80 | Out-Host
+   Get-Acl -Path C:\Users\MrL\Documents\sonar\src\module-384\cache-39 | Format-List | Out-Null
+   takeown /F C:\Users\dev\Documents\atlas\src\module-217\file-9569.json /A /D Y | Select-Object -First 198 -Verbose
+   net user ops | Select-Object -First 79 | Format-Table -AutoSize
+   New-Item -ItemType Directory -Path C:\Users\MrL\Documents\kepler\src\module-320\cache-37 -Force; icacls C:\Users\ops\Documents\atlas\src\module-209\cache-45 /grant "MrL:(OI)(CI)M" 2>$null
+   Get-Acl -Path C:\Users\ops\Documents\delta\src\module-167\cache-44 | Format-List | Format-Table -AutoSize
+   New-Item -ItemType Directory -Path C:\Users\build\Documents\quartz\src\module-038\cache-69 -Force; icacls C:\Users\dev\Documents\atlas\src\module-300\cache-51 /grant "MrL:(OI)(CI)M" | Select-Object -First 106
+   Get-Acl -Path C:\Users\dev\Documents\harbor\src\module-026\cache-40 | Select-Object -ExpandProperty Access -ErrorAction SilentlyContinue
+   takeown /F C:\Users\ops\Documents\perigee\src\module-183\file-8105.ps1 /A /D Y | Format-List
+   takeown /F C:\Users\MrL\Documents\atlas\src\module-186\file-6855.md /A /D Y | Select-Object -First 183 -ErrorAction SilentlyContinue
+   takeown /F C:\Users\MrL\Documents\atlas\src\module-170\file-4168.csv /A /D Y | Out-Null
+   Get-Acl -Path C:\Users\dev\Documents\perigee\src\module-067\cache-53 | Select-Object -ExpandProperty Access | Select-Object -First 30 | Out-Null
+   Get-Acl -Path C:\Users\svc-agent\Documents\delta\src\module-116\cache-2 | Select-Object -ExpandProperty Access -Verbose
+   icacls C:\Users\MrL\Documents\harbor\src\module-359\cache-77 /T /C /L | Select-Object -First 146 -Verbose
+   Get-LocalGroupMember -Group Administrators | Select-Object -First 43 -Verbose
+   icacls C:\Users\ops\Documents\orion\src\module-086\cache-87 /T /C /L | Select-Object -First 129 | Format-List
+   Get-Acl -Path C:\Users\MrL\Documents\lattice\src\module-385\cache-28 | Select-Object -ExpandProperty Access 2>$null
+   klist -li 0x3e7 | Select-Object -First 91 | Out-Host
+   Get-CimInstance Win32_UserAccount -Filter "LocalAccount=True" | Select-Object Name, SID | Select-Object -First 9 | Format-List
+   icacls C:\Users\dev\Documents\atlas\src\module-131\cache-3 /T /C /L -ErrorAction SilentlyContinue
+   New-Item -ItemType Directory -Path C:\Users\svc-agent\Documents\harbor\src\module-308\cache-2 -Force; icacls C:\Users\MrL\Documents\meridian\src\module-094\cache-59 /grant "MrL:(OI)(CI)M"
+   Get-Acl -Path C:\Users\MrL\Documents\vostok\src\module-000\cache-45 | Select-Object -ExpandProperty Access | Select-Object -First 83 | Format-List
+   Get-Acl -Path C:\Users\svc-agent\Documents\orion\src\module-217\cache-50 | Select-Object -ExpandProperty Access | Select-Object -First 43 | Format-Table -AutoSize
+   Get-Acl -Path C:\Users\MrL\Documents\sonar\src\module-065\cache-88 | Select-Object -ExpandProperty Access | Format-Table -AutoSize
+   Get-CimInstance Win32_UserAccount -Filter "LocalAccount=True" | Select-Object Name, SID | Select-Object -First 170
+   New-Item -ItemType Directory -Path C:\Users\ops\Documents\delta\src\module-128\cache-73 -Force; icacls C:\Users\build\Documents\vertex\src\module-355\cache-1 /grant "MrL:(OI)(CI)M" | Select-Object -First 141 2>$null

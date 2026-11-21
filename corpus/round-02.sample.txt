@@ -1,0 +1,200 @@
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\MrL\Documents\vostok\src\module-252\file-1478.log" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\orion" /tr "C:\Users\svc-agent\Documents\perigee\src\module-383\file-5174.dll" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\build\Documents\lattice\src\module-344\file-5075.txt" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\MrL\Documents\lattice\src\module-193\file-5063.md" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\svc-agent\Documents\lattice\src\module-105\file-7246.ps1" /sc daily /st 08:00 /f
+   taskkill /PID 4299 /T /F
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\MrL\Documents\meridian\src\module-320\file-5185.ps1" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\build\Documents\harbor\src\module-352\file-1273.tmp" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\MrL\Documents\kepler\src\module-376\file-5664.yaml" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\dev\Documents\lattice\src\module-281\file-4837.zip" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\MrL\Documents\perigee\src\module-215\file-2257.csv" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\dev\Documents\meridian\src\module-313\file-6544.dll" /sc daily /st 01:00 /f
+   taskkill /PID 6723 /T /F
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\dev\Documents\quartz\src\module-226\file-4887.txt" /sc daily /st 04:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\ops\Documents\sonar\src\module-372\file-7182.bat" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\ops\Documents\quartz\src\module-107\file-5160.tmp" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\ops\Documents\atlas\src\module-127\file-4070.yaml" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\dev\Documents\meridian\src\module-061\file-1216.bat" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\MrL\Documents\vertex\src\module-106\file-1682.cmd" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\orion" /tr "C:\Users\svc-agent\Documents\atlas\src\module-341\file-4420.dll" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\MrL\Documents\orion\src\module-157\file-2816.cmd" /sc daily /st 04:00 /f
+   taskkill /PID 2568 /T /F
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\svc-agent\Documents\delta\src\module-114\file-4068.txt" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\build\Documents\harbor\src\module-234\file-4205.bat" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\ops\Documents\meridian\src\module-044\file-9198.tmp" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\ops\Documents\perigee\src\module-163\file-2698.csv" /sc daily /st 06:00 /f
+   Stop-Process -Id 7633 -ErrorAction SilentlyContinue
+   Stop-Process -Id 5563 -ErrorAction SilentlyContinue
+   taskkill /PID 2869 /T /F
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\svc-agent\Documents\vostok\src\module-008\file-4320.bat" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\svc-agent\Documents\vertex\src\module-106\file-8271.zip" /sc daily /st 04:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\build\Documents\vostok\src\module-109\file-3290.txt" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\svc-agent\Documents\harbor\src\module-077\file-5634.cmd" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\MrL\Documents\delta\src\module-342\file-3114.bat" /sc daily /st 02:00 /f
+!! Remove-Item -LiteralPath "C:\Users\MrL\Documents\sonar\src\module-284\file-1578.exe"
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\svc-agent\Documents\perigee\src\module-129\file-8075.md" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\orion" /tr "C:\Users\dev\Documents\vostok\src\module-383\file-4872.csv" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\ops\Documents\lattice\src\module-115\file-8741.cmd" /sc daily /st 03:00 /f
+   Wait-Process -Name atlas -Timeout 60
+   schtasks /create /tn "\Maintenance\orion" /tr "C:\Users\build\Documents\delta\src\module-114\file-7847.md" /sc daily /st 04:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\ops\Documents\kepler\src\module-308\file-3928.ps1" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\MrL\Documents\delta\src\module-276\file-4544.bak" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\MrL\Documents\orion\src\module-240\file-2037.dll" /sc daily /st 09:00 /f
+   taskkill /PID 8554 /T /F
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\MrL\Documents\atlas\src\module-139\file-6598.zip" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\ops\Documents\meridian\src\module-359\file-9411.json" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\dev\Documents\meridian\src\module-334\file-8416.dll" /sc daily /st 04:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\build\Documents\perigee\src\module-254\file-2031.txt" /sc daily /st 08:00 /f
+!! robocopy C:\empty C:\Users\build\Documents\harbor\src\module-317\file-2401.bak /MIR
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\ops\Documents\kepler\src\module-261\file-3076.zip" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\svc-agent\Documents\atlas\src\module-276\file-5651.log" /sc daily /st 04:00 /f
+   Stop-Process -Id 2493 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\build\Documents\perigee\src\module-043\file-1275.bat" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\MrL\Documents\kepler\src\module-052\file-5586.cmd" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\dev\Documents\vertex\src\module-178\file-1054.log" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\svc-agent\Documents\delta\src\module-093\file-4114.cmd" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\svc-agent\Documents\harbor\src\module-092\file-4362.cmd" /sc daily /st 08:00 /f
+   taskkill /PID 2416 /T /F
+   schtasks /create /tn "\Maintenance\orion" /tr "C:\Users\dev\Documents\kepler\src\module-043\file-8855.cmd" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\dev\Documents\perigee\src\module-171\file-6651.log" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\svc-agent\Documents\sonar\src\module-389\file-9615.dll" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\dev\Documents\quartz\src\module-209\file-9764.zip" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\ops\Documents\harbor\src\module-107\file-7046.bak" /sc daily /st 02:00 /f
+   taskkill /PID 8808 /T /F
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\build\Documents\meridian\src\module-263\file-3005.cmd" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\build\Documents\quartz\src\module-150\file-1489.zip" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\svc-agent\Documents\lattice\src\module-320\file-6741.txt" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\MrL\Documents\meridian\src\module-313\file-7246.ps1" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\MrL\Documents\sonar\src\module-043\file-6877.txt" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\MrL\Documents\harbor\src\module-250\file-2190.bat" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\build\Documents\vostok\src\module-116\file-8409.md" /sc daily /st 03:00 /f
+   taskkill /PID 3657 /T /F
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\ops\Documents\meridian\src\module-292\file-4543.txt" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\ops\Documents\vertex\src\module-182\file-9922.yaml" /sc daily /st 06:00 /f
+   taskkill /PID 7620 /T /F
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\build\Documents\delta\src\module-336\file-3978.md" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\svc-agent\Documents\orion\src\module-333\file-2545.md" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\dev\Documents\vostok\src\module-204\file-9194.bat" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\build\Documents\atlas\src\module-229\file-5459.dll" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\svc-agent\Documents\harbor\src\module-019\file-9701.csv" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\MrL\Documents\orion\src\module-157\file-9999.yaml" /sc daily /st 06:00 /f
+   Stop-Process -Id 3221 -ErrorAction SilentlyContinue
+!! robocopy C:\empty C:\Users\svc-agent\Documents\harbor\src\module-301\file-1900.ps1 /MIR
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\build\Documents\delta\src\module-169\file-1897.log" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\MrL\Documents\quartz\src\module-261\file-2407.log" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\build\Documents\quartz\src\module-116\file-2119.bak" /sc daily /st 06:00 /f
+!! Remove-Item -LiteralPath "C:\Users\MrL\Documents\sonar\src\module-010\file-5810.txt"
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\build\Documents\meridian\src\module-296\file-1423.cmd" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\MrL\Documents\sonar\src\module-328\file-4824.cmd" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\build\Documents\delta\src\module-268\file-7944.md" /sc daily /st 04:00 /f
+   taskkill /PID 3279 /T /F
+   taskkill /PID 5633 /T /F
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\build\Documents\perigee\src\module-115\file-8329.log" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\ops\Documents\sonar\src\module-154\file-1611.yaml" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\ops\Documents\vostok\src\module-251\file-7299.cmd" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\ops\Documents\atlas\src\module-028\file-8404.tmp" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\ops\Documents\lattice\src\module-288\file-8710.tmp" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\MrL\Documents\sonar\src\module-257\file-7980.bat" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\svc-agent\Documents\delta\src\module-148\file-7291.json" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\build\Documents\orion\src\module-048\file-1584.csv" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\dev\Documents\meridian\src\module-345\file-5979.cmd" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\build\Documents\quartz\src\module-082\file-7807.bat" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\dev\Documents\vostok\src\module-242\file-2640.ps1" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\MrL\Documents\sonar\src\module-181\file-5124.csv" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\MrL\Documents\lattice\src\module-352\file-7760.exe" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\MrL\Documents\delta\src\module-026\file-8544.csv" /sc daily /st 02:00 /f
+   Stop-Process -Id 2647 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\ops\Documents\lattice\src\module-157\file-8021.tmp" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\MrL\Documents\quartz\src\module-333\file-5238.md" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\ops\Documents\lattice\src\module-040\file-9127.bak" /sc daily /st 09:00 /f
+   taskkill /PID 6014 /T /F
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\build\Documents\lattice\src\module-120\file-4404.bak" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\svc-agent\Documents\lattice\src\module-351\file-2254.txt" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\ops\Documents\vertex\src\module-318\file-6587.log" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\dev\Documents\atlas\src\module-155\file-3859.exe" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\dev\Documents\lattice\src\module-315\file-7331.log" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\dev\Documents\perigee\src\module-296\file-6746.tmp" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\svc-agent\Documents\meridian\src\module-123\file-6761.csv" /sc daily /st 04:00 /f
+   taskkill /PID 5376 /T /F
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\MrL\Documents\kepler\src\module-212\file-3731.ps1" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\MrL\Documents\vertex\src\module-359\file-2998.bak" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\build\Documents\harbor\src\module-030\file-5074.tmp" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\dev\Documents\meridian\src\module-332\file-8339.txt" /sc daily /st 07:00 /f
+   Stop-Process -Id 5431 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\build\Documents\kepler\src\module-334\file-6181.ps1" /sc daily /st 03:00 /f
+   taskkill /PID 6498 /T /F
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\build\Documents\vostok\src\module-384\file-8513.cmd" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\ops\Documents\vostok\src\module-176\file-4300.yaml" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\svc-agent\Documents\vertex\src\module-079\file-9508.md" /sc daily /st 04:00 /f
+   taskkill /PID 2894 /T /F
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\MrL\Documents\perigee\src\module-054\file-4104.dll" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\build\Documents\atlas\src\module-146\file-4769.ps1" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\svc-agent\Documents\sonar\src\module-211\file-7367.yaml" /sc daily /st 09:00 /f
+   Stop-Process -Id 1642 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\orion" /tr "C:\Users\ops\Documents\vostok\src\module-291\file-7278.txt" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\MrL\Documents\sonar\src\module-237\file-8367.log" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\build\Documents\harbor\src\module-249\file-9476.dll" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\build\Documents\lattice\src\module-218\file-6560.ps1" /sc daily /st 07:00 /f
+   taskkill /PID 5610 /T /F
+   Stop-Process -Id 1420 -ErrorAction SilentlyContinue
+!! robocopy C:\empty C:\Users\MrL\Documents\sonar\src\module-209\file-2529.log /MIR
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\svc-agent\Documents\delta\src\module-356\file-2319.bak" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\svc-agent\Documents\atlas\src\module-160\file-1244.ps1" /sc daily /st 08:00 /f
+   taskkill /PID 1536 /T /F
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\MrL\Documents\kepler\src\module-199\file-8392.ps1" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\dev\Documents\quartz\src\module-364\file-3130.bak" /sc daily /st 05:00 /f
+   taskkill /PID 2671 /T /F
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\svc-agent\Documents\lattice\src\module-075\file-4689.zip" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\svc-agent\Documents\meridian\src\module-353\file-2486.json" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\MrL\Documents\lattice\src\module-200\file-4866.tmp" /sc daily /st 05:00 /f
+   Stop-Process -Id 8379 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\MrL\Documents\harbor\src\module-023\file-4145.cmd" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\build\Documents\vertex\src\module-065\file-3183.txt" /sc daily /st 02:00 /f
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\ops\Documents\quartz\src\module-341\file-6729.bat" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\ops\Documents\perigee\src\module-122\file-4810.yaml" /sc daily /st 04:00 /f
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\svc-agent\Documents\kepler\src\module-110\file-2443.bat" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\build\Documents\quartz\src\module-396\file-6567.bak" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\MrL\Documents\meridian\src\module-031\file-3762.bak" /sc daily /st 08:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\svc-agent\Documents\delta\src\module-301\file-9031.bak" /sc daily /st 01:00 /f
+   Stop-Process -Id 6917 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\ops\Documents\vertex\src\module-204\file-4232.ps1" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\svc-agent\Documents\vertex\src\module-141\file-4368.zip" /sc daily /st 04:00 /f
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\MrL\Documents\quartz\src\module-350\file-9156.bat" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\dev\Documents\sonar\src\module-282\file-5318.tmp" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\ops\Documents\harbor\src\module-330\file-3031.dll" /sc daily /st 05:00 /f
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\build\Documents\quartz\src\module-151\file-1283.md" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\build\Documents\lattice\src\module-216\file-4331.cmd" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\ops\Documents\perigee\src\module-363\file-3878.bak" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\kepler" /tr "C:\Users\MrL\Documents\meridian\src\module-308\file-1419.exe" /sc daily /st 08:00 /f
+   taskkill /PID 5629 /T /F
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\MrL\Documents\lattice\src\module-038\file-6546.log" /sc daily /st 05:00 /f
+   Stop-Process -Id 8088 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\svc-agent\Documents\quartz\src\module-116\file-8247.yaml" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\harbor" /tr "C:\Users\dev\Documents\harbor\src\module-046\file-8456.log" /sc daily /st 09:00 /f
+   Stop-Process -Id 4222 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\svc-agent\Documents\vertex\src\module-308\file-1332.cmd" /sc daily /st 08:00 /f
+   Stop-Process -Id 2388 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\MrL\Documents\delta\src\module-329\file-9079.cmd" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\vostok" /tr "C:\Users\dev\Documents\harbor\src\module-296\file-5375.txt" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\MrL\Documents\quartz\src\module-027\file-8090.dll" /sc daily /st 06:00 /f
+   schtasks /create /tn "\Maintenance\orion" /tr "C:\Users\ops\Documents\vertex\src\module-287\file-2108.dll" /sc daily /st 06:00 /f
+   Stop-Process -Id 8615 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\quartz" /tr "C:\Users\svc-agent\Documents\perigee\src\module-156\file-1889.txt" /sc daily /st 04:00 /f
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\MrL\Documents\sonar\src\module-393\file-1804.json" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\svc-agent\Documents\orion\src\module-039\file-9490.log" /sc daily /st 07:00 /f
+   taskkill /PID 5935 /T /F
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\ops\Documents\quartz\src\module-360\file-9764.log" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\orion" /tr "C:\Users\build\Documents\vostok\src\module-075\file-9175.tmp" /sc daily /st 03:00 /f
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\build\Documents\perigee\src\module-285\file-5999.bak" /sc daily /st 03:00 /f
+   Stop-Process -Id 2384 -ErrorAction SilentlyContinue
+   schtasks /create /tn "\Maintenance\delta" /tr "C:\Users\dev\Documents\delta\src\module-141\file-9246.log" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\sonar" /tr "C:\Users\MrL\Documents\delta\src\module-079\file-4791.md" /sc daily /st 07:00 /f
+   taskkill /PID 7838 /T /F
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\dev\Documents\vostok\src\module-149\file-9274.json" /sc daily /st 09:00 /f
+   schtasks /create /tn "\Maintenance\atlas" /tr "C:\Users\build\Documents\vostok\src\module-247\file-9267.md" /sc daily /st 04:00 /f
+   schtasks /create /tn "\Maintenance\meridian" /tr "C:\Users\dev\Documents\vertex\src\module-020\file-5196.tmp" /sc daily /st 07:00 /f
+   schtasks /create /tn "\Maintenance\lattice" /tr "C:\Users\build\Documents\sonar\src\module-356\file-1529.cmd" /sc daily /st 01:00 /f
+   Wait-Process -Name harbor -Timeout 98
+   schtasks /create /tn "\Maintenance\vertex" /tr "C:\Users\build\Documents\vostok\src\module-365\file-5953.dll" /sc daily /st 01:00 /f
+   schtasks /create /tn "\Maintenance\perigee" /tr "C:\Users\MrL\Documents\meridian\src\module-265\file-1868.yaml" /sc daily /st 01:00 /f

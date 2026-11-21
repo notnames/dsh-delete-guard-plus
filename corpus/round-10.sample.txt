@@ -1,0 +1,200 @@
+   $ErrorActionPreference = 'Stop'; Get-Content -LiteralPath C:\Users\ops\Documents\quartz\src\module-217\file-1959.exe | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 114
+   $ProgressPreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\ops\Documents\vostok\src\module-204\file-3002.txt | Select-String -Pattern 'ERROR|WARN' -Context 1,1
+   $ErrorActionPreference = 'Stop'; Get-Content -LiteralPath C:\Users\dev\Documents\vertex\src\module-184\file-4105.dll | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 136 2>$null
+   $ErrorActionPreference = 'Continue'; Get-Content -LiteralPath C:\Users\MrL\Documents\vertex\src\module-130\file-9307.log -Encoding UTF8 -TotalCount 100 | Format-List
+   $ErrorActionPreference = 'Continue'; Compress-Archive -Path C:\Users\svc-agent\Documents\atlas\src\module-218\cache-33 -DestinationPath C:\Users\dev\Documents\delta\src\module-385\file-1375.dll -Force | Format-List
+   Import-Csv -LiteralPath C:\Users\svc-agent\Documents\vostok\src\module-205\file-8029.csv -Delimiter ';' | Select-Object -First 10 | Select-Object -First 181
+   $VerbosePreference = 'SilentlyContinue'; Set-Content -LiteralPath C:\Users\dev\Documents\orion\src\module-065\file-5151.ps1 -Value (Get-Content -LiteralPath C:\Users\svc-agent\Documents\quartz\src\module-211\file-8290.yaml -Raw) -Encoding UTF8 -Verbose
+   $ErrorActionPreference = 'Continue'; Import-Csv -LiteralPath C:\Users\dev\Documents\kepler\src\module-181\file-3856.tmp -Delimiter ';' | Select-Object -First 10 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; chcp 65001 | Select-Object -First 200 | Out-Host
+   $WarningPreference = 'Continue'; tar -czf C:\Users\dev\Documents\perigee\src\module-183\file-7032.zip -C C:\Users\MrL\Documents\orion\src\module-207\cache-5 . | Out-Host
+   $WarningPreference = 'Continue'; Get-FileHash -LiteralPath C:\Users\svc-agent\Documents\sonar\src\module-374\file-6116.csv -Algorithm MD5 | Format-Table 2>$null
+   Get-FileHash -LiteralPath C:\Users\build\Documents\delta\src\module-190\file-8238.exe -Algorithm MD5 | Format-Table | Select-Object -First 88 | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\ops\Documents\orion\src\module-314\file-7060.tmp -Encoding UTF8 -TotalCount 100 | Out-Host
+   $ErrorActionPreference = 'Continue'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\ops\Documents\harbor\src\module-312\file-5532.yaml')).Length | Select-Object -First 146 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; Import-Csv -LiteralPath C:\Users\build\Documents\perigee\src\module-374\file-3852.dll -Delimiter ';' | Select-Object -First 10 2>$null
+   $ErrorActionPreference = 'Continue'; cmd /c "chcp 65001 >NUL && type C:\Users\ops\Documents\lattice\src\module-070\file-6412.json" | Select-Object -First 165 2>$null
+   $ErrorActionPreference = 'Stop'; Get-Content -LiteralPath C:\Users\build\Documents\meridian\src\module-325\file-4401.bak | Select-String -Pattern 'ERROR|WARN' -Context 1,1
+   Expand-Archive -LiteralPath C:\Users\dev\Documents\lattice\src\module-046\file-8963.txt -DestinationPath C:\Users\MrL\Documents\meridian\src\module-093\cache-46 -Force | Select-Object -First 57 -ErrorAction SilentlyContinue
+   $VerbosePreference = 'SilentlyContinue'; tar -czf C:\Users\dev\Documents\vostok\src\module-270\file-4712.zip -C C:\Users\dev\Documents\quartz\src\module-176\cache-65 . | Select-Object -First 170 | Out-Null
+   $VerbosePreference = 'SilentlyContinue'; chcp 65001 | Select-Object -First 58 | Format-Table -AutoSize
+   $ErrorActionPreference = 'Continue'; tar -xzf C:\Users\MrL\Documents\orion\src\module-019\file-4514.exe -C C:\Users\svc-agent\Documents\vertex\src\module-054\cache-75 | Format-List
+   Set-Content -LiteralPath C:\Users\ops\Documents\vostok\src\module-324\file-1111.md -Value (Get-Content -LiteralPath C:\Users\dev\Documents\vertex\src\module-235\file-6095.zip -Raw) -Encoding UTF8 | Format-Table -AutoSize
+   $VerbosePreference = 'SilentlyContinue'; cmd /c "chcp 65001 >NUL && type C:\Users\build\Documents\delta\src\module-085\file-8208.ps1" | Select-Object -First 74 -Verbose
+   Get-Content -LiteralPath C:\Users\ops\Documents\kepler\src\module-150\file-8101.exe | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Out-Null
+   $WarningPreference = 'Continue'; cmd /c "chcp 65001 >NUL && type C:\Users\build\Documents\vostok\src\module-298\file-3318.md" | Select-Object -First 81 -Verbose
+   $ErrorActionPreference = 'Stop'; Get-FileHash -LiteralPath C:\Users\svc-agent\Documents\lattice\src\module-013\file-8028.exe -Algorithm MD5 | Format-Table -Verbose
+   $VerbosePreference = 'SilentlyContinue'; Expand-Archive -LiteralPath C:\Users\ops\Documents\atlas\src\module-363\file-9400.ps1 -DestinationPath C:\Users\MrL\Documents\vostok\src\module-037\cache-80 -Force | Select-Object -First 113 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\dev\Documents\lattice\src\module-235\file-8013.yaml | Select-String -Pattern 'ERROR|WARN' -Context 1,1 -Verbose
+   $WarningPreference = 'Continue'; Set-Content -LiteralPath C:\Users\svc-agent\Documents\quartz\src\module-257\file-6721.txt -Value (Get-Content -LiteralPath C:\Users\svc-agent\Documents\vostok\src\module-054\file-9285.tmp -Raw) -Encoding UTF8 | Select-Object -First 46 -ErrorAction SilentlyContinue
+   Expand-Archive -LiteralPath C:\Users\svc-agent\Documents\harbor\src\module-368\file-4574.txt -DestinationPath C:\Users\build\Documents\lattice\src\module-183\cache-38 -Force -Verbose
+   $ErrorActionPreference = 'Continue'; tar -czf C:\Users\ops\Documents\delta\src\module-091\file-4660.ps1 -C C:\Users\build\Documents\atlas\src\module-129\cache-28 . | Select-Object -First 5 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; tar -xzf C:\Users\MrL\Documents\orion\src\module-386\file-2171.bak -C C:\Users\svc-agent\Documents\quartz\src\module-000\cache-75 -Verbose
+   $WarningPreference = 'Continue'; tar -czf C:\Users\MrL\Documents\orion\src\module-335\file-7558.bak -C C:\Users\MrL\Documents\kepler\src\module-016\cache-14 . | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\svc-agent\Documents\delta\src\module-270\file-8405.zip -ReadCount 500 | ForEach-Object { $_.Count } | Select-Object -First 2 | Format-Table -AutoSize
+   Expand-Archive -LiteralPath C:\Users\dev\Documents\vertex\src\module-396\file-1523.cmd -DestinationPath C:\Users\build\Documents\meridian\src\module-047\cache-80 -Force -Verbose
+   $ErrorActionPreference = 'Continue'; Compress-Archive -Path C:\Users\dev\Documents\kepler\src\module-238\cache-86 -DestinationPath C:\Users\dev\Documents\harbor\src\module-024\file-3752.tmp -Force | Select-Object -First 93
+   $VerbosePreference = 'SilentlyContinue'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\svc-agent\Documents\vostok\src\module-283\file-6179.tmp')).Length | Select-Object -First 44 | Out-Null
+   $WarningPreference = 'Continue'; Set-Content -LiteralPath C:\Users\ops\Documents\atlas\src\module-289\file-8150.txt -Value (Get-Content -LiteralPath C:\Users\dev\Documents\perigee\src\module-099\file-7767.cmd -Raw) -Encoding UTF8 | Select-Object -First 134
+   Import-Csv -LiteralPath C:\Users\build\Documents\kepler\src\module-146\file-3389.ps1 -Delimiter ';' | Select-Object -First 10 | Select-Object -First 118
+   $ErrorActionPreference = 'Continue'; Expand-Archive -LiteralPath C:\Users\build\Documents\orion\src\module-320\file-1368.csv -DestinationPath C:\Users\MrL\Documents\kepler\src\module-327\cache-68 -Force | Select-Object -First 106 | Format-Table -AutoSize
+   $ErrorActionPreference = 'Continue'; Expand-Archive -LiteralPath C:\Users\build\Documents\perigee\src\module-155\file-2514.txt -DestinationPath C:\Users\svc-agent\Documents\harbor\src\module-267\cache-84 -Force | Out-Host
+   $ErrorActionPreference = 'Stop'; Get-FileHash -LiteralPath C:\Users\svc-agent\Documents\vostok\src\module-351\file-6877.exe -Algorithm MD5 | Format-Table | Select-Object -First 2 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\dev\Documents\delta\src\module-245\file-1766.exe | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 10 | Format-Table -AutoSize
+   cmd /c "chcp 65001 >NUL && type C:\Users\build\Documents\vertex\src\module-265\file-3959.bat" | Select-Object -First 92 | Format-List
+   Get-Content -LiteralPath C:\Users\dev\Documents\harbor\src\module-058\file-4615.csv | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 78 | Format-List
+   $ErrorActionPreference = 'Stop'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\svc-agent\Documents\harbor\src\module-052\file-1300.dll')).Length -ErrorAction SilentlyContinue
+   $VerbosePreference = 'SilentlyContinue'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\ops\Documents\vertex\src\module-048\file-8510.csv')).Length | Out-Host
+   cmd /c "chcp 65001 >NUL && type C:\Users\dev\Documents\atlas\src\module-318\file-8367.bak" | Out-Null
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\dev\Documents\delta\src\module-308\file-8816.bak -ReadCount 500 | ForEach-Object { $_.Count }
+   $ProgressPreference = 'SilentlyContinue'; Get-FileHash -LiteralPath C:\Users\ops\Documents\vostok\src\module-389\file-1145.exe -Algorithm MD5 | Format-Table | Select-Object -First 131 | Format-List
+   $ErrorActionPreference = 'Stop'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\ops\Documents\kepler\src\module-196\file-2754.cmd')).Length | Select-Object -First 131 2>$null
+   $WarningPreference = 'Continue'; tar -czf C:\Users\dev\Documents\delta\src\module-199\file-5930.bat -C C:\Users\MrL\Documents\harbor\src\module-393\cache-38 . | Select-Object -First 92 | Out-Null
+   $VerbosePreference = 'SilentlyContinue'; cmd /c "chcp 65001 >NUL && type C:\Users\svc-agent\Documents\vertex\src\module-211\file-4333.zip" | Select-Object -First 72 | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\ops\Documents\meridian\src\module-054\file-2814.txt' | Measure-Object -Line" | Out-Host
+   $ErrorActionPreference = 'Continue'; tar -xzf C:\Users\MrL\Documents\harbor\src\module-375\file-5199.md -C C:\Users\ops\Documents\lattice\src\module-044\cache-36 | Select-Object -First 22 | Format-List
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\svc-agent\Documents\vertex\src\module-386\file-1876.yaml -Encoding UTF8 -TotalCount 100 | Select-Object -First 39 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Get-FileHash -LiteralPath C:\Users\dev\Documents\quartz\src\module-389\file-1959.cmd -Algorithm MD5 | Format-Table | Select-Object -First 124 -Verbose
+   ConvertFrom-Json (Get-Content -LiteralPath C:\Users\svc-agent\Documents\vertex\src\module-317\file-4682.csv -Raw) | Select-Object version | Out-Host
+   $WarningPreference = 'Continue'; chcp 65001 | Select-Object -First 102 -ErrorAction SilentlyContinue
+   Get-FileHash -LiteralPath C:\Users\build\Documents\perigee\src\module-243\file-7192.ps1 -Algorithm MD5 | Format-Table | Select-Object -First 200 -Verbose
+   cmd /c "chcp 65001 >NUL && type C:\Users\ops\Documents\kepler\src\module-349\file-2920.log"
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\dev\Documents\meridian\src\module-135\file-1463.json | Select-String -Pattern 'ERROR|WARN' -Context 1,1 -ErrorAction SilentlyContinue
+   $VerbosePreference = 'SilentlyContinue'; Expand-Archive -LiteralPath C:\Users\svc-agent\Documents\delta\src\module-039\file-5487.json -DestinationPath C:\Users\dev\Documents\atlas\src\module-230\cache-66 -Force | Out-Null
+   $ErrorActionPreference = 'Continue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\MrL\Documents\perigee\src\module-385\file-4240.log' | Measure-Object -Line" | Out-Host
+   $ErrorActionPreference = 'Stop'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\svc-agent\Documents\lattice\src\module-219\file-8920.exe' | Measure-Object -Line" | Format-Table -AutoSize
+   $VerbosePreference = 'SilentlyContinue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\svc-agent\Documents\lattice\src\module-220\file-4700.bat' | Measure-Object -Line" | Select-Object -First 175 | Out-Host
+   chcp 65001 | Select-Object -First 62 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Get-FileHash -LiteralPath C:\Users\ops\Documents\vostok\src\module-352\file-5003.dll -Algorithm MD5 | Format-Table | Select-Object -First 19 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Compress-Archive -Path C:\Users\ops\Documents\delta\src\module-163\cache-18 -DestinationPath C:\Users\svc-agent\Documents\atlas\src\module-299\file-9105.exe -Force 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Set-Content -LiteralPath C:\Users\build\Documents\kepler\src\module-369\file-7740.bak -Value (Get-Content -LiteralPath C:\Users\MrL\Documents\kepler\src\module-278\file-4406.exe -Raw) -Encoding UTF8 | Format-Table -AutoSize
+   $ErrorActionPreference = 'Continue'; Compress-Archive -Path C:\Users\MrL\Documents\vertex\src\module-398\cache-65 -DestinationPath C:\Users\svc-agent\Documents\atlas\src\module-265\file-8833.dll -Force | Select-Object -First 143 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; cmd /c "chcp 65001 >NUL && type C:\Users\MrL\Documents\kepler\src\module-120\file-9369.exe" | Out-Host
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\dev\Documents\perigee\src\module-363\file-3908.dll | Select-String -Pattern 'ERROR|WARN' -Context 1,1 2>$null
+   $ErrorActionPreference = 'Continue'; tar -czf C:\Users\build\Documents\atlas\src\module-341\file-1991.json -C C:\Users\build\Documents\vertex\src\module-214\cache-27 . | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Compress-Archive -Path C:\Users\MrL\Documents\quartz\src\module-053\cache-31 -DestinationPath C:\Users\ops\Documents\vertex\src\module-370\file-2265.json -Force | Select-Object -First 95 | Format-List
+   $ErrorActionPreference = 'Stop'; Import-Csv -LiteralPath C:\Users\MrL\Documents\harbor\src\module-264\file-3700.bat -Delimiter ';' | Select-Object -First 10 | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; cmd /c "chcp 65001 >NUL && type C:\Users\svc-agent\Documents\lattice\src\module-174\file-8170.cmd" | Select-Object -First 123 -Verbose
+   $ErrorActionPreference = 'Stop'; Compress-Archive -Path C:\Users\build\Documents\vertex\src\module-053\cache-33 -DestinationPath C:\Users\ops\Documents\delta\src\module-182\file-4073.txt -Force | Select-Object -First 68 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\dev\Documents\delta\src\module-294\file-6104.dll -Encoding UTF8 -TotalCount 100 | Select-Object -First 196
+   Get-FileHash -LiteralPath C:\Users\MrL\Documents\vertex\src\module-374\file-6995.bat -Algorithm MD5 | Format-Table | Select-Object -First 42 -Verbose
+   $ErrorActionPreference = 'Stop'; tar -xzf C:\Users\dev\Documents\kepler\src\module-068\file-1126.tmp -C C:\Users\ops\Documents\quartz\src\module-348\cache-49 | Select-Object -First 89 | Format-Table -AutoSize
+   $ErrorActionPreference = 'Stop'; Get-Content -LiteralPath C:\Users\ops\Documents\lattice\src\module-164\file-3026.bak | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Format-List
+   $ErrorActionPreference = 'Stop'; tar -czf C:\Users\svc-agent\Documents\vostok\src\module-395\file-2324.txt -C C:\Users\MrL\Documents\vertex\src\module-282\cache-30 . | Select-Object -First 103 -ErrorAction SilentlyContinue
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\build\Documents\vostok\src\module-054\file-1442.json -Encoding UTF8 -TotalCount 100 | Select-Object -First 122 | Format-Table -AutoSize
+   Get-Content -LiteralPath C:\Users\MrL\Documents\harbor\src\module-234\file-8523.dll -Encoding UTF8 -TotalCount 100 | Select-Object -First 103 | Out-Null
+   $ErrorActionPreference = 'Continue'; Get-Content -LiteralPath C:\Users\ops\Documents\sonar\src\module-282\file-7554.csv | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 64 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; cmd /c "chcp 65001 >NUL && type C:\Users\svc-agent\Documents\meridian\src\module-281\file-8669.yaml" | Select-Object -First 79 | Out-Host
+   $ErrorActionPreference = 'Stop'; tar -xzf C:\Users\dev\Documents\orion\src\module-040\file-9888.json -C C:\Users\build\Documents\meridian\src\module-225\cache-81 | Select-Object -First 98 | Format-List
+   $ErrorActionPreference = 'Stop'; Get-Content -LiteralPath C:\Users\MrL\Documents\orion\src\module-065\file-7606.bak -ReadCount 500 | ForEach-Object { $_.Count } | Out-Host
+   $ErrorActionPreference = 'Continue'; Expand-Archive -LiteralPath C:\Users\dev\Documents\lattice\src\module-370\file-8947.bat -DestinationPath C:\Users\dev\Documents\harbor\src\module-239\cache-13 -Force | Format-List
+   $ErrorActionPreference = 'Stop'; tar -xzf C:\Users\MrL\Documents\vertex\src\module-252\file-4175.csv -C C:\Users\build\Documents\vertex\src\module-300\cache-87 | Select-Object -First 144 -ErrorAction SilentlyContinue
+   $VerbosePreference = 'SilentlyContinue'; ConvertFrom-Json (Get-Content -LiteralPath C:\Users\svc-agent\Documents\quartz\src\module-057\file-5708.tmp -Raw) | Select-Object version | Format-List
+   Get-Content -LiteralPath C:\Users\build\Documents\atlas\src\module-027\file-2800.csv | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 8
+   Set-Content -LiteralPath C:\Users\dev\Documents\harbor\src\module-340\file-4077.bat -Value (Get-Content -LiteralPath C:\Users\dev\Documents\vostok\src\module-385\file-5961.zip -Raw) -Encoding UTF8 | Select-Object -First 67 | Format-Table -AutoSize
+   $ErrorActionPreference = 'Continue'; Get-Content -LiteralPath C:\Users\svc-agent\Documents\atlas\src\module-112\file-5728.cmd | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 17 | Out-Host
+   $WarningPreference = 'Continue'; chcp 65001 | Select-Object -First 192 | Format-List
+   $ErrorActionPreference = 'Stop'; Get-FileHash -LiteralPath C:\Users\dev\Documents\quartz\src\module-398\file-5696.json -Algorithm MD5 | Format-Table | Select-Object -First 76 -ErrorAction SilentlyContinue
+   $VerbosePreference = 'SilentlyContinue'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\dev\Documents\sonar\src\module-034\file-6528.md')).Length | Format-List
+!! Clear-Content -LiteralPath C:\Users\ops\Documents\vertex\src\module-302\file-9164.json
+   tar -xzf C:\Users\ops\Documents\orion\src\module-315\file-4793.csv -C C:\Users\dev\Documents\harbor\src\module-387\cache-11 | Select-Object -First 78 | Format-List
+   $ErrorActionPreference = 'Continue'; Import-Csv -LiteralPath C:\Users\build\Documents\perigee\src\module-277\file-9229.json -Delimiter ';' | Select-Object -First 10 | Select-Object -First 93 2>$null
+   $WarningPreference = 'Continue'; tar -czf C:\Users\MrL\Documents\vertex\src\module-273\file-5722.tmp -C C:\Users\ops\Documents\vostok\src\module-248\cache-56 . | Format-Table -AutoSize
+   cmd /c "chcp 65001 >NUL && type C:\Users\MrL\Documents\vostok\src\module-288\file-2900.log" | Select-Object -First 165 | Format-Table -AutoSize
+   powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\MrL\Documents\vertex\src\module-201\file-5369.bat' | Measure-Object -Line"
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\MrL\Documents\vertex\src\module-041\file-1218.bak | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 182 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; Set-Content -LiteralPath C:\Users\dev\Documents\perigee\src\module-069\file-2167.md -Value (Get-Content -LiteralPath C:\Users\ops\Documents\harbor\src\module-334\file-2344.yaml -Raw) -Encoding UTF8 | Select-Object -First 24 -Verbose
+   $ErrorActionPreference = 'Stop'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\build\Documents\lattice\src\module-106\file-6806.bat' | Measure-Object -Line" | Select-Object -First 147
+   $ProgressPreference = 'SilentlyContinue'; Get-FileHash -LiteralPath C:\Users\dev\Documents\perigee\src\module-249\file-1075.csv -Algorithm MD5 | Format-Table 2>$null
+   $ErrorActionPreference = 'Stop'; ConvertFrom-Json (Get-Content -LiteralPath C:\Users\dev\Documents\sonar\src\module-025\file-9240.dll -Raw) | Select-Object version | Select-Object -First 104 | Format-Table -AutoSize
+   tar -czf C:\Users\ops\Documents\delta\src\module-359\file-8015.bat -C C:\Users\ops\Documents\delta\src\module-232\cache-8 . | Out-Null
+   $WarningPreference = 'Continue'; ConvertFrom-Json (Get-Content -LiteralPath C:\Users\ops\Documents\harbor\src\module-134\file-5991.md -Raw) | Select-Object version | Select-Object -First 98 | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\build\Documents\meridian\src\module-230\file-6350.tmp' | Measure-Object -Line" | Select-Object -First 74 2>$null
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\MrL\Documents\atlas\src\module-188\file-9969.zip -Encoding UTF8 -TotalCount 100 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; cmd /c "chcp 65001 >NUL && type C:\Users\ops\Documents\orion\src\module-161\file-9087.yaml" | Out-Null
+   Get-Content -LiteralPath C:\Users\build\Documents\kepler\src\module-034\file-4191.exe | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Out-Null
+   $VerbosePreference = 'SilentlyContinue'; Compress-Archive -Path C:\Users\build\Documents\quartz\src\module-160\cache-43 -DestinationPath C:\Users\build\Documents\atlas\src\module-136\file-8971.tmp -Force | Select-Object -First 129 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; Get-FileHash -LiteralPath C:\Users\MrL\Documents\kepler\src\module-226\file-5270.txt -Algorithm MD5 | Format-Table -ErrorAction SilentlyContinue
+   Compress-Archive -Path C:\Users\build\Documents\vertex\src\module-372\cache-57 -DestinationPath C:\Users\build\Documents\quartz\src\module-148\file-2116.ps1 -Force | Select-Object -First 149 | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\svc-agent\Documents\quartz\src\module-112\file-2789.yaml' | Measure-Object -Line"
+   $VerbosePreference = 'SilentlyContinue'; Set-Content -LiteralPath C:\Users\build\Documents\orion\src\module-001\file-1873.cmd -Value (Get-Content -LiteralPath C:\Users\ops\Documents\vostok\src\module-393\file-8496.bak -Raw) -Encoding UTF8 | Out-Null
+   $WarningPreference = 'Continue'; Set-Content -LiteralPath C:\Users\MrL\Documents\delta\src\module-140\file-2166.yaml -Value (Get-Content -LiteralPath C:\Users\build\Documents\atlas\src\module-220\file-6971.cmd -Raw) -Encoding UTF8 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; cmd /c "chcp 65001 >NUL && type C:\Users\MrL\Documents\delta\src\module-162\file-5378.ps1" | Format-List
+   $ErrorActionPreference = 'Stop'; Expand-Archive -LiteralPath C:\Users\svc-agent\Documents\perigee\src\module-143\file-4730.tmp -DestinationPath C:\Users\MrL\Documents\kepler\src\module-235\cache-37 -Force | Select-Object -First 159 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Expand-Archive -LiteralPath C:\Users\ops\Documents\delta\src\module-225\file-2450.tmp -DestinationPath C:\Users\build\Documents\atlas\src\module-369\cache-38 -Force | Select-Object -First 193 -Verbose
+   $VerbosePreference = 'SilentlyContinue'; cmd /c "chcp 65001 >NUL && type C:\Users\ops\Documents\quartz\src\module-211\file-7094.zip" | Select-Object -First 130 | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; Compress-Archive -Path C:\Users\svc-agent\Documents\perigee\src\module-274\cache-22 -DestinationPath C:\Users\MrL\Documents\vostok\src\module-324\file-6913.cmd -Force | Select-Object -First 176 | Format-List
+   $ErrorActionPreference = 'Stop'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\svc-agent\Documents\orion\src\module-119\file-1532.md')).Length | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\dev\Documents\atlas\src\module-227\file-3749.tmp -Encoding UTF8 -TotalCount 100 | Select-Object -First 195 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; Get-Content -LiteralPath C:\Users\dev\Documents\vostok\src\module-288\file-2058.json | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 163 | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\ops\Documents\perigee\src\module-046\file-1465.txt -ReadCount 500 | ForEach-Object { $_.Count } | Select-Object -First 19 | Out-Null
+   $ProgressPreference = 'SilentlyContinue'; Import-Csv -LiteralPath C:\Users\svc-agent\Documents\meridian\src\module-228\file-4290.json -Delimiter ';' | Select-Object -First 10 | Out-Null
+   Expand-Archive -LiteralPath C:\Users\MrL\Documents\kepler\src\module-395\file-9686.txt -DestinationPath C:\Users\MrL\Documents\kepler\src\module-368\cache-69 -Force | Format-List
+   $ErrorActionPreference = 'Stop'; Get-Content -LiteralPath C:\Users\MrL\Documents\atlas\src\module-041\file-4427.exe -ReadCount 500 | ForEach-Object { $_.Count } 2>$null
+   $ErrorActionPreference = 'Continue'; ConvertFrom-Json (Get-Content -LiteralPath C:\Users\MrL\Documents\quartz\src\module-023\file-6797.zip -Raw) | Select-Object version | Select-Object -First 101 2>$null
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\svc-agent\Documents\vostok\src\module-105\file-8980.dll -ReadCount 500 | ForEach-Object { $_.Count } -Verbose
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\ops\Documents\kepler\src\module-077\file-6714.exe | Select-String -Pattern 'ERROR|WARN' -Context 1,1 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Stop'; Get-Content -LiteralPath C:\Users\svc-agent\Documents\quartz\src\module-124\file-5790.dll -ReadCount 500 | ForEach-Object { $_.Count } | Select-Object -First 99 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; Compress-Archive -Path C:\Users\dev\Documents\sonar\src\module-254\cache-49 -DestinationPath C:\Users\dev\Documents\sonar\src\module-054\file-6989.yaml -Force | Select-Object -First 144 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; Compress-Archive -Path C:\Users\svc-agent\Documents\vostok\src\module-068\cache-63 -DestinationPath C:\Users\MrL\Documents\delta\src\module-131\file-9433.dll -Force -Verbose
+   tar -xzf C:\Users\MrL\Documents\kepler\src\module-291\file-8699.csv -C C:\Users\ops\Documents\vertex\src\module-113\cache-11 | Select-Object -First 200 | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; Import-Csv -LiteralPath C:\Users\dev\Documents\atlas\src\module-304\file-2838.csv -Delimiter ';' | Select-Object -First 10 | Out-Host
+!! Remove-Item -Recurse -Force C:\Users\dev\Documents\orion\src\module-299\file-1112.yaml | Out-Null
+   $WarningPreference = 'Continue'; Import-Csv -LiteralPath C:\Users\ops\Documents\sonar\src\module-206\file-5570.md -Delimiter ';' | Select-Object -First 10 | Select-Object -First 166 | Out-Null
+   $ErrorActionPreference = 'Continue'; Get-Content -LiteralPath C:\Users\build\Documents\delta\src\module-362\file-3276.tmp | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 72 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; tar -czf C:\Users\MrL\Documents\quartz\src\module-224\file-3370.log -C C:\Users\build\Documents\vostok\src\module-039\cache-48 .
+   $VerbosePreference = 'SilentlyContinue'; Get-FileHash -LiteralPath C:\Users\ops\Documents\sonar\src\module-272\file-3094.ps1 -Algorithm MD5 | Format-Table | Select-Object -First 173 | Format-List
+   tar -czf C:\Users\dev\Documents\atlas\src\module-029\file-5194.csv -C C:\Users\build\Documents\quartz\src\module-008\cache-23 . | Format-List
+   $VerbosePreference = 'SilentlyContinue'; tar -czf C:\Users\MrL\Documents\sonar\src\module-100\file-5282.log -C C:\Users\MrL\Documents\lattice\src\module-203\cache-88 . 2>$null
+   Get-Content -LiteralPath C:\Users\svc-agent\Documents\sonar\src\module-293\file-1418.zip | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Select-Object -First 92 2>$null
+   $VerbosePreference = 'SilentlyContinue'; tar -xzf C:\Users\MrL\Documents\lattice\src\module-031\file-7367.md -C C:\Users\ops\Documents\atlas\src\module-005\cache-43 | Select-Object -First 48
+   $ProgressPreference = 'SilentlyContinue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\MrL\Documents\lattice\src\module-392\file-3106.cmd' | Measure-Object -Line" | Format-List
+   $ProgressPreference = 'SilentlyContinue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\ops\Documents\lattice\src\module-276\file-8503.bat' | Measure-Object -Line" | Select-Object -First 38 2>$null
+   $ErrorActionPreference = 'Stop'; cmd /c "chcp 65001 >NUL && type C:\Users\build\Documents\sonar\src\module-327\file-3585.yaml" | Select-Object -First 173 | Format-List
+   $ProgressPreference = 'SilentlyContinue'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\ops\Documents\atlas\src\module-273\file-4559.bat')).Length | Format-List
+   $WarningPreference = 'Continue'; cmd /c "chcp 65001 >NUL && type C:\Users\dev\Documents\quartz\src\module-348\file-8483.ps1" | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; Expand-Archive -LiteralPath C:\Users\svc-agent\Documents\harbor\src\module-376\file-2297.ps1 -DestinationPath C:\Users\MrL\Documents\vostok\src\module-061\cache-32 -Force | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\svc-agent\Documents\sonar\src\module-391\file-1409.zip')).Length | Select-Object -First 40 2>$null
+   $WarningPreference = 'Continue'; tar -czf C:\Users\MrL\Documents\vostok\src\module-204\file-1562.zip -C C:\Users\build\Documents\harbor\src\module-075\cache-44 . | Select-Object -First 198 | Format-List
+   cmd /c "chcp 65001 >NUL && type C:\Users\MrL\Documents\quartz\src\module-399\file-5143.exe" | Select-Object -First 138 -Verbose
+   $ProgressPreference = 'SilentlyContinue'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\MrL\Documents\vertex\src\module-002\file-2606.dll')).Length | Format-List
+   $WarningPreference = 'Continue'; Expand-Archive -LiteralPath C:\Users\MrL\Documents\meridian\src\module-159\file-8740.json -DestinationPath C:\Users\ops\Documents\sonar\src\module-336\cache-27 -Force | Select-Object -First 24 -ErrorAction SilentlyContinue
+   $ProgressPreference = 'SilentlyContinue'; tar -czf C:\Users\MrL\Documents\atlas\src\module-270\file-8731.cmd -C C:\Users\MrL\Documents\delta\src\module-325\cache-42 . | Format-List
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\ops\Documents\vertex\src\module-175\file-3051.cmd -ReadCount 500 | ForEach-Object { $_.Count } | Format-Table -AutoSize
+   Get-Content -LiteralPath C:\Users\dev\Documents\atlas\src\module-385\file-7037.tmp -ReadCount 500 | ForEach-Object { $_.Count } | Out-Host
+   $WarningPreference = 'Continue'; Expand-Archive -LiteralPath C:\Users\dev\Documents\harbor\src\module-201\file-6249.dll -DestinationPath C:\Users\dev\Documents\lattice\src\module-109\cache-35 -Force | Out-Host
+   $ProgressPreference = 'SilentlyContinue'; ConvertFrom-Json (Get-Content -LiteralPath C:\Users\build\Documents\vostok\src\module-310\file-5971.json -Raw) | Select-Object version
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\build\Documents\vostok\src\module-044\file-1245.ps1 | Select-String -Pattern 'ERROR|WARN' -Context 1,1
+   $ErrorActionPreference = 'Stop'; Import-Csv -LiteralPath C:\Users\svc-agent\Documents\lattice\src\module-060\file-3775.ps1 -Delimiter ';' | Select-Object -First 10 | Select-Object -First 193 | Format-List
+   ConvertFrom-Json (Get-Content -LiteralPath C:\Users\MrL\Documents\quartz\src\module-061\file-4807.tmp -Raw) | Select-Object version | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; Get-FileHash -LiteralPath C:\Users\ops\Documents\vostok\src\module-357\file-5582.ps1 -Algorithm MD5 | Format-Table | Format-List
+   $ProgressPreference = 'SilentlyContinue'; Compress-Archive -Path C:\Users\build\Documents\orion\src\module-297\cache-16 -DestinationPath C:\Users\dev\Documents\atlas\src\module-385\file-1567.csv -Force -ErrorAction SilentlyContinue
+   Get-FileHash -LiteralPath C:\Users\MrL\Documents\quartz\src\module-392\file-2827.dll -Algorithm MD5 | Format-Table | Select-Object -First 34 | Format-Table -AutoSize
+   $ErrorActionPreference = 'Continue'; Import-Csv -LiteralPath C:\Users\build\Documents\harbor\src\module-173\file-9770.cmd -Delimiter ';' | Select-Object -First 10 | Select-Object -First 168 | Out-Host
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\build\Documents\atlas\src\module-031\file-4232.json -Encoding UTF8 -TotalCount 100 | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; chcp 65001 | Select-Object -First 95 2>$null
+   $WarningPreference = 'Continue'; Expand-Archive -LiteralPath C:\Users\dev\Documents\delta\src\module-164\file-6809.yaml -DestinationPath C:\Users\dev\Documents\vostok\src\module-150\cache-34 -Force | Select-Object -First 40 | Format-Table -AutoSize
+   $ProgressPreference = 'SilentlyContinue'; ConvertFrom-Json (Get-Content -LiteralPath C:\Users\ops\Documents\lattice\src\module-122\file-3220.bak -Raw) | Select-Object version
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\MrL\Documents\quartz\src\module-025\file-3947.log -Encoding UTF8 -TotalCount 100 | Select-Object -First 36 -ErrorAction SilentlyContinue
+   $ErrorActionPreference = 'Continue'; tar -xzf C:\Users\ops\Documents\atlas\src\module-334\file-9982.log -C C:\Users\ops\Documents\perigee\src\module-093\cache-71 | Select-Object -First 62 -ErrorAction SilentlyContinue
+   $WarningPreference = 'Continue'; Get-Content -LiteralPath C:\Users\ops\Documents\perigee\src\module-019\file-5058.txt | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Out-Null
+   $VerbosePreference = 'SilentlyContinue'; tar -xzf C:\Users\svc-agent\Documents\vertex\src\module-336\file-5076.csv -C C:\Users\svc-agent\Documents\delta\src\module-365\cache-76 | Format-Table -AutoSize
+   $WarningPreference = 'Continue'; [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\ops\Documents\delta\src\module-379\file-1559.dll')).Length | Select-Object -First 70 -Verbose
+   Compress-Archive -Path C:\Users\dev\Documents\vertex\src\module-260\cache-49 -DestinationPath C:\Users\ops\Documents\meridian\src\module-331\file-5296.md -Force | Select-Object -First 38 -Verbose
+   $ProgressPreference = 'SilentlyContinue'; ConvertFrom-Json (Get-Content -LiteralPath C:\Users\dev\Documents\atlas\src\module-356\file-5898.cmd -Raw) | Select-Object version | Out-Null
+   $ErrorActionPreference = 'Continue'; tar -czf C:\Users\dev\Documents\perigee\src\module-019\file-7898.yaml -C C:\Users\dev\Documents\sonar\src\module-186\cache-28 . | Select-Object -First 144 2>$null
+   $WarningPreference = 'Continue'; Set-Content -LiteralPath C:\Users\dev\Documents\perigee\src\module-147\file-8858.csv -Value (Get-Content -LiteralPath C:\Users\build\Documents\atlas\src\module-340\file-6047.txt -Raw) -Encoding UTF8 | Select-Object -First 146
+   Get-Content -LiteralPath C:\Users\MrL\Documents\quartz\src\module-291\file-9162.bat | Select-String -Pattern 'ERROR|WARN' -Context 1,1 | Out-Host
+   [System.Text.Encoding]::UTF8.GetString([System.IO.File]::ReadAllBytes('C:\Users\svc-agent\Documents\quartz\src\module-360\file-8472.zip')).Length | Out-Host
+   Expand-Archive -LiteralPath C:\Users\svc-agent\Documents\harbor\src\module-142\file-7353.zip -DestinationPath C:\Users\svc-agent\Documents\orion\src\module-245\cache-84 -Force -ErrorAction SilentlyContinue
+   $WarningPreference = 'Continue'; tar -czf C:\Users\build\Documents\vertex\src\module-125\file-7212.bak -C C:\Users\build\Documents\harbor\src\module-361\cache-3 . | Out-Null
+   $ErrorActionPreference = 'Stop'; chcp 65001 | Select-Object -First 190 | Out-Null
+   $ErrorActionPreference = 'Stop'; cmd /c "chcp 65001 >NUL && type C:\Users\MrL\Documents\meridian\src\module-093\file-2566.log" | Select-Object -First 86 | Out-Null
+   $WarningPreference = 'Continue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\svc-agent\Documents\lattice\src\module-063\file-7957.bak' | Measure-Object -Line"
+   $ErrorActionPreference = 'Continue'; Compress-Archive -Path C:\Users\ops\Documents\delta\src\module-122\cache-25 -DestinationPath C:\Users\MrL\Documents\kepler\src\module-235\file-1408.md -Force 2>$null
+   $ProgressPreference = 'SilentlyContinue'; powershell -NoProfile -Command "Get-Content -LiteralPath 'C:\Users\dev\Documents\delta\src\module-278\file-1574.bat' | Measure-Object -Line" | Select-Object -First 4 | Format-Table -AutoSize
+   $VerbosePreference = 'SilentlyContinue'; tar -xzf C:\Users\ops\Documents\orion\src\module-121\file-6111.bak -C C:\Users\build\Documents\perigee\src\module-048\cache-61 | Select-Object -First 167 -ErrorAction SilentlyContinue
+!! Remove-Item -Path "C:\Users\ops\Documents\vertex\src\module-306\cache-76\*" -Force
+   $ErrorActionPreference = 'Stop'; chcp 65001 | Select-Object -First 83 | Out-Null
+   Set-Content -LiteralPath C:\Users\ops\Documents\vostok\src\module-355\file-4289.log -Value (Get-Content -LiteralPath C:\Users\dev\Documents\vostok\src\module-266\file-9628.tmp -Raw) -Encoding UTF8 | Out-Host
+   $VerbosePreference = 'SilentlyContinue'; Get-Content -LiteralPath C:\Users\MrL\Documents\harbor\src\module-255\file-7269.dll -ReadCount 500 | ForEach-Object { $_.Count } -ErrorAction SilentlyContinue
